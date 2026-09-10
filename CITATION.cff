@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "Se você usar estes dados, o painel, o artigo ou o código, cite-os desta forma."
+title: "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
+type: dataset
+authors:
+  - family-names: "Sobreira"
+    given-names: "Daniel Pessini"
+    orcid: "https://orcid.org/0000-0002-6632-3991"
+year: 2026
+version: "2026-09-10"
+date-released: "2026-09-10"
+url: "https://canaa-urbana.github.io"
+repository-code: "https://github.com/canaa-urbana/canaa-urbana.github.io"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/deed.pt-br"
+# identifiers: DOI do Zenodo a ser atribuído na primeira release (ver docs/CHECKLIST_PUBLICACAO.md)
+keywords:
+  - urbanização
+  - mineração
+  - migração de data fixa
+  - mancha urbana
+  - sensoriamento remoto
+  - Canaã dos Carajás
+  - Carajás
+  - censo demográfico
+  - ibge
+abstract: >-
+  Conjunto de dados, painel interativo e artigo sobre a urbanização da sede de Canaã dos
+  Carajás (PA) desde o assentamento dirigido CEDERE II (1982) até 2026: série anual da área
+  construída da sede (1984–2026), classificada em imagens Landsat e Sentinel-2 e validada com
+  CBERS; estimativas agregadas dos microdados da amostra dos Censos 1991, 2000, 2010 e 2022
+  (migração de data fixa, perfil dos migrantes, trabalho, domicílios), aprovadas por um gate
+  de controle estatístico de revelação; indicadores do Universo por setor censitário (2010 e
+  2022); CFEM, PIB e emprego formal; bibliografia verificada.
+preferred-citation:
+  type: dataset
+  title: "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
+  authors:
+    - family-names: "Sobreira"
+      given-names: "Daniel Pessini"
+      orcid: "https://orcid.org/0000-0002-6632-3991"
+  year: 2026
+  url: "https://canaa-urbana.github.io"
+  notes: >-
+    Dados dos Censos Demográficos (IBGE), microdados da amostra (o de 2022, acesso controlado),
+    publicados só como agregados aprovados pelo controle de revelação.

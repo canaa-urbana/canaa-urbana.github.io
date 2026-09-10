@@ -1,0 +1,135 @@
+name: Publicar
+
+# Publica o painel em GitHub Pages. Não roda o pipeline de dados (precisa dos microdados do
+# IBGE — os de 2022 de acesso controlado —, só existentes na máquina local do titular do acesso;
+# ver CLAUDE.md e docs/CHECKLIST_PUBLICACAO.md): o CI só verifica, constrói e publica os
+# agregados já aprovados pelo gate de revelação e versionados em data/processed e web/public/data.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    name: Verificar (gate, dados pessoais, segredos, histórico)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (histórico completo, para a varredura de segredos e do histórico)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências Python (só as da verificação)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pip install -r requirements-ci.txt
+
+      - name: Gate de revelação -- verificação independente (sem microdados)
+        run: python pipeline/verify_gate.py --clone
+
+      - name: Auditoria de publicação (dados pessoais, caminhos locais, chaves, arquivos proibidos)
+        run: python pipeline/auditoria_publicacao.py
+
+      - name: Baixar gitleaks (binário oficial do release, com checksum)
+        run: |
+          set -euo pipefail
+          VERSAO=$(curl -sSL https://api.github.com/repos/gitleaks/gitleaks/releases/latest | \
+                   python3 -c "import json,sys; print(json.load(sys.stdin)['tag_name'].lstrip('v'))")
+          ARQ="gitleaks_${VERSAO}_linux_x64.tar.gz"
+          curl -sSLo "$ARQ" "https://github.com/gitleaks/gitleaks/releases/download/v${VERSAO}/${ARQ}"
+          curl -sSLo sums.txt "https://github.com/gitleaks/gitleaks/releases/download/v${VERSAO}/gitleaks_${VERSAO}_checksums.txt"
+          grep " ${ARQ}\$" sums.txt | sha256sum -c -
+          tar -xzf "$ARQ" gitleaks
+          ./gitleaks version
+
+      - name: Varredura de segredos no histórico completo (gitleaks)
+        run: ./gitleaks git --redact --exit-code 1 .
+
+      - name: Nenhum arquivo bruto/intermediário/CSV no histórico do git
+        run: |
+          set -euo pipefail
+          ARQUIVOS=$(git log --all --name-only --pretty=format: | sort -u | sed '/^$/d')
+          SUSPEITOS=$(printf '%s\n' "$ARQUIVOS" \
+            | grep -E '^(data/raw/|data/interim/)|_controlado|\.(csv|CSV|txt|dbf|DBF)$' \
+            | grep -vE '^data/interim/layouts/[^/]+\.json$|^requirements-ci\.txt$|^web/public/robots\.txt$' || true)
+          if [ -n "$SUSPEITOS" ]; then
+            echo "ERRO: arquivos de dados brutos/intermediários ou CSV no histórico do git:" >&2
+            printf '%s\n' "$SUSPEITOS" | sed 's/^/  - /' >&2
+            exit 1
+          fi
+          echo "Histórico limpo."
+
+  construir:
+    name: Construir o painel (Vite)
+    needs: verificar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Instalar dependências do front-end
+        working-directory: web
+        run: npm ci
+
+      - name: Build (tsc + Vite)
+        working-directory: web
+        run: npm run build
+
+      - name: Preparar para o GitHub Pages (sem Jekyll; 404 = SPA)
+        run: |
+          touch web/dist/.nojekyll
+          cp web/dist/index.html web/dist/404.html
+
+      - name: Checagem pós-build (nenhum artefato sensível ou de desenvolvimento)
+        run: |
+          set -euo pipefail
+          PROBLEMA=0
+          if find web/dist -name '*.map' | grep -q .; then echo "ERRO: sourcemap em web/dist." >&2; PROBLEMA=1; fi
+          if find web/dist \( -iname '*.csv' -o -iname '*.txt' ! -name 'robots.txt' -o -iname '*.parquet' \) | grep -q .; then
+            echo "ERRO: CSV/TXT/parquet em web/dist." >&2; PROBLEMA=1; fi
+          if find web/dist -name '.gate_ok' | grep -q .; then echo "ERRO: .gate_ok em web/dist." >&2; PROBLEMA=1; fi
+          if grep -rIlE '/Users/|/Volumes/' web/dist >/dev/null 2>&1; then echo "ERRO: caminho local vazado em web/dist." >&2; PROBLEMA=1; fi
+          for f in index.html 404.html sitemap.xml robots.txt artigo/artigo.pdf data/painel/_manifesto.json; do
+            [ -f "web/dist/$f" ] || { echo "ERRO: web/dist/$f ausente." >&2; PROBLEMA=1; }
+          done
+          [ "$PROBLEMA" -eq 0 ] && echo "Checagem pós-build aprovada."
+          exit $PROBLEMA
+
+      - name: Publicar artefato do Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  publicar:
+    name: Publicar no GitHub Pages
+    needs: construir
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

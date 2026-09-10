@@ -1,0 +1,22 @@
+{
+  "title": "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026 — dados, painel e artigo",
+  "upload_type": "software",
+  "description": "<p>Conjunto de dados, painel interativo e artigo científico sobre a urbanização da sede de Canaã dos Carajás (Pará, Brasil) desde o assentamento dirigido CEDERE II (1982) até 2026, com foco nos grandes projetos minerais (Sossego, 2004; S11D, 2016) e na migração de data fixa. Inclui a série anual da área construída da sede (1984–2026), classificada em imagens Landsat e Sentinel-2 com Random Forest e validada com imagens CBERS (área ajustada pela acurácia, Olofsson et al. 2014); estimativas agregadas dos microdados da amostra dos Censos Demográficos de 1991, 2000, 2010 e 2022 (perfil demográfico, migração de data fixa, coortes de chegada, seletividade dos migrantes, cadeia produtiva da mineração, condições domiciliares); indicadores do Universo por setor censitário de 2010 e 2022; CFEM, PIB municipal e emprego formal; e uma bibliografia verificada sobre o município.</p><p>Os microdados originais <strong>não</strong> estão incluídos; os do Censo 2022 permanecem sob os termos de acesso controlado do IBGE. Todos os agregados passaram por controle estatístico de revelação (limiar mínimo de observações e de domicílios por célula, supressão complementar, arredondamento das contagens ponderadas, contagens amostrais só em faixas, no máximo duas dimensões cruzadas, checagem de diferenciação sede × município), documentado no repositório. As estimativas são de responsabilidade do autor, sujeitas a erro amostral, e podem divergir das tabulações oficiais do IBGE.</p><p>Código sob licença MIT; dados agregados, figuras, artigo e conteúdo textual sob CC BY 4.0 (camadas derivadas do OpenStreetMap sob ODbL). Site: <a href=\"https://canaa-urbana.github.io\">https://canaa-urbana.github.io</a>.</p>",
+  "creators": [
+    { "name": "Sobreira, Daniel Pessini", "orcid": "0000-0002-6632-3991" }
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "language": "por",
+  "keywords": [
+    "urbanização", "mineração", "migração de data fixa", "mancha urbana", "sensoriamento remoto",
+    "Canaã dos Carajás", "Carajás", "Amazônia", "Censo Demográfico", "IBGE", "MapBiomas",
+    "urbanization", "mining towns", "internal migration", "remote sensing", "Brazil"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://canaa-urbana.github.io", "relation": "isSupplementedBy", "resource_type": "other", "scheme": "url" },
+    { "identifier": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html", "relation": "isDerivedFrom", "resource_type": "dataset", "scheme": "url" },
+    { "identifier": "https://brasil.mapbiomas.org", "relation": "isDerivedFrom", "resource_type": "dataset", "scheme": "url" }
+  ],
+  "notes": "Fontes primárias: IBGE (Censos Demográficos 1991–2022, microdados da amostra — 2022 de acesso controlado —, SIDRA, malhas e agregados por setor), USGS/NASA Landsat, Copernicus Sentinel-2, INPE CBERS, MapBiomas, JRC GHSL, DLR WSF, ANM, OpenStreetMap. O arquivo depositado contém o código do pipeline e do painel, os agregados publicados (data/processed, web/public/data), o artigo e a documentação metodológica; não contém microdados."
+}

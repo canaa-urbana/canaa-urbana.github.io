@@ -1,0 +1,7 @@
+#!/bin/sh
+# Hook de pre-commit (ativar com: git config core.hooksPath .githooks).
+# Bloqueia o commit se o gate não estiver íntegro ou se a auditoria achar dado pessoal/segredo.
+set -e
+PY=.venv/bin/python; [ -x "$PY" ] || PY=python3
+"$PY" pipeline/verify_gate.py > /dev/null || { echo "pre-commit: verify_gate.py reprovou" >&2; exit 1; }
+"$PY" pipeline/auditoria_publicacao.py --staged || { echo "pre-commit: auditoria de publicação reprovou" >&2; exit 1; }
