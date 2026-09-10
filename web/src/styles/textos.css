@@ -1,0 +1,43 @@
+/* Abas de texto: Artigo e Metodologia */
+.artigo__cab { max-width: 900px; margin-bottom: 32px; }
+.artigo__titulo { font-size: 38px; line-height: 1.15; margin: 0 0 12px; }
+.artigo__autor { font: 400 16px var(--ard-sans); color: var(--ard-text-2); margin: 0 0 20px; padding-left: 10px; border-left: 2px solid var(--ard-acento); }
+.artigo__acoes { display: flex; gap: 12px; flex-wrap: wrap; }
+.artigo__acoes .ard-btn { text-decoration: none; display: inline-flex; align-items: center; }
+.artigo__idioma { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; max-width: var(--ard-measure); }
+.artigo__idioma h2 { margin: 0 0 12px; }
+.artigo__pc { font: 400 14px/1.5 var(--ard-sans); color: var(--ard-text-2); }
+.artigo__sumario { border-left: 1px solid var(--ard-border); padding-left: 24px; }
+.artigo__sumario ol { list-style: none; margin: 0; padding: 0; font: 400 14px/1.5 var(--ard-sans); color: var(--ard-text-2); }
+.artigo__sumario li { padding: 3px 0; border-bottom: 1px solid var(--ard-filete-cl); }
+.artigo__sumario li.sub { padding-left: 16px; color: var(--ard-text-3); font-size: 13px; }
+.artigo__pdf { width: 100%; height: 88vh; min-height: 520px; border: 1px solid var(--ard-border); border-radius: var(--ard-radius); background: var(--ard-surface); }
+.artigo__figs { margin: 16px 0 0; padding-left: 24px; max-width: 900px; }
+.artigo__figs li { margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--ard-filete-cl); }
+.artigo__fig-t { font: 400 17px/1.35 var(--ard-serif); margin: 0 0 4px; }
+.artigo__fig-r { font-size: 15px; line-height: 1.55; color: var(--ard-grafite-cl); margin: 0 0 4px; }
+@media (max-width: 1100px) { .artigo__sumario { border-left: 0; padding-left: 0; } }
+@media (max-width: 760px) { .artigo__pdf { height: 70vh; } .artigo__titulo { font-size: 28px; } }
+
+/* Metodologia */
+.met__indice { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 400 14px var(--ard-sans); margin: 0 0 8px; padding: 0; list-style: none; }
+.met__passos { counter-reset: passo; list-style: none; margin: 16px 0 0; padding: 0; max-width: 900px; }
+.met__passos li { counter-increment: passo; display: grid; grid-template-columns: 56px 1fr; gap: 12px; padding: 12px 0; border-top: 1px solid var(--ard-filete-cl); }
+.met__passos li::before { content: counter(passo, decimal-leading-zero); font: 400 24px/1 var(--ard-serif); color: var(--ard-primaria); font-variant-numeric: tabular-nums lining-nums; }
+.met__passos h4 { margin: 0 0 4px; font-size: 17px; }
+.met__passos p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--ard-grafite-cl); }
+.met__passos code { font-size: 12px; }
+.met__regras { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 16px; }
+.met__regras .ard-card p { margin: 0; font: 400 14px/1.5 var(--ard-sans); color: var(--ard-text-2); max-width: none; }
+.met__regras .ard-card strong { font: 400 20px/1.2 var(--ard-serif); color: var(--ard-primaria); display: block; margin-bottom: 4px; }
+.bib__filtros { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; margin: 16px 0; }
+.bib__busca { font: 400 14px var(--ard-sans); padding: 8px 10px; border: 1px solid var(--ard-border); border-radius: var(--ard-radius); background: var(--ard-surface); color: var(--ard-text); min-width: 260px; }
+.bib__lista { list-style: none; margin: 0; padding: 0; max-width: 1000px; }
+.bib__item { padding: 12px 0; border-top: 1px solid var(--ard-filete-cl); }
+.bib__item.alvo { border-left: 2px solid var(--ard-acento); padding-left: 12px; background: var(--ard-acento-nevoa); }
+.bib__abnt { font-size: 15px; line-height: 1.55; margin: 0 0 4px; max-width: none; }
+.bib__meta { font: 400 12px/1.5 var(--ard-sans); color: var(--ard-text-3); display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+.bib__achados { font: 400 13px/1.5 var(--ard-sans); color: var(--ard-text-2); margin: 4px 0 0; max-width: 90ch; }
+.bib__contagem { font: 400 13px var(--ard-sans); color: var(--ard-text-3); }
+
+.citar__ref { font-size: 16px; line-height: 1.6; border-left: 2px solid var(--ard-acento); padding-left: 10px; }

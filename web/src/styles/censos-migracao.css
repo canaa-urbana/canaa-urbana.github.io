@@ -1,0 +1,59 @@
+/* CSS das abas Anos censitários e Migração — sobre os tokens de ardosia.css/app.css.
+   Nenhum hex fora da paleta Ardósia; cores de dados só via viz.* (inline, nos componentes). */
+
+.censos-grade4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+@media (max-width: 1100px) {
+  .censos-grade4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .censos-grade4 { grid-template-columns: 1fr; }
+}
+
+.censo-coluna {
+  background: var(--ard-surface);
+  border: 1px solid var(--ard-border);
+  border-radius: var(--ard-radius);
+  padding: 10px;
+  min-width: 0;
+}
+.censo-coluna__mapa {
+  border: 1px solid var(--ard-filete-cl);
+  border-radius: var(--ard-radius);
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.censo-coluna__kpis { display: flex; flex-direction: column; gap: 5px; }
+.censo-coluna__kpi { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font: 400 12.5px/1.35 var(--ard-sans); }
+.censo-coluna__kpi-r { color: var(--ard-text-3); }
+.censo-coluna__kpi-v { font-weight: 600; font-variant-numeric: tabular-nums; color: var(--ard-text); white-space: nowrap; }
+.censo-coluna__nota { margin-top: 6px; font: 400 11px/1.4 var(--ard-sans); color: var(--ard-text-3); }
+
+.piramides-grade {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+@media (max-width: 1100px) { .piramides-grade { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .piramides-grade { grid-template-columns: 1fr; } }
+.piramide-item { min-width: 0; }
+.piramide-item__titulo { text-align: center; font: 600 12px/1 var(--ard-sans); color: var(--ard-text-2); margin: 0 0 4px; }
+
+.legenda-dot { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 2px; font: 400 12px/1.3 var(--ard-sans); color: var(--ard-text-2); }
+.legenda-dot__item { display: inline-flex; align-items: center; gap: 6px; }
+.legenda-dot__marca { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+.kpis-fluxo { margin-bottom: 8px; }
+
+.mapa-fluxos {
+  width: 100%;
+  height: 460px;
+  border: 1px solid var(--ard-filete-cl);
+  border-radius: var(--ard-radius);
+  overflow: hidden;
+}
+
+.aviso-metodo { margin-top: 32px; }

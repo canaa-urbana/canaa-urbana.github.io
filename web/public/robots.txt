@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://canaa-urbana.github.io/sitemap.xml

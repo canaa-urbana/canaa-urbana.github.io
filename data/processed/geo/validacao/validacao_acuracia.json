@@ -1,0 +1,125 @@
+{
+  "2022": {
+    "n_pontos": 131,
+    "acuracia_global": 0.9838,
+    "acuracia_global_ic95": 0.0094,
+    "usuario_urbano": 0.775,
+    "produtor_urbano": 0.8867,
+    "area_mapa_urbano_ha": 2943.9,
+    "area_ajustada_urbano_ha": 2573.1,
+    "area_ajustada_ic95_ha": 555.4,
+    "area_total_amostrada_ha": 58890.2,
+    "matriz": {
+      "mapa_urbano|ref_urbano": 31,
+      "mapa_urbano|ref_nao_urbano": 9,
+      "mapa_nao_urbano|ref_urbano": 2,
+      "mapa_nao_urbano|ref_nao_urbano": 89
+    },
+    "por_estrato": {
+      "urbano": {
+        "n": 40,
+        "N_h": 32710,
+        "W_h": 0.05,
+        "acertos": 31
+      },
+      "nao_urbano_borda_300m": {
+        "n": 45,
+        "N_h": 72893,
+        "W_h": 0.1114,
+        "acertos": 43
+      },
+      "nao_urbano_restante": {
+        "n": 46,
+        "N_h": 548732,
+        "W_h": 0.8386,
+        "acertos": 46
+      }
+    },
+    "epoca": 2022,
+    "referencia": "wpm",
+    "n_incertos": 15,
+    "n_sem_rotulo": 0
+  },
+  "2017": {
+    "n_pontos": 127,
+    "acuracia_global": 0.9907,
+    "acuracia_global_ic95": 0.0069,
+    "usuario_urbano": 0.8378,
+    "produtor_urbano": 1.0,
+    "area_mapa_urbano_ha": 2697.1,
+    "area_ajustada_urbano_ha": 2259.7,
+    "area_ajustada_ic95_ha": 324.8,
+    "area_total_amostrada_ha": 47144.3,
+    "matriz": {
+      "mapa_urbano|ref_urbano": 31,
+      "mapa_urbano|ref_nao_urbano": 6,
+      "mapa_nao_urbano|ref_urbano": 0,
+      "mapa_nao_urbano|ref_nao_urbano": 90
+    },
+    "por_estrato": {
+      "urbano": {
+        "n": 37,
+        "N_h": 29968,
+        "W_h": 0.0572,
+        "acertos": 31
+      },
+      "nao_urbano_borda_300m": {
+        "n": 41,
+        "N_h": 61882,
+        "W_h": 0.1181,
+        "acertos": 41
+      },
+      "nao_urbano_restante": {
+        "n": 49,
+        "N_h": 431976,
+        "W_h": 0.8247,
+        "acertos": 49
+      }
+    },
+    "epoca": 2017,
+    "referencia": "pan5m",
+    "n_incertos": 23,
+    "n_sem_rotulo": 0
+  },
+  "2009": {
+    "n_pontos": 57,
+    "acuracia_global": 0.9956,
+    "acuracia_global_ic95": 0.0032,
+    "usuario_urbano": 0.7931,
+    "produtor_urbano": 1.0,
+    "area_mapa_urbano_ha": 1173.6,
+    "area_ajustada_urbano_ha": 930.8,
+    "area_ajustada_ic95_ha": 176.1,
+    "area_total_amostrada_ha": 54892.6,
+    "matriz": {
+      "mapa_urbano|ref_urbano": 23,
+      "mapa_urbano|ref_nao_urbano": 6,
+      "mapa_nao_urbano|ref_urbano": 0,
+      "mapa_nao_urbano|ref_nao_urbano": 28
+    },
+    "por_estrato": {
+      "urbano": {
+        "n": 29,
+        "N_h": 13040,
+        "W_h": 0.0214,
+        "acertos": 23
+      },
+      "nao_urbano_restante": {
+        "n": 14,
+        "N_h": 556847,
+        "W_h": 0.913,
+        "acertos": 14
+      },
+      "nao_urbano_borda_300m": {
+        "n": 14,
+        "N_h": 40031,
+        "W_h": 0.0656,
+        "acertos": 14
+      }
+    },
+    "epoca": 2009,
+    "referencia": "hrc",
+    "n_incertos": 29,
+    "n_sem_rotulo": 0
+  }
+}

@@ -1,0 +1,19 @@
+[project]
+name = "urban-canaa"
+version = "0.1.0"
+description = "Urbanização de Canaã dos Carajás (PA): dados IBGE, microdados censitários, mancha urbana por sensoriamento remoto, dashboard e artigo"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  # dados / tabular
+  "pandas>=2.2", "pyarrow", "duckdb", "numpy", "scipy", "openpyxl", "xlrd", "requests", "tqdm", "dbfread", "pdfplumber", "beautifulsoup4", "lxml",
+  # estatística
+  "scikit-learn", "statsmodels", "linearmodels",
+  # geo vetorial
+  "geopandas", "shapely", "pyproj", "pyogrio", "mapclassify", "topojson",
+  # raster / STAC
+  "rasterio", "rioxarray", "xarray", "pystac-client", "planetary-computer", "odc-stac", "stackstac", "dask[array]", "scikit-image",
+  # visualização
+  "matplotlib", "contextily",
+  # testes
+  "pytest",
+]

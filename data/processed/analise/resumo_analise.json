@@ -1,0 +1,155 @@
+{
+ "taxa_2010_2022_aa": 9.231287598598016,
+ "taxa_2000_2010_aa": 9.357085254268217,
+ "elasticidade_2000_2010_ajustada": 1.2367188429555902,
+ "elasticidade_2010_2022_ajustada": 0.8312697937736876,
+ "pico_area_delta": {
+  "ano": 2025,
+  "ha": 345.60000000000036
+ },
+ "cfem_pico": {
+  "ano": 2021,
+  "nominal": 1114050454.03
+ },
+ "corr_cfem_area": [
+  {
+   "variavel": "CFEM (R$ 2022)",
+   "defasagem_anos": 0,
+   "n": 22,
+   "pearson": -0.20208272507985212,
+   "spearman": -0.29644268774703564
+  },
+  {
+   "variavel": "CFEM (R$ 2022)",
+   "defasagem_anos": 1,
+   "n": 21,
+   "pearson": -0.11283204312179317,
+   "spearman": -0.17792207792207793
+  },
+  {
+   "variavel": "CFEM (R$ 2022)",
+   "defasagem_anos": 2,
+   "n": 20,
+   "pearson": -0.014989735393186371,
+   "spearman": -0.03308270676691729
+  },
+  {
+   "variavel": "CFEM (R$ 2022)",
+   "defasagem_anos": 3,
+   "n": 19,
+   "pearson": 0.23532381864065402,
+   "spearman": 0.21228070175438596
+  }
+ ],
+ "chegados_2022_total": 58920.0,
+ "chegados_2022_pos_2013_pct": 60.08146639511202,
+ "setor_extrativa_canaa": {
+  "2010": 7.39,
+  "2022": 10.41
+ },
+ "desigualdade": [
+  {
+   "ano": 2010,
+   "indicador": "agua_pct",
+   "media_ponderada": 30.57826685006878,
+   "p10": 11.3,
+   "p90": 45.629999999999995,
+   "spearman_distancia": -0.18399305785815176,
+   "spearman_ano_urbanizacao": -0.022076735307511215
+  },
+  {
+   "ano": 2010,
+   "indicador": "esgoto_pct",
+   "media_ponderada": 27.239133425034385,
+   "p10": 1.7100000000000002,
+   "p90": 64.08,
+   "spearman_distancia": -0.8191304347826085,
+   "spearman_ano_urbanizacao": -0.6987197680867304
+  },
+  {
+   "ano": 2010,
+   "indicador": "lixo_pct",
+   "media_ponderada": 97.93646836313617,
+   "p10": 95.82000000000001,
+   "p90": 100.0,
+   "spearman_distancia": -0.47695684717238207,
+   "spearman_ano_urbanizacao": -0.6324136439381736
+  },
+  {
+   "ano": 2022,
+   "indicador": "agua_pct",
+   "media_ponderada": 63.80741507480945,
+   "p10": 27.599999999999998,
+   "p90": 90.82000000000001,
+   "spearman_distancia": 0.3929215300626778,
+   "spearman_ano_urbanizacao": 0.3254871490052017
+  },
+  {
+   "ano": 2022,
+   "indicador": "esgoto_pct",
+   "media_ponderada": 55.86598418525839,
+   "p10": 23.65,
+   "p90": 79.75,
+   "spearman_distancia": -0.12696780312482475,
+   "spearman_ano_urbanizacao": -0.1619995848973917
+  },
+  {
+   "ano": 2022,
+   "indicador": "lixo_pct",
+   "media_ponderada": 84.75736314931284,
+   "p10": 71.38000000000001,
+   "p90": 94.66000000000001,
+   "spearman_distancia": -0.053612681909450594,
+   "spearman_ano_urbanizacao": -0.08792580227338126
+  }
+ ],
+ "painel_grupos_n": {
+  "Canaã dos Carajás": 1,
+  "Parauapebas": 1,
+  "Sudeste Paraense — outros mineradores": 29,
+  "Sudeste Paraense — não mineradores": 8,
+  "Pará — mineradores (demais)": 54,
+  "Pará — não mineradores (demais)": 50
+ },
+ "mancha_1990_1991": [
+  {
+   "ano": 1990,
+   "area_sede_ha": 46.35,
+   "area_outros_nucleos_ha": 68.31,
+   "area_construido_mineracao_ha": 40.86
+  },
+  {
+   "ano": 1991,
+   "area_sede_ha": 61.559999999999995,
+   "area_outros_nucleos_ha": 68.85,
+   "area_construido_mineracao_ha": 43.379999999999995
+  }
+ ],
+ "pib_part_pa_2023": 6.53,
+ "cadeia_2022": {
+  "cadeia_ampliada": {
+   "mig": 35.96,
+   "nao": 29.15,
+   "razao": 1.2336192109777016,
+   "part_mig": 33.08619091751622
+  },
+  "construcao": {
+   "mig": 16.06,
+   "nao": 13.35,
+   "razao": 1.202996254681648,
+   "part_mig": 32.44897959183673
+  },
+  "extrativa_mineral": {
+   "mig": 11.98,
+   "nao": 9.78,
+   "razao": 1.224948875255624,
+   "part_mig": 32.96398891966759
+  },
+  "transformacao": {
+   "mig": 7.92,
+   "nao": 6.02,
+   "razao": 1.3156146179401995,
+   "part_mig": 34.64912280701755
+  }
+ }
+}

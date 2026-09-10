@@ -1,0 +1,136 @@
+{
+ "1991": {
+  "parauapebas_sede": {
+   "celulas": 188,
+   "grupos_sem_detalhe": 24,
+   "outros": 47,
+   "r7": 46,
+   "linhas": 815
+  },
+  "parauapebas_municipio": {
+   "celulas": 109,
+   "grupos_sem_detalhe": 18,
+   "outros": 34,
+   "r7": 0,
+   "linhas": 998
+  },
+  "pa": {
+   "celulas": 9,
+   "grupos_sem_detalhe": 10,
+   "outros": 2,
+   "r7": 0,
+   "linhas": 1231
+  }
+ },
+ "2000": {
+  "canaa_sede": {
+   "celulas": 298,
+   "grupos_sem_detalhe": 30,
+   "outros": 50,
+   "r7": 76,
+   "linhas": 663
+  },
+  "canaa_municipio": {
+   "celulas": 205,
+   "grupos_sem_detalhe": 23,
+   "outros": 51,
+   "r7": 0,
+   "linhas": 934
+  },
+  "parauapebas_sede": {
+   "celulas": 246,
+   "grupos_sem_detalhe": 19,
+   "outros": 52,
+   "r7": 129,
+   "linhas": 1009
+  },
+  "parauapebas_municipio": {
+   "celulas": 93,
+   "grupos_sem_detalhe": 6,
+   "outros": 30,
+   "r7": 0,
+   "linhas": 1283
+  },
+  "pa": {
+   "celulas": 7,
+   "grupos_sem_detalhe": 3,
+   "outros": 2,
+   "r7": 0,
+   "linhas": 1443
+  }
+ },
+ "2010": {
+  "canaa_sede": {
+   "celulas": 370,
+   "grupos_sem_detalhe": 24,
+   "outros": 67,
+   "r7": 195,
+   "linhas": 837
+  },
+  "canaa_municipio": {
+   "celulas": 149,
+   "grupos_sem_detalhe": 8,
+   "outros": 40,
+   "r7": 0,
+   "linhas": 1261
+  },
+  "parauapebas_sede": {
+   "celulas": 258,
+   "grupos_sem_detalhe": 18,
+   "outros": 54,
+   "r7": 179,
+   "linhas": 1103
+  },
+  "parauapebas_municipio": {
+   "celulas": 52,
+   "grupos_sem_detalhe": 2,
+   "outros": 16,
+   "r7": 0,
+   "linhas": 1446
+  },
+  "pa": {
+   "celulas": 15,
+   "grupos_sem_detalhe": 0,
+   "outros": 7,
+   "r7": 0,
+   "linhas": 1559
+  }
+ },
+ "2022": {
+  "canaa_sede": {
+   "celulas": 439,
+   "grupos_sem_detalhe": 31,
+   "outros": 61,
+   "r7": 260,
+   "linhas": 690
+  },
+  "canaa_municipio": {
+   "celulas": 200,
+   "grupos_sem_detalhe": 11,
+   "outros": 49,
+   "r7": 0,
+   "linhas": 1263
+  },
+  "parauapebas_sede": {
+   "celulas": 381,
+   "grupos_sem_detalhe": 28,
+   "outros": 58,
+   "r7": 300,
+   "linhas": 834
+  },
+  "parauapebas_municipio": {
+   "celulas": 87,
+   "grupos_sem_detalhe": 4,
+   "outros": 23,
+   "r7": 0,
+   "linhas": 1468
+  },
+  "pa": {
+   "celulas": 12,
+   "grupos_sem_detalhe": 3,
+   "outros": 4,
+   "r7": 0,
+   "linhas": 1621
+  }
+ }
+}

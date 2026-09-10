@@ -1,0 +1,32 @@
+# microdados e dados brutos: NUNCA versionar
+data/raw/
+data/externo/
+data/interim/
+!data/interim/layouts/
+!data/interim/layouts/*.json
+*.csv
+*.CSV
+*.txt
+!requirements*.txt
+!docs/**/*.txt
+!web/public/robots.txt
+*.dbf
+*.DBF
+*.tif
+*.tiff
+*.zip
+# ambiente
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+web/dist/
+.DS_Store
+.pytest_cache/
+docs/termos/
+# E8: fora do repositório público
+PLANO.docx
+PLANO.pdf
+.claude/
+web/tsconfig.tsbuildinfo
+*.map

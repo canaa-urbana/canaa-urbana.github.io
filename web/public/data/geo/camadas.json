@@ -1,0 +1,694 @@
+{
+ "gerado_em": "2026-09-10",
+ "crs_vetores": "EPSG:4326",
+ "crs_imagens": "EPSG:3857 (cantos em lon/lat)",
+ "camadas": [
+  {
+   "id": "mancha_propria",
+   "titulo": "Mancha urbana (classificação própria, 30 m)",
+   "tipo": "geojson",
+   "arquivo": "geo/mancha/mancha_propria_{ano}.json",
+   "anos": [
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "propriedade_classe": "classe",
+   "legenda": [
+    {
+     "classe": 1,
+     "rotulo": "Sede (mancha contígua)",
+     "cor": "#d4271e",
+     "opacidade": 0.75,
+     "fonte_cor": "MapBiomas Col. 11, classe 24"
+    },
+    {
+     "classe": 2,
+     "rotulo": "Outros núcleos",
+     "cor": "#d4271e",
+     "opacidade": 0.4,
+     "fonte_cor": "MapBiomas Col. 11, classe 24 (opacidade reduzida)"
+    },
+    {
+     "classe": 3,
+     "rotulo": "Construído em área de mineração",
+     "cor": "#9c0027",
+     "opacidade": 0.75,
+     "fonte_cor": "MapBiomas Col. 11, classe 30"
+    },
+    {
+     "classe": 4,
+     "rotulo": "Loteamento vazio (IBGE AU 2022)",
+     "cor": null,
+     "contorno": "#0000d6",
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    }
+   ],
+   "atribuicao": "Classificação própria (Random Forest), a partir de Landsat 5/7/8/9 Collection 2 Level-2 (USGS/NASA), via Microsoft Planetary Computer; D. P. Sobreira, 2026",
+   "licenca": "CC BY 4.0",
+   "notas": "Áreas mapeadas (brutas); a série ajustada pelo erro está em estatisticas_mancha.json.",
+   "grupo": "mancha"
+  },
+  {
+   "id": "mancha_propria10",
+   "titulo": "Mancha urbana (Sentinel-2, 10 m, série secundária)",
+   "tipo": "geojson",
+   "arquivo": "geo/mancha/mancha_propria10_{ano}.json",
+   "anos": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "propriedade_classe": "classe",
+   "legenda_de": "mancha_propria",
+   "atribuicao": "Classificação própria a partir de Copernicus Sentinel-2 L2A (ESA), via Element84 Earth Search; D. P. Sobreira, 2026",
+   "licenca": "CC BY 4.0",
+   "grupo": "mancha"
+  },
+  {
+   "id": "expansao",
+   "titulo": "Ano de urbanização (1º ano urbano do pixel)",
+   "tipo": "geojson",
+   "arquivo": "geo/expansao_ano_urbanizacao.json",
+   "propriedade": "ano_urbanizacao",
+   "rampa": [
+    "#6a140f",
+    "#9f1d16",
+    "#d4271e",
+    "#e57d78",
+    "#f2bebc"
+   ],
+   "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana); mais escuro = mais antigo",
+   "dominio": [
+    1984,
+    2026
+   ],
+   "atribuicao": "Classificação própria (Random Forest), a partir de Landsat 5/7/8/9 Collection 2 Level-2 (USGS/NASA), via Microsoft Planetary Computer; D. P. Sobreira, 2026",
+   "licenca": "CC BY 4.0",
+   "grupo": "mancha"
+  },
+  {
+   "id": "mineracao_mascara",
+   "titulo": "Máscara de mineração",
+   "tipo": "geojson",
+   "arquivo": "geo/mineracao_mascara.json",
+   "cor": "#9c0027",
+   "opacidade": 0.15,
+   "fonte_cor": "MapBiomas Col. 11, classe 30",
+   "atribuicao": "MapBiomas Col. 11 (classe 30, 1985–2025) + ANM/SIGMINE",
+   "licenca": "CC BY 4.0",
+   "grupo": "mineracao_infra"
+  },
+  {
+   "id": "anm_lavra",
+   "titulo": "Concessões de lavra (ANM)",
+   "tipo": "geojson",
+   "arquivo": "geo/anm_lavra.json",
+   "contorno": "#7B7D78",
+   "fonte_cor": "Ardósia --ard-pedra",
+   "atribuicao": "ANM, SIGMINE (acesso 2026-09-10)",
+   "licenca": "dado público (ANM)",
+   "grupo": "mineracao_infra"
+  },
+  {
+   "id": "clareira_mss",
+   "titulo": "Clareiras em imagem MSS (1973, 1982): núcleo do assentamento e demais",
+   "tipo": "geojson",
+   "arquivo": "geo/clareira_mss_{ano}.json",
+   "anos": [
+    1973,
+    1982
+   ],
+   "propriedade_classe": "classe",
+   "legenda": [
+    {
+     "classe": 1,
+     "rotulo": "Núcleo do assentamento (1982; clareira a até 1 km do núcleo histórico, < 100 ha)",
+     "cor": "#d4271e",
+     "opacidade": 0.85,
+     "fonte_cor": "MapBiomas Col. 11, classe 24"
+    },
+    {
+     "classe": 2,
+     "rotulo": "Demais clareiras (agropecuária)",
+     "cor": "#ffefc3",
+     "opacidade": 0.6,
+     "fonte_cor": "MapBiomas Col. 11, classe 21 (mosaico de usos)"
+    }
+   ],
+   "notas": "Clareira = NDVI abaixo do limiar de Otsu na cena MSS; separação núcleo/demais por regra geométrica (distância ao núcleo histórico e área). Não é mancha urbana classificada. LIMITAÇÃO (QA E7): as cenas MSS são Tier 2 (duas L1GS, sem pontos de controle), com erro de posição de centenas de metros a ~1 km entre si, e a de out/1982 tem muitos cúmulos — parte das 'clareiras' são nuvens e sombras. Serve só como marco visual, não para comparar com a série TM/OLI.",
+   "atribuicao": "Landsat 1/4 MSS Collection 2 Level-1 (USGS), via Microsoft Planetary Computer",
+   "licenca": "domínio público (USGS)",
+   "grupo": "mancha"
+  },
+  {
+   "id": "osm_vias",
+   "titulo": "Rodovias e ferrovia",
+   "tipo": "geojson",
+   "arquivo": "geo/osm_vias.json",
+   "propriedade_classe": "tipo",
+   "cor": "#4A5157",
+   "cor_ferrovia": "#1B1F23",
+   "fonte_cor": "Ardósia --ard-grafite / --ard-tinta",
+   "atribuicao": "© contribuidores do OpenStreetMap (acesso 2026-09-10)",
+   "licenca": "ODbL 1.0",
+   "grupo": "mineracao_infra"
+  },
+  {
+   "id": "nucleo_historico",
+   "titulo": "Núcleo histórico",
+   "tipo": "geojson",
+   "arquivo": "geo/nucleo_historico.json",
+   "cor": "#1B1F23",
+   "fonte_cor": "Ardósia --ard-tinta",
+   "atribuicao": "Classificação própria (Random Forest), a partir de Landsat 5/7/8/9 Collection 2 Level-2 (USGS/NASA), via Microsoft Planetary Computer; D. P. Sobreira, 2026",
+   "licenca": "CC BY 4.0",
+   "grupo": "mancha"
+  },
+  {
+   "id": "landsat_cor",
+   "titulo": "Landsat — cor natural (composição mediana jun–set)",
+   "tipo": "image",
+   "arquivo": "geo/img/landsat_{ano}_cor.webp",
+   "anos": [
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "coordenadas": [
+    [
+     -49.990521,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.600815
+    ],
+    [
+     -49.990521,
+     -6.600815
+    ]
+   ],
+   "atribuicao": "Landsat 5/7/8/9 Collection 2 Level-2 (USGS/NASA), via Microsoft Planetary Computer",
+   "licenca": "domínio público (USGS)",
+   "grupo": "imagens"
+  },
+  {
+   "id": "landsat_falsacor",
+   "titulo": "Landsat — falsa-cor SWIR1/NIR/vermelho",
+   "tipo": "image",
+   "arquivo": "geo/img/landsat_{ano}_falsacor.webp",
+   "anos": [
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "coordenadas": [
+    [
+     -49.990521,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.600815
+    ],
+    [
+     -49.990521,
+     -6.600815
+    ]
+   ],
+   "atribuicao": "Landsat 5/7/8/9 Collection 2 Level-2 (USGS/NASA), via Microsoft Planetary Computer",
+   "licenca": "domínio público (USGS)",
+   "grupo": "imagens"
+  },
+  {
+   "id": "s2_cor",
+   "titulo": "Sentinel-2 — cor natural (10 m)",
+   "tipo": "image",
+   "arquivo": "geo/img/s2_{ano}_cor.webp",
+   "anos": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "coordenadas": [
+    [
+     -49.990521,
+     -6.399458
+    ],
+    [
+     -49.749413,
+     -6.399458
+    ],
+    [
+     -49.749413,
+     -6.600815
+    ],
+    [
+     -49.990521,
+     -6.600815
+    ]
+   ],
+   "atribuicao": "Contém dados modificados Copernicus Sentinel (2017–2026), via Element84 Earth Search",
+   "licenca": "Copernicus (uso livre com atribuição)",
+   "grupo": "imagens"
+  },
+  {
+   "id": "mss_falsacor",
+   "titulo": "Landsat MSS (1973, 1982), exibida em tons de cinza",
+   "tipo": "image",
+   "arquivo": "geo/img/mss_{ano}_falsacor.webp",
+   "anos": [
+    1973,
+    1982
+   ],
+   "coordenadas": [
+    [
+     -49.990521,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.399458
+    ],
+    [
+     -49.749323,
+     -6.600815
+    ],
+    [
+     -49.990521,
+     -6.600815
+    ]
+   ],
+   "atribuicao": "Landsat 1/4 MSS Collection 2 Level-1 (USGS), via Microsoft Planetary Computer",
+   "licenca": "domínio público (USGS)",
+   "grupo": "imagens"
+  },
+  {
+   "id": "wsf_evolution",
+   "titulo": "WSF-Evolution — 1º ano assentado (DLR)",
+   "tipo": "geojson",
+   "arquivo": "geo/wsf_evolution.json",
+   "propriedade": "ano",
+   "rampa": [
+    "#6a140f",
+    "#9f1d16",
+    "#d4271e",
+    "#e57d78",
+    "#f2bebc"
+   ],
+   "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana) (mesma rampa do ano de urbanização, para comparação)",
+   "dominio": [
+    1985,
+    2015
+   ],
+   "atribuicao": "DLR/EOC, World Settlement Footprint Evolution (Marconcini et al., 2021)",
+   "licenca": "CC BY 4.0",
+   "origem_etapa": "produtos externos",
+   "notas": "Anos com feição na janela: 1985–2015 (30 anos). 0 (nunca assentado) é a codificação de nodata do produto, não um ano.",
+   "grupo": "comparacao"
+  },
+  {
+   "id": "wsf2019",
+   "titulo": "World Settlement Footprint 2019 (10 m)",
+   "tipo": "geojson",
+   "arquivo": "geo/wsf2019.json",
+   "cor": "#e57d78",
+   "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana) (tom claro)",
+   "atribuicao": "DLR/EOC, World Settlement Footprint 2019 (Marconcini et al., 2020)",
+   "licenca": "CC BY 4.0",
+   "origem_etapa": "produtos externos",
+   "grupo": "comparacao"
+  },
+  {
+   "id": "ghsl",
+   "titulo": "GHSL GHS-BUILT-S — superfície construída (100 m)",
+   "tipo": "geojson",
+   "arquivo": "geo/ghsl/ghsl_{ano}.json",
+   "anos": [
+    1975,
+    1980,
+    1985,
+    1990,
+    1995,
+    2000,
+    2005,
+    2010,
+    2015,
+    2020,
+    2025,
+    2030
+   ],
+   "propriedade_classe": "classe",
+   "legenda": [
+    {
+     "classe": 1,
+     "rotulo": "5–20 % construído",
+     "cor": "#f0b3b0",
+     "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana)"
+    },
+    {
+     "classe": 2,
+     "rotulo": "20–40 % construído",
+     "cor": "#e3736d",
+     "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana)"
+    },
+    {
+     "classe": 3,
+     "rotulo": "40–60 % construído",
+     "cor": "#d4271e",
+     "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana)"
+    },
+    {
+     "classe": 4,
+     "rotulo": "≥ 60 % construído",
+     "cor": "#7f1712",
+     "fonte_cor": "MapBiomas Col. 11, classe 24 — rampa de vermelhos derivada (lib/legendas.rampa_urbana)"
+    }
+   ],
+   "atribuicao": "JRC, GHS-BUILT-S R2023A (Pesaresi & Politis, 2023)",
+   "licenca": "CC BY 4.0",
+   "origem_etapa": "produtos externos",
+   "notas": "Grade própria de 100 m (não reamostrada para 30 m). As épocas de 2025 e 2030 são projeções do JRC, não observações.",
+   "grupo": "comparacao"
+  },
+  {
+   "id": "osm_ferrovia",
+   "titulo": "Ramal Ferroviário do Sudeste do Pará",
+   "tipo": "geojson",
+   "arquivo": "geo/osm_ferrovia.json",
+   "propriedade_classe": "tipo",
+   "cor": "#1B1F23",
+   "fonte_cor": "Ardósia --ard-tinta",
+   "atribuicao": "© contribuidores do OpenStreetMap (acesso 2026-09-10)",
+   "licenca": "ODbL 1.0",
+   "notas": "Consulta regional (AOI municipal + ~15 km); a ferrovia S11D–Parauapebas passa a oeste da sede, fora da janela de `osm_vias`.",
+   "grupo": "mineracao_infra"
+  },
+  {
+   "id": "osm_rodovias_regiao",
+   "titulo": "Rodovias regionais (trunk/primary/secondary)",
+   "tipo": "geojson",
+   "arquivo": "geo/osm_rodovias_regiao.json",
+   "propriedade_classe": "tipo",
+   "cor": "#4A5157",
+   "fonte_cor": "Ardósia --ard-grafite",
+   "atribuicao": "© contribuidores do OpenStreetMap (acesso 2026-09-10)",
+   "licenca": "ODbL 1.0",
+   "notas": "Consulta regional (AOI municipal + ~15 km), complementa `osm_vias` (janela da sede).",
+   "grupo": "mineracao_infra"
+  },
+  {
+   "id": "mancha_mapbiomas",
+   "titulo": "MapBiomas Col. 11 — classe 24 (comparação)",
+   "tipo": "geojson",
+   "arquivo": "geo/mancha_mapbiomas_{ano}.json",
+   "atribuicao": "MapBiomas Brasil, Coleção 11",
+   "origem_etapa": "E1/E3a",
+   "anos": [
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "cor": "#d4271e",
+   "fonte_cor": "MapBiomas Col. 11, classe 24",
+   "grupo": "comparacao"
+  },
+  {
+   "id": "areas_urbanizadas_2019_revisado",
+   "titulo": "IBGE Áreas Urbanizadas 2019 (revisado)",
+   "tipo": "geojson",
+   "arquivo": "geo/areas_urbanizadas_2019_revisado.json",
+   "atribuicao": "IBGE",
+   "origem_etapa": "E1/E3a",
+   "grupo": "comparacao"
+  },
+  {
+   "id": "areas_urbanizadas_2022",
+   "titulo": "IBGE Áreas Urbanizadas 2022",
+   "tipo": "geojson",
+   "arquivo": "geo/areas_urbanizadas_2022.json",
+   "atribuicao": "IBGE",
+   "origem_etapa": "E1/E3a",
+   "legenda": [
+    {
+     "propriedade": "Densidade",
+     "valor": "Densa",
+     "rotulo": "Densa",
+     "cor": "#ec4147",
+     "contorno": null,
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    },
+    {
+     "propriedade": "Densidade",
+     "valor": "Pouco densa",
+     "rotulo": "Pouco densa",
+     "cor": "#fb9a99",
+     "contorno": null,
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    },
+    {
+     "propriedade": "Densidade",
+     "valor": "Loteamento vazio",
+     "rotulo": "Loteamento vazio",
+     "cor": null,
+     "contorno": "#0000d6",
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    },
+    {
+     "propriedade": "Tipo",
+     "valor": "Outros equipamentos urbanos",
+     "rotulo": "Outros equipamentos",
+     "cor": null,
+     "contorno": null,
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    },
+    {
+     "propriedade": "Tipo",
+     "valor": "Vazio intraurbano",
+     "rotulo": "Vazio intraurbano",
+     "cor": null,
+     "contorno": null,
+     "fonte_cor": "IBGE, AreasUrbanizadas2022_Densidade_Tipo.qml"
+    }
+   ],
+   "grupo": "comparacao"
+  },
+  {
+   "id": "setores_2010",
+   "titulo": "Setores censitários 2010",
+   "tipo": "geojson",
+   "arquivo": "geo/setores_2010.json",
+   "atribuicao": "IBGE, Censo 2010",
+   "origem_etapa": "E1/E3a",
+   "grupo": "setores"
+  },
+  {
+   "id": "setores_2022",
+   "titulo": "Setores censitários 2022",
+   "tipo": "geojson",
+   "arquivo": "geo/setores_2022.json",
+   "atribuicao": "IBGE, Censo 2022",
+   "origem_etapa": "E1/E3a",
+   "grupo": "setores"
+  },
+  {
+   "id": "aoi_municipio",
+   "titulo": "Limite municipal",
+   "tipo": "geojson",
+   "arquivo": "geo/aoi_municipio.json",
+   "atribuicao": "IBGE, Malhas API v4",
+   "origem_etapa": "E1/E3a",
+   "grupo": "limites"
+  },
+  {
+   "id": "aoi_sede",
+   "titulo": "Janela de análise da sede",
+   "tipo": "geojson",
+   "arquivo": "geo/aoi_sede.json",
+   "atribuicao": "definição do projeto",
+   "origem_etapa": "E1/E3a",
+   "grupo": "limites"
+  }
+ ]
+}

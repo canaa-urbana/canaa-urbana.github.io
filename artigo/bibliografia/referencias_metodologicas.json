@@ -1,0 +1,79 @@
+{
+ "_leiame": "Referências metodológicas (sensoriamento remoto) citadas no artigo, fora do escopo temático da E4; verificadas no Crossref por pipeline/50_artigo.py (sessão E6).",
+ "referencias": [
+  {
+   "slug": "olofsson2014good",
+   "tipo": "artigo",
+   "autores": [
+    "Olofsson, Pontus",
+    "Foody, Giles M.",
+    "Herold, Martin",
+    "Stehman, Stephen V.",
+    "Woodcock, Curtis E.",
+    "Wulder, Michael A."
+   ],
+   "ano": 2014,
+   "titulo": "Good practices for estimating area and assessing accuracy of land change",
+   "veiculo": "Remote Sensing of Environment",
+   "volume": "148",
+   "paginas": "42-57",
+   "doi": "10.1016/j.rse.2014.02.015",
+   "url": "https://doi.org/10.1016/j.rse.2014.02.015",
+   "nacional": false,
+   "camada": "metodo",
+   "eixos": [
+    "metodo"
+   ],
+   "abnt": "OLOFSSON, Pontus; FOODY, Giles M.; HEROLD, Martin et al. Good practices for estimating area and assessing accuracy of land change. Remote Sensing of Environment, v. 148, p. 42–57, 2014. DOI: 10.1016/j.rse.2014.02.015.",
+   "verificado_em": "https://doi.org/10.1016/j.rse.2014.02.015 — Crossref API: título/ano/autores conferidos em 2026-09-10"
+  },
+  {
+   "slug": "roy2016characterization",
+   "tipo": "artigo",
+   "autores": [
+    "Roy, D.P.",
+    "Kovalskyy, V.",
+    "Zhang, H.K.",
+    "Vermote, E.F.",
+    "Yan, L.",
+    "Kumar, S.S.",
+    "Egorov, A."
+   ],
+   "ano": 2016,
+   "titulo": "Characterization of Landsat-7 to Landsat-8 reflective wavelength and normalized difference vegetation index continuity",
+   "veiculo": "Remote Sensing of Environment",
+   "volume": "185",
+   "paginas": "57-70",
+   "doi": "10.1016/j.rse.2015.12.024",
+   "url": "https://doi.org/10.1016/j.rse.2015.12.024",
+   "nacional": false,
+   "camada": "metodo",
+   "eixos": [
+    "metodo"
+   ],
+   "abnt": "ROY, David P.; KOVALSKYY, Valeriy; ZHANG, Hankui K. et al. Characterization of Landsat-7 to Landsat-8 reflective wavelength and normalized difference vegetation index continuity. Remote Sensing of Environment, v. 185, p. 57–70, 2016. DOI: 10.1016/j.rse.2015.12.024.",
+   "verificado_em": "https://doi.org/10.1016/j.rse.2015.12.024 — Crossref API: título/ano/autores conferidos em 2026-09-10"
+  },
+  {
+   "slug": "stehman2014estimating",
+   "tipo": "artigo",
+   "autores": [
+    "Stehman, Stephen V."
+   ],
+   "ano": 2014,
+   "titulo": "Estimating area and map accuracy for stratified random sampling when the strata are different from the map classes",
+   "veiculo": "International Journal of Remote Sensing",
+   "volume": "35",
+   "paginas": "4923-4939",
+   "doi": "10.1080/01431161.2014.930207",
+   "url": "https://doi.org/10.1080/01431161.2014.930207",
+   "nacional": false,
+   "camada": "metodo",
+   "eixos": [
+    "metodo"
+   ],
+   "abnt": "STEHMAN, Stephen V. Estimating area and map accuracy for stratified random sampling when the strata are different from the map classes. International Journal of Remote Sensing, v. 35, n. 13, p. 4923–4939, 2014. DOI: 10.1080/01431161.2014.930207.",
+   "verificado_em": "https://doi.org/10.1080/01431161.2014.930207 — Crossref API: título/ano/autores conferidos em 2026-09-10"
+  }
+ ]
+}

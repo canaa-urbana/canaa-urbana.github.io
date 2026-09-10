@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./marks/cohort-glyph-slate.svg" />
+    <meta name="description" content="Urbanização da sede de Canaã dos Carajás (PA), 1982–2026: mancha urbana anual, censos, setores, migração e mineração." />
+    <title>Canaã dos Carajás — urbanização e mineração</title>
+    <link rel="canonical" href="https://canaa-urbana.github.io/" />
+    <meta name="author" content="Daniel Pessini Sobreira" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Canaã dos Carajás — urbanização e mineração, 1982–2026" />
+    <meta property="og:description" content="Mancha urbana anual da sede (1984–2026), censos 1991–2022, setores, migração de data fixa e economia mineral: painel interativo, dados e artigo." />
+    <meta property="og:url" content="https://canaa-urbana.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026",
+        "description": "Série anual da área construída da sede de Canaã dos Carajás (1984–2026), estimativas agregadas dos censos 1991–2022 (migração de data fixa, perfil dos migrantes, domicílios), indicadores por setor censitário, CFEM e PIB, com painel interativo e artigo.",
+        "url": "https://canaa-urbana.github.io/",
+        "inLanguage": "pt-BR",
+        "creator": { "@type": "Person", "name": "Daniel Pessini Sobreira", "sameAs": "https://orcid.org/0000-0002-6632-3991" },
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": true,
+        "spatialCoverage": { "@type": "Place", "name": "Canaã dos Carajás, Pará, Brasil" },
+        "temporalCoverage": "1982/2026",
+        "keywords": ["urbanização", "mineração", "migração", "mancha urbana", "Carajás", "censo demográfico"],
+        "codeRepository": "https://github.com/canaa-urbana/canaa-urbana.github.io"
+      }
+    </script>
+    <script>
+      // tema antes da primeira pintura: claro por padrão; escuro só se a pessoa escolheu no botão
+      (function () {
+        try {
+          var t = localStorage.getItem('tema') === 'dark' ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

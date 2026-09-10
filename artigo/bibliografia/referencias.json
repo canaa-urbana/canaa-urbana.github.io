@@ -1,0 +1,3895 @@
+{
+ "_leiame": "Base de referências do projeto urban-canaa (E4), ABNT autor-data. Cada entrada foi conferida por `pipeline/31_verificar_refs.py` (DOI no Crossref/DataCite, página do repositório ou Catálogo de Teses CAPES) — `verificado_em` = URL e o que foi confirmado. Chave = slug citado em <cite:slug> no artigo. `camada`: nucleo = sobre Canaã dos Carajás; contexto = Carajás/Parauapebas/cidades mineradoras. `eixos`, `periodo`, `metodo`, `achados` alimentam docs/revisao_bibliografica.md.",
+ "gerado_em": "2026-09-10",
+ "referencias": [
+  {
+   "slug": "alencar2022gestao",
+   "tipo": "artigo",
+   "autores": [
+    "Alencar, Noan Thales Pimentel de",
+    "Braga, Daiane Brandão",
+    "Silva, Fabiola Miranda da",
+    "Claudino, Livio Sergio Dias"
+   ],
+   "ano": 2022,
+   "titulo": "Gestão de recursos e organização social: Estratégias em situação de acampamento em Canaã dos Carajás, Pará",
+   "veiculo": "Universidade e Meio Ambiente",
+   "volume": "7",
+   "numero": "2",
+   "paginas": "129",
+   "publicador": "Universidade Federal do Para",
+   "doi": "10.18542/reumam.v7i2.13762",
+   "url": "https://doi.org/10.18542/reumam.v7i2.13762",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "trabalho"
+   ],
+   "periodo": "c. 2021",
+   "metodo": "artigo; trajetórias familiares e organização do trabalho em acampamento",
+   "achados": "Gestão de recursos e sucessão em família acampada em Canaã.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "ALENCAR, Noan Thales Pimentel de; BRAGA, Daiane Brandão; SILVA, Fabiola Miranda da et al. Gestão de recursos e organização social: Estratégias em situação de acampamento em Canaã dos Carajás, Pará. Universidade e Meio Ambiente, v. 7, n. 2, p. 129, 2022. DOI: 10.18542/reumam.v7i2.13762.",
+   "verificado_em": "https://doi.org/10.18542/reumam.v7i2.13762 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "alencar2025quintal",
+   "tipo": "anais",
+   "autores": [
+    "Alencar, Noan Thales Pimentel de",
+    "Drebes, Laila Mayara"
+   ],
+   "ano": 2025,
+   "titulo": "Do quintal à feira: Quintais produtivos de mulheres em Canaã dos Carajás, Pará",
+   "veiculo": "Anais do 63º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural (SOBER)",
+   "publicador": "Even3",
+   "doi": "10.29327/9786527214786.1105194",
+   "url": "https://doi.org/10.29327/9786527214786.1105194",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "trabalho",
+    "sociedade"
+   ],
+   "periodo": "2025",
+   "metodo": "anais SOBER",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — quintais produtivos de mulheres.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "ALENCAR, Noan Thales Pimentel de; DREBES, Laila Mayara. Do quintal à feira: Quintais produtivos de mulheres em Canaã dos Carajás, Pará. In: Anais do 63º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural (SOBER), 2025. DOI: 10.29327/9786527214786.1105194.",
+   "verificado_em": "https://doi.org/10.29327/9786527214786.1105194 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "almeida2017mineracao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Almeida, Raphael Villela"
+   ],
+   "ano": 2017,
+   "titulo": "Mineração e a reorganização do território em Canaã dos Carajás",
+   "veiculo": "População, território e estatísticas públicas",
+   "instituicao": "Escola nacional de ciências estatísticas",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4992022",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "migracao"
+   ],
+   "periodo": "2000–2016",
+   "metodo": "dissertação (ENCE/IBGE, População, Território e Estatísticas Públicas)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "ALMEIDA, Raphael Villela. Mineração e a reorganização do território em Canaã dos Carajás. 2017. Dissertação (Mestrado em População, território e estatísticas públicas) – Escola nacional de ciências estatísticas, 2017.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4992022 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "almeida2021analise",
+   "tipo": "dissertacao",
+   "autores": [
+    "Almeida, Poliana Bentes de"
+   ],
+   "ano": 2021,
+   "titulo": "Análise dos impactos dos programas socioambientais desenvolvidos nas comunidades circunvizinhas a um empreendimento minerário instalado no município de Canaã dos Carajás – PA",
+   "veiculo": "Gestão de conhecimentos para o desenvolvimento socioambiental",
+   "instituicao": "Universidade da Amazônia",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=10314185",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade"
+   ],
+   "periodo": "2021",
+   "metodo": "dissertação profissional",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "ALMEIDA, Poliana Bentes de. Análise dos impactos dos programas socioambientais desenvolvidos nas comunidades circunvizinhas a um empreendimento minerário instalado no município de Canaã dos Carajás – PA. 2021. Dissertação (Mestrado em Gestão de conhecimentos para o desenvolvimento socioambiental) – Universidade da Amazônia, 2021.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=10314185 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "almeida2022gestao",
+   "tipo": "artigo",
+   "autores": [
+    "Almeida, Poliana Bentes de",
+    "Martins, Simone",
+    "Barros, Jones Nogueira",
+    "Coutinho, Mauro Margalho"
+   ],
+   "ano": 2022,
+   "titulo": "Gestão dos recursos minerais no município de Canaã dos Carajás – PA na perspectiva dos cidadãos",
+   "veiculo": "NAU Social",
+   "volume": "13",
+   "numero": "24",
+   "paginas": "1000-1020",
+   "publicador": "Universidade Federal da Bahia",
+   "doi": "10.9771/ns.v13i24.45152",
+   "url": "https://doi.org/10.9771/ns.v13i24.45152",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "planejamento",
+    "economia_mineral"
+   ],
+   "periodo": "c. 2021",
+   "metodo": "artigo; estudo de caso, entrevistas, análise de conteúdo",
+   "achados": "Percepção dos cidadãos de duas comunidades do entorno sobre a conformidade da gestão mineral às normas.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "ALMEIDA, Poliana Bentes de; MARTINS, Simone; BARROS, Jones Nogueira et al. Gestão dos recursos minerais no município de Canaã dos Carajás – PA na perspectiva dos cidadãos. NAU Social, v. 13, n. 24, p. 1000-1020, 2022. DOI: 10.9771/ns.v13i24.45152.",
+   "verificado_em": "https://doi.org/10.9771/ns.v13i24.45152 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "amaral2021paisagens",
+   "tipo": "dissertacao",
+   "autores": [
+    "Amaral, Anderson Vasconcellos"
+   ],
+   "ano": 2021,
+   "titulo": "As paisagens de Canaã dos Carajás (PA): análise e evolução da paisagem na fronteira agropecuária e minerária",
+   "veiculo": "Geografia (geografia física)",
+   "instituicao": "Universidade de são paulo",
+   "publicador": "Universidade de Sao Paulo, Agencia USP de Gestao da Informacao Academica (AGUIA)",
+   "doi": "10.11606/d.8.2021.tde-01062021-203126",
+   "url": "https://doi.org/10.11606/d.8.2021.tde-01062021-203126",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "urbanizacao"
+   ],
+   "periodo": "1984–2019",
+   "metodo": "dissertação (USP); ecologia da paisagem, vias como driver, estudos quantitativos e qualitativo",
+   "achados": "Transformação da paisagem de Canaã impulsionada por agropecuária e mineração, com a malha viária como vetor de fragmentação — referência direta para a E3.",
+   "fontes_busca": [
+    "bdtd",
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "AMARAL, Anderson Vasconcellos. As paisagens de Canaã dos Carajás (PA): análise e evolução da paisagem na fronteira agropecuária e minerária. 2021. Dissertação (Mestrado em Geografia (geografia física)) – Universidade de são paulo, 2021.",
+   "verificado_em": "https://doi.org/10.11606/d.8.2021.tde-01062021-203126 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "araujo2020analise",
+   "tipo": "artigo",
+   "autores": [
+    "Araújo, Katharine Vinholte de",
+    "Andrade, André Medeiros de",
+    "Dobbss, Leonardo Barros"
+   ],
+   "ano": 2020,
+   "titulo": "Análise da fragilidade potencial e emergente do município de Canaã dos Carajás, sudeste do Estado do Pará",
+   "veiculo": "Geografia Ensino & Pesquisa",
+   "paginas": "e28",
+   "publicador": "Universidade Federal de Santa Maria",
+   "doi": "10.5902/2236499444092",
+   "url": "https://doi.org/10.5902/2236499444092",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "planejamento"
+   ],
+   "periodo": "2010s",
+   "metodo": "artigo; geoprocessamento (declividade, solos, geologia, uso e cobertura)",
+   "achados": "Fragilidade potencial e emergente como subsídio ao planejamento territorial ambiental de Canaã.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "ARAÚJO, Katharine Vinholte de; ANDRADE, André Medeiros de; DOBBSS, Leonardo Barros. Análise da fragilidade potencial e emergente do município de Canaã dos Carajás, sudeste do Estado do Pará. Geografia Ensino & Pesquisa, p. e28, 2020. DOI: 10.5902/2236499444092.",
+   "verificado_em": "https://doi.org/10.5902/2236499444092 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "araujo2023sina",
+   "tipo": "dissertacao",
+   "autores": [
+    "Araújo, Flávio Lacerda de"
+   ],
+   "ano": 2023,
+   "titulo": "Sina de vagão: uma análise da dependência econômico-financeira nos municípios com matriz econômica de base mineral",
+   "veiculo": "Gestão Pública",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://repositorio.ufpa.br/handle/2011/16296",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2010–2022",
+   "metodo": "dissertação (UFPA); execução orçamentária municipal",
+   "achados": "Grau de dependência fiscal da mineração em Parauapebas e Canaã, em paralelo com Itabira.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "ARAÚJO, Flávio Lacerda de. Sina de vagão: uma análise da dependência econômico-financeira nos municípios com matriz econômica de base mineral. 2023. Dissertação (Mestrado em Gestão Pública) – Universidade federal do Pará, 2023.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/16296 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "assuncao2022fundo",
+   "tipo": "dissertacao",
+   "autores": [
+    "Assuncao, Marcos Venancio Silva"
+   ],
+   "ano": 2022,
+   "titulo": "O fundo municipal de desenvolvimento sustentável de Canaã dos Carajás: Uma análise comparativa com fundos de royalties subnacionais à luz do princípio do desenvolvimento sustentável e da justiça intergeracional",
+   "veiculo": "Direito, Políticas Públicas e Desenvolvimento Regional",
+   "instituicao": "Centro universitário do estado do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11391527",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2010s–2022",
+   "metodo": "dissertação; comparação com fundos subnacionais de royalties",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "ASSUNCAO, Marcos Venancio Silva. O fundo municipal de desenvolvimento sustentável de Canaã dos Carajás: Uma análise comparativa com fundos de royalties subnacionais à luz do princípio do desenvolvimento sustentável e da justiça intergeracional. 2022. Dissertação (Mestrado em Direito, Políticas Públicas e Desenvolvimento Regional) – Centro universitário do estado do Pará, 2022.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11391527 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "bandeira2014alteracoes",
+   "tipo": "dissertacao",
+   "autores": [
+    "Bandeira, Alex de Oliveira"
+   ],
+   "ano": 2014,
+   "titulo": "Alteracoes socio-espaciais no sudeste do Para: a mudanca de terra rural para solo urbano na cidade de Canaa dos Carajas",
+   "veiculo": "Arquitetura e Urbanismo",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=1739802",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "moradia"
+   ],
+   "periodo": "2000s–2014",
+   "metodo": "dissertação (Arquitetura e Urbanismo)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — conversão de terra rural em solo urbano.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "BANDEIRA, Alex de Oliveira. Alteracoes socio-espaciais no sudeste do Para: a mudanca de terra rural para solo urbano na cidade de Canaa dos Carajas. 2014. Dissertação (Mestrado em Arquitetura e Urbanismo) – Universidade federal do Pará, 2014.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=1739802 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "bentes2021impactos",
+   "tipo": "artigo",
+   "autores": [
+    "Bentes, Natalia Mascarenhas Simões",
+    "Pereira, Alsidéa Lice de Carvalho Jennings",
+    "Assunção, Marcos Venâncio Silva"
+   ],
+   "ano": 2021,
+   "titulo": "Os impactos do projeto Ferro Carajás S11D na comunidade indígena Xikrin do Cateté e o objetivo do desenvolvimento sustentável da ONU de n. 16 / the impacts of the Ferro Carajás S11D project in the indigenous community Xikrin of the Cateté and the sustainable developmente objective n. 16 of ONU",
+   "veiculo": "Brazilian Journal of Development",
+   "volume": "7",
+   "numero": "3",
+   "paginas": "31502-31525",
+   "publicador": "Brazilian Journal of Development",
+   "doi": "10.34117/bjdv7n3-733",
+   "url": "https://doi.org/10.34117/bjdv7n3-733",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "historia",
+    "sociedade"
+   ],
+   "periodo": "2010s–2021",
+   "metodo": "artigo; análise jurídica",
+   "achados": "Impactos do S11D sobre os Xikrin do Cateté e violação do ODS 16.",
+   "fontes_busca": [
+    "crossref",
+    "openalex"
+   ],
+   "abnt": "BENTES, Natalia Mascarenhas Simões; PEREIRA, Alsidéa Lice de Carvalho Jennings; ASSUNÇÃO, Marcos Venâncio Silva. Os impactos do projeto Ferro Carajás S11D na comunidade indígena Xikrin do Cateté e o objetivo do desenvolvimento sustentável da ONU de n. 16 / the impacts of the Ferro Carajás S11D project in the indigenous community Xikrin of the Cateté and the sustainable developmente objective n. 16 of ONU. Brazilian Journal of Development, v. 7, n. 3, p. 31502-31525, 2021. DOI: 10.34117/bjdv7n3-733.",
+   "verificado_em": "https://doi.org/10.34117/bjdv7n3-733 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "bringel2020processos",
+   "tipo": "artigo",
+   "autores": [
+    "Bringel, Fabiano de Oliveira",
+    "Machado, Brena Regina Lopes"
+   ],
+   "ano": 2020,
+   "titulo": "Processos de migração e relação campo-cidade no entorno do Complexo Mínero-Industrial de Barcarena (PA)",
+   "veiculo": "Revista Campo-Território",
+   "volume": "15",
+   "numero": "39 Dez.",
+   "paginas": "391-420",
+   "publicador": "PPUFU - Portal de Periódicos da Universidade Federal de Uberlândia",
+   "doi": "10.14393/rct153921",
+   "url": "https://doi.org/10.14393/rct153921",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "migracao"
+   ],
+   "periodo": "2010s",
+   "metodo": "artigo; estudo de bairro em Barcarena",
+   "achados": "Migração induzida pelo complexo mínero-industrial e relação campo-cidade.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "BRINGEL, Fabiano de Oliveira; MACHADO, Brena Regina Lopes. Processos de migração e relação campo-cidade no entorno do Complexo Mínero-Industrial de Barcarena (PA). Revista Campo-Território, v. 15, n. 39 Dez., p. 391-420, 2020. DOI: 10.14393/rct153921.",
+   "verificado_em": "https://doi.org/10.14393/rct153921 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cabral2011canaa",
+   "tipo": "capitulo",
+   "autores": [
+    "Cabral, Eugênia Rosa",
+    "Enríquez, Maria Amélia Rodrigues da Silva",
+    "Santos, Dalva Vasconcelos dos"
+   ],
+   "ano": 2011,
+   "titulo": "Canaã dos Carajás - do leite ao cobre: transformações estruturais do município após a implantação de uma grande mina",
+   "veiculo": "Recursos minerais & sustentabilidade territorial. v. 1: Grandes minas",
+   "paginas": "39-68",
+   "publicador": "Cetem/mcti",
+   "url": "http://mineralis.cetem.gov.br/handle/cetem/1162",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "urbanizacao",
+    "historia",
+    "migracao"
+   ],
+   "periodo": "1982–2010",
+   "metodo": "capítulo de livro (CETEM); dados secundários, entrevistas e relatos de comunidades",
+   "achados": "Transição da pecuária leiteira à mineração de cobre após o Sossego; fonte da população de 1996 (11.139) e dos relatos sobre os CEDEREs usados na Fase 1b.",
+   "abnt": "CABRAL, Eugênia Rosa; ENRÍQUEZ, Maria Amélia Rodrigues da Silva; SANTOS, Dalva Vasconcelos dos. Canaã dos Carajás - do leite ao cobre: transformações estruturais do município após a implantação de uma grande mina. In: Recursos minerais & sustentabilidade territorial. v. 1: Grandes minas, p. 39-68, 2011.",
+   "verificado_em": "http://mineralis.cetem.gov.br/handle/cetem/1162 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10",
+   "isbn": "978-85-61121-83-9"
+  },
+  {
+   "slug": "caitano2022potencial",
+   "tipo": "artigo",
+   "autores": [
+    "Caitano, Thamires Beatriz dos Santos",
+    "Morales, Gundisalvo Piratoba"
+   ],
+   "ano": 2022,
+   "titulo": "Potencial dos royalties minerais na promoção do desenvolvimento socioeconômico de municípios do estado do Pará, Brasil",
+   "veiculo": "Revista Brasileira de Gestão e Desenvolvimento Regional",
+   "volume": "18",
+   "numero": "3",
+   "publicador": "Fundacao de Apoio a Pesquisa, Tecnologia e Inovacao",
+   "doi": "10.54399/rbgdr.v18i3.5861",
+   "url": "https://doi.org/10.54399/rbgdr.v18i3.5861",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2010s–2020",
+   "metodo": "artigo; dados secundários de CFEM e indicadores socioeconômicos",
+   "achados": "Potencial (e baixa eficiência) da CFEM na promoção do desenvolvimento de Parauapebas e Canaã.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CAITANO, Thamires Beatriz dos Santos; MORALES, Gundisalvo Piratoba. Potencial dos royalties minerais na promoção do desenvolvimento socioeconômico de municípios do estado do Pará, Brasil. Revista Brasileira de Gestão e Desenvolvimento Regional, v. 18, n. 3, 2022. DOI: 10.54399/rbgdr.v18i3.5861.",
+   "verificado_em": "https://doi.org/10.54399/rbgdr.v18i3.5861 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "candido2018cidade",
+   "tipo": "dissertacao",
+   "autores": [
+    "Candido, Lucas Souto"
+   ],
+   "ano": 2018,
+   "titulo": "A cidade entre utopías: o neoliberalismo e o comum na produção contemporênea do espaço amazônico",
+   "veiculo": "Arquitetura e Urbanismo",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=7009037",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "planejamento"
+   ],
+   "periodo": "2010s",
+   "metodo": "dissertação (Arquitetura e Urbanismo)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CANDIDO, Lucas Souto. A cidade entre utopías: o neoliberalismo e o comum na produção contemporênea do espaço amazônico. 2018. Dissertação (Mestrado em Arquitetura e Urbanismo) – Universidade federal do Pará, 2018.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=7009037 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "cardoso2017canaa",
+   "tipo": "artigo",
+   "autores": [
+    "Cardoso, Ana Cláudia Duarte",
+    "Cândido, Lucas Souto",
+    "Melo, Ana Carolina Campos de"
+   ],
+   "ano": 2017,
+   "titulo": "Canaã dos Carajás: um laboratório sobre as circunstâncias da urbanização, na periferia global e no alvorecer do século XXI",
+   "veiculo": "Revista Brasileira de Estudos Urbanos e Regionais",
+   "volume": "20",
+   "numero": "1",
+   "paginas": "121",
+   "publicador": "Revista Brasileira de Estudos Urbanos e Regionais (RBEUR)",
+   "doi": "10.22296/2317-1529.2018v20n1p121",
+   "url": "https://doi.org/10.22296/2317-1529.2018v20n1p121",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "planejamento"
+   ],
+   "periodo": "2000s–2017",
+   "metodo": "artigo; níveis da realidade social (Lefebvre), pesquisa de campo",
+   "achados": "O crescimento urbano mediado por grupos locais sob impulsos globais (mineração, pecuária) exclui os grupos sociais que mais dependem da cidade.",
+   "fontes_busca": [
+    "crossref",
+    "openalex"
+   ],
+   "abnt": "CARDOSO, Ana Cláudia Duarte; CÂNDIDO, Lucas Souto; MELO, Ana Carolina Campos de. Canaã dos Carajás: um laboratório sobre as circunstâncias da urbanização, na periferia global e no alvorecer do século XXI. Revista Brasileira de Estudos Urbanos e Regionais, v. 20, n. 1, p. 121, 2017. DOI: 10.22296/2317-1529.2018v20n1p121.",
+   "verificado_em": "https://doi.org/10.22296/2317-1529.2018v20n1p121 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "carmo2023cidade",
+   "tipo": "dissertacao",
+   "autores": [
+    "Carmo, Ednalva Lima"
+   ],
+   "ano": 2023,
+   "titulo": "A CIDADE NA FRONTEIRA DA AMAZÔNIA: Mineração e produção do espaço em Canaã dos Carajás – Pará",
+   "veiculo": "Dinâmicas Territoriais e Sociedade na Amazônia",
+   "instituicao": "Universidade federal do sul e sudeste do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=12967785",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "1982–2020",
+   "metodo": "dissertação (Unifesspa)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — base do artigo da RTG (Carmo 2023); fonte-chave da Fase 1b.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CARMO, Ednalva Lima. A CIDADE NA FRONTEIRA DA AMAZÔNIA: Mineração e produção do espaço em Canaã dos Carajás – Pará. 2023. Dissertação (Mestrado em Dinâmicas Territoriais e Sociedade na Amazônia) – Universidade federal do sul e sudeste do Pará, 2023.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=12967785 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "carmo2023mineracao",
+   "tipo": "artigo",
+   "autores": [
+    "Carmo, Ednalva Lima"
+   ],
+   "ano": 2023,
+   "titulo": "Mineração e a produção do espaço urbano em Canaã dos Carajás-Pará",
+   "veiculo": "Revista Tocantinense de Geografia",
+   "volume": "12",
+   "numero": "28",
+   "paginas": "139-153",
+   "publicador": "Universidade Federal do Norte do Tocantins",
+   "doi": "10.20873/rtg.v12i28.16834",
+   "url": "https://doi.org/10.20873/rtg.v12i28.16834",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "2000–2020 (com recuo aos anos 1970)",
+   "metodo": "artigo; histórico dos CEDEREs e produção do espaço urbano",
+   "achados": "O crescimento da cidade está diretamente ligado à exploração mineral e aos recursos dela advindos; modo de vida dos colonos nos CEDEREs e transformações posteriores.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CARMO, Ednalva Lima. Mineração e a produção do espaço urbano em Canaã dos Carajás-Pará. Revista Tocantinense de Geografia, v. 12, n. 28, p. 139-153, 2023. DOI: 10.20873/rtg.v12i28.16834.",
+   "verificado_em": "https://doi.org/10.20873/rtg.v12i28.16834 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "casseb2021avaliacao",
+   "tipo": "capitulo",
+   "autores": [
+    "Casseb, Bruna da Silva",
+    "Vasconcellos, Bruna Nascimento de"
+   ],
+   "ano": 2021,
+   "titulo": "Avaliação da mudança de paisagem do entorno da mina do projeto S11D em canãa dos Carajás-PA:",
+   "veiculo": "Sociedade, Tecnologia e Meio Ambiente: avanços, retrocessos e novas perspectivas",
+   "paginas": "99-109",
+   "publicador": "Editora Científica Digital",
+   "doi": "10.37885/210906175",
+   "url": "https://doi.org/10.37885/210906175",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente"
+   ],
+   "periodo": "2010s–2021",
+   "metodo": "capítulo; análise de mudança de paisagem",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CASSEB, Bruna da Silva; VASCONCELLOS, Bruna Nascimento de. Avaliação da mudança de paisagem do entorno da mina do projeto S11D em canãa dos Carajás-PA:. In: Sociedade, Tecnologia e Meio Ambiente: avanços, retrocessos e novas perspectivas, p. 99-109, 2021. DOI: 10.37885/210906175.",
+   "verificado_em": "https://doi.org/10.37885/210906175 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "castriota2024aqui",
+   "tipo": "artigo",
+   "autores": [
+    "Castriota, Rodrigo"
+   ],
+   "ano": 2024,
+   "titulo": "“Aqui a vale é o Estado”: neoextrativismo e autoritarismo na cidade, no campo e na floresta na região de Carajás",
+   "veiculo": "Revista Brasileira de Estudos Urbanos e Regionais",
+   "volume": "26",
+   "numero": "1",
+   "publicador": "Revista Brasileira de Estudos Urbanos e Regionais (RBEUR)",
+   "doi": "10.22296/2317-1529.rbeur.202408",
+   "url": "https://doi.org/10.22296/2317-1529.rbeur.202408",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "planejamento"
+   ],
+   "periodo": "2016–2023",
+   "metodo": "artigo; dados secundários e pesquisa qualitativa em Canaã",
+   "achados": "Autoritarismo neoextrativista: produção do espaço urbano com recursos da CFEM e influência corporativa na cidade, no campo e na floresta.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CASTRIOTA, Rodrigo. “Aqui a vale é o Estado”: neoextrativismo e autoritarismo na cidade, no campo e na floresta na região de Carajás. Revista Brasileira de Estudos Urbanos e Regionais, v. 26, n. 1, 2024. DOI: 10.22296/2317-1529.rbeur.202408.",
+   "verificado_em": "https://doi.org/10.22296/2317-1529.rbeur.202408 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "castriota2024housing",
+   "tipo": "artigo",
+   "autores": [
+    "Castriota, Rodrigo"
+   ],
+   "ano": 2024,
+   "titulo": "HOUSING BEYOND THE METROPOLIS : Inhabiting Extractivism and Extensions in Urban Amazonia",
+   "veiculo": "International Journal of Urban and Regional Research",
+   "volume": "48",
+   "numero": "1",
+   "paginas": "32-52",
+   "publicador": "Wiley",
+   "doi": "10.1111/1468-2427.13222",
+   "url": "https://doi.org/10.1111/1468-2427.13222",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia",
+    "migracao",
+    "urbanizacao"
+   ],
+   "periodo": "2018–2019",
+   "metodo": "artigo; trabalho de campo",
+   "achados": "Formas emergentes de moradia após o S11D, que atraiu dezenas de milhares de migrantes e mais que dobrou a população de Canaã.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CASTRIOTA, Rodrigo. HOUSING BEYOND THE METROPOLIS : Inhabiting Extractivism and Extensions in Urban Amazonia. International Journal of Urban and Regional Research, v. 48, n. 1, p. 32-52, 2024. DOI: 10.1111/1468-2427.13222.",
+   "verificado_em": "https://doi.org/10.1111/1468-2427.13222 — Crossref: título/ano/1º autor conferidos (sim. título 0.96) em 2026-09-10"
+  },
+  {
+   "slug": "castro2021logistica",
+   "tipo": "dissertacao",
+   "autores": [
+    "Castro, Antonio Orlando Ferreira de"
+   ],
+   "ano": 2021,
+   "titulo": "A logística de transporte no processo de integração econômica e territorial do projeto S11D em Canaã dos Carajás (2000-2019)",
+   "veiculo": "Geografia",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11334819",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "urbanizacao"
+   ],
+   "periodo": "2000–2019",
+   "metodo": "dissertação (Geografia)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — logística de transporte do S11D.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CASTRO, Antonio Orlando Ferreira de. A logística de transporte no processo de integração econômica e territorial do projeto S11D em Canaã dos Carajás (2000-2019). 2021. Dissertação (Mestrado em Geografia) – Universidade federal do Pará, 2021.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11334819 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "castro2025circulacao",
+   "tipo": "artigo",
+   "autores": [
+    "Castro, Antônio Orlando de",
+    "Palheta, João Márcio"
+   ],
+   "ano": 2025,
+   "titulo": "Circulação, transporte e logística na organização e gestão do território em Canaã dos Carajás",
+   "veiculo": "Confins",
+   "volume": "68",
+   "publicador": "OpenEdition",
+   "doi": "10.4000/14nli",
+   "url": "https://doi.org/10.4000/14nli",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2000–2020s",
+   "metodo": "artigo; teoria da circulação, transporte e logística",
+   "achados": "Organização e gestão do território pela Vale em Canaã.",
+   "fontes_busca": [
+    "crossref"
+   ],
+   "abnt": "CASTRO, Antônio Orlando de; PALHETA, João Márcio. Circulação, transporte e logística na organização e gestão do território em Canaã dos Carajás. Confins, v. 68, 2025. DOI: 10.4000/14nli.",
+   "verificado_em": "https://doi.org/10.4000/14nli — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "chagas2023dinamica",
+   "tipo": "dissertacao",
+   "autores": [
+    "Chagas, Erika da Silva"
+   ],
+   "ano": 2023,
+   "titulo": "Dinâmica espaço-temporal da agropecuária e caracterização socioeconômica de produtores rurais do município de Canaã dos Carajás, estado do Pará",
+   "veiculo": "Agronomia",
+   "instituicao": "Universidade federal rural da Amazônia",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=13735082",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "trabalho"
+   ],
+   "periodo": "1985–2021",
+   "metodo": "dissertação (Agronomia)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CHAGAS, Erika da Silva. Dinâmica espaço-temporal da agropecuária e caracterização socioeconômica de produtores rurais do município de Canaã dos Carajás, estado do Pará. 2023. Dissertação (Mestrado em Agronomia) – Universidade federal rural da Amazônia, 2023.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=13735082 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "chagas2024dinamica",
+   "tipo": "artigo",
+   "autores": [
+    "Chagas, Erika da Silva",
+    "Santos, Marcos Antônio Souza dos",
+    "Mello, Andréa Hentz de"
+   ],
+   "ano": 2024,
+   "titulo": "Dinâmica espaço-temporal da agropecuária em município com economia de base mineral na Amazônia brasileira",
+   "veiculo": "Geofronter",
+   "volume": "10",
+   "paginas": "e8311",
+   "publicador": "State University of Mato Grosso do Sul",
+   "doi": "10.61389/geofronter.v10.8311",
+   "url": "https://doi.org/10.61389/geofronter.v10.8311",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "economia_mineral"
+   ],
+   "periodo": "1985–2021",
+   "metodo": "artigo; uso do solo em 1985, 1995, 2005, 2015 e 2021",
+   "achados": "A mineração afetou o crescimento e a diversificação da agropecuária, antes base econômica do município.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CHAGAS, Erika da Silva; SANTOS, Marcos Antônio Souza dos; MELLO, Andréa Hentz de. Dinâmica espaço-temporal da agropecuária em município com economia de base mineral na Amazônia brasileira. Geofronter, v. 10, p. e8311, 2024. DOI: 10.61389/geofronter.v10.8311.",
+   "verificado_em": "https://doi.org/10.61389/geofronter.v10.8311 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cirne2021ferro",
+   "tipo": "artigo",
+   "autores": [
+    "Cirne, Mariana Barbosa",
+    "Giacomazzi, Diego Busnello"
+   ],
+   "ano": 2021,
+   "titulo": "Ferro Carajás s11d: participação social e processo dialético no licenciamento ambiental de mineração em Unidade de Conservação",
+   "veiculo": "Direito Ambiental e Sociedade",
+   "volume": "11",
+   "numero": "3",
+   "paginas": "277-295",
+   "publicador": "Universidade Caxias do Sul",
+   "doi": "10.18226/22370021.v11.n3.13",
+   "url": "https://doi.org/10.18226/22370021.v11.n3.13",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "planejamento",
+    "meio_ambiente"
+   ],
+   "periodo": "2009–2012",
+   "metodo": "artigo; análise da audiência pública do licenciamento do S11D (Ibama)",
+   "achados": "Demandas da participação social no licenciamento do S11D em unidade de conservação.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CIRNE, Mariana Barbosa; GIACOMAZZI, Diego Busnello. Ferro Carajás s11d: participação social e processo dialético no licenciamento ambiental de mineração em Unidade de Conservação. Direito Ambiental e Sociedade, v. 11, n. 3, p. 277-295, 2021. DOI: 10.18226/22370021.v11.n3.13.",
+   "verificado_em": "https://doi.org/10.18226/22370021.v11.n3.13 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "correa2022politica",
+   "tipo": "artigo",
+   "autores": [
+    "Corrêa, Isabella Santos",
+    "Santana, Joana Valente",
+    "Santos, Laira Vasconcelos dos",
+    "Holanda, Anna Carolina Gomes"
+   ],
+   "ano": 2022,
+   "titulo": "Política de regularização fundiária urbana de interesse social no estado do Pará (2009-2018)",
+   "veiculo": "O social em questão",
+   "volume": "4",
+   "numero": "53",
+   "publicador": "Faculdades Catolicas",
+   "doi": "10.17771/pucrio.osq.58533",
+   "url": "https://doi.org/10.17771/pucrio.osq.58533",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia",
+    "planejamento"
+   ],
+   "periodo": "2009–2018",
+   "metodo": "artigo; entrevistas com 15 técnicos (Cohab, Defensoria, Instituto de Desenvolvimento Urbano de Canaã)",
+   "achados": "Limites e dificuldades da regularização fundiária urbana de interesse social no Pará.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "CORRÊA, Isabella Santos; SANTANA, Joana Valente; SANTOS, Laira Vasconcelos dos et al. Política de regularização fundiária urbana de interesse social no estado do Pará (2009-2018). O social em questão, v. 4, n. 53, 2022. DOI: 10.17771/pucrio.osq.58533.",
+   "verificado_em": "https://doi.org/10.17771/pucrio.osq.58533 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "correa2026enclave",
+   "tipo": "artigo",
+   "autores": [
+    "Corrêa, Leonardo Pantoja"
+   ],
+   "ano": 2026,
+   "titulo": "DO ENCLAVE RESIDENCIAL ÀS CIDADES FRAGMENTADAS: Produção de Espaços Residenciais Fechados em Canaã dos Carajás, Marabá e Parauapebas, Pará",
+   "veiculo": "California Digital Library",
+   "publicador": "DMPTool",
+   "doi": "10.48321/d1ca512bdb",
+   "url": "https://doi.org/10.48321/d1ca512bdb",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "moradia"
+   ],
+   "periodo": "2010s–2026",
+   "metodo": "tese/dissertação",
+   "achados": "Espaços residenciais fechados e fragmentação socioespacial em Canaã, Marabá e Parauapebas.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "CORRÊA, Leonardo Pantoja. DO ENCLAVE RESIDENCIAL ÀS CIDADES FRAGMENTADAS: Produção de Espaços Residenciais Fechados em Canaã dos Carajás, Marabá e Parauapebas, Pará. California Digital Library, 2026. DOI: 10.48321/d1ca512bdb.",
+   "verificado_em": "https://doi.org/10.48321/d1ca512bdb — DataCite: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cortez2019quantificacao",
+   "tipo": "capitulo",
+   "autores": [
+    "Cortez, Hilquias Miranda",
+    "Sá, Samy Cardoso",
+    "Pereira Júnior, Antônio"
+   ],
+   "ano": 2019,
+   "titulo": "Quantificação do desflorestamento no município de Canaã dos Carajás com o uso de geotecnologia em análise multitemporal",
+   "veiculo": "As multiplas visões do meio ambiente e os impactos ambientais",
+   "paginas": "12-32",
+   "publicador": "Simplíssimo",
+   "doi": "10.4322/978-85-455202-1-4-02",
+   "url": "https://doi.org/10.4322/978-85-455202-1-4-02",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente"
+   ],
+   "periodo": "multitemporal",
+   "metodo": "capítulo; geotecnologias e análise multitemporal",
+   "achados": "Quantifica o desflorestamento do município associado ao avanço da fronteira agropecuária e mineral.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CORTEZ, Hilquias Miranda; SÁ, Samy Cardoso; PEREIRA JÚNIOR, Antônio. Quantificação do desflorestamento no município de Canaã dos Carajás com o uso de geotecnologia em análise multitemporal. In: As multiplas visões do meio ambiente e os impactos ambientais, p. 12-32, 2019. DOI: 10.4322/978-85-455202-1-4-02.",
+   "verificado_em": "https://doi.org/10.4322/978-85-455202-1-4-02 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "costa2008mineworkers",
+   "tipo": "artigo",
+   "autores": [
+    "Costa, Silvana Dunham da"
+   ],
+   "ano": 2008,
+   "titulo": "Mineworkers' quality of life in remote communities : a multiple case study in the Brazilian Amazon",
+   "publicador": "University of British Columbia",
+   "doi": "10.14288/1.0066394",
+   "url": "https://www.semanticscholar.org/paper/38949d83f2e2c1c2a1d2b578a14e111ce23c3453",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "trabalho",
+    "saude"
+   ],
+   "periodo": "c. 2006–2008",
+   "metodo": "tese; estudo de casos múltiplos",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "s2"
+   ],
+   "abnt": "COSTA, Silvana Dunham da. Mineworkers' quality of life in remote communities : a multiple case study in the Brazilian Amazon. 2008. DOI: 10.14288/1.0066394.",
+   "verificado_em": "https://doi.org/10.14288/1.0066394 — DataCite: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "costa2017pela",
+   "tipo": "dissertacao",
+   "autores": [
+    "Costa, Christiane Helen Godinho"
+   ],
+   "ano": 2017,
+   "titulo": "Pela naturalização do urbano amazônico: Uma requalificação de Canaã dos Carajás sob perspectivas ecológicas",
+   "veiculo": "Arquitetura e Urbanismo",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6060320",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "meio_ambiente"
+   ],
+   "periodo": "2017",
+   "metodo": "dissertação (Arquitetura e Urbanismo); projeto urbano",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "COSTA, Christiane Helen Godinho. Pela naturalização do urbano amazônico: Uma requalificação de Canaã dos Carajás sob perspectivas ecológicas. 2017. Dissertação (Mestrado em Arquitetura e Urbanismo) – Universidade federal do Pará, 2017.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6060320 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "cruz2015mineracao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Cruz, Thiago Martins da"
+   ],
+   "ano": 2015,
+   "titulo": "Mineração e Campesinato em Canaã dos Carajás: o avanço cruel do capital no sudeste paraense",
+   "veiculo": "Dinâmicas Territoriais e Sociedade na Amazônia",
+   "instituicao": "Universidade federal do sul e sudeste do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3149405",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "meio_ambiente"
+   ],
+   "periodo": "2004–2015",
+   "metodo": "dissertação (Unifesspa)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — mineração e campesinato.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CRUZ, Thiago Martins da. Mineração e Campesinato em Canaã dos Carajás: o avanço cruel do capital no sudeste paraense. 2015. Dissertação (Mestrado em Dinâmicas Territoriais e Sociedade na Amazônia) – Universidade federal do sul e sudeste do Pará, 2015.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3149405 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "cruz2017avanco",
+   "tipo": "artigo",
+   "autores": [
+    "Cruz, Thiago Martins da"
+   ],
+   "ano": 2017,
+   "titulo": "Avanço da mineração e a resistência camponesa em Canaã dos Carajás",
+   "veiculo": "Caderno Eletrônico de Ciências Sociais",
+   "volume": "5",
+   "numero": "1",
+   "paginas": "94-114",
+   "publicador": "Universidade Federal do Espirito Santo",
+   "doi": "10.24305/cadecs.v5i1.2017.17773",
+   "url": "https://doi.org/10.24305/cadecs.v5i1.2017.17773",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "meio_ambiente"
+   ],
+   "periodo": "2004–2012",
+   "metodo": "artigo; pesquisa de campo e documental",
+   "achados": "Intensificação da mineração desestrutura a produção camponesa em Canaã; famílias desenvolvem resistências para permanecer na terra.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CRUZ, Thiago Martins da. Avanço da mineração e a resistência camponesa em Canaã dos Carajás. Caderno Eletrônico de Ciências Sociais, v. 5, n. 1, p. 94-114, 2017. DOI: 10.24305/cadecs.v5i1.2017.17773.",
+   "verificado_em": "https://doi.org/10.24305/cadecs.v5i1.2017.17773 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cruz2017licenca",
+   "tipo": "dissertacao",
+   "autores": [
+    "Cruz, Thiago Leite"
+   ],
+   "ano": 2017,
+   "titulo": "A licença social de operação em Canaã dos Carajás como instrumento de sustentabilidade do projeto Ferro Carajás S11D",
+   "veiculo": "Uso Sustentável de Recursos Naturais em Regiões Tropicais",
+   "instituicao": "Instituto tecnológico Vale – desenvolvimento sustentável",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=5733909",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "economia_mineral"
+   ],
+   "periodo": "2016–2017",
+   "metodo": "dissertação profissional (ITV); licença social de operação",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "CRUZ, Thiago Leite. A licença social de operação em Canaã dos Carajás como instrumento de sustentabilidade do projeto Ferro Carajás S11D. 2017. Dissertação (Mestrado em Uso Sustentável de Recursos Naturais em Regiões Tropicais) – Instituto tecnológico Vale – desenvolvimento sustentável, 2017.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=5733909 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "cruz2021compliance",
+   "tipo": "capitulo",
+   "autores": [
+    "Cruz, Thiago Leite"
+   ],
+   "ano": 2021,
+   "titulo": "(Non-)compliance with Public Finance Laws, Sustainability and Social Responsibility: A Critical Analysis of the Use of Mining Taxation in Canaã dos Carajás (Pará, Brazil)",
+   "veiculo": "World Sustainability Series Integrating Social Responsibility and Sustainable Development",
+   "paginas": "167-182",
+   "publicador": "Springer International Publishing",
+   "doi": "10.1007/978-3-030-59975-1_11",
+   "url": "https://doi.org/10.1007/978-3-030-59975-1_11",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2010s",
+   "metodo": "capítulo; análise crítica jurídica",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — (des)cumprimento das leis de finanças públicas no uso da tributação mineral.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CRUZ, Thiago Leite. (Non-)compliance with Public Finance Laws, Sustainability and Social Responsibility: A Critical Analysis of the Use of Mining Taxation in Canaã dos Carajás (Pará, Brazil). In: World Sustainability Series Integrating Social Responsibility and Sustainable Development, p. 167-182, 2021. DOI: 10.1007/978-3-030-59975-1_11.",
+   "verificado_em": "https://doi.org/10.1007/978-3-030-59975-1_11 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cruz2021measuring",
+   "tipo": "artigo",
+   "autores": [
+    "Cruz, Thiago Leite",
+    "Matlaba, Valente José",
+    "Mota, José Aroudo",
+    "Filipe dos Santos, Jorge"
+   ],
+   "ano": 2021,
+   "titulo": "Measuring the social license to operate of the mining industry in an Amazonian town: A case study of Canaã dos Carajás, Brazil",
+   "veiculo": "Resources Policy",
+   "volume": "74",
+   "paginas": "101892",
+   "publicador": "Elsevier BV",
+   "doi": "10.1016/j.resourpol.2020.101892",
+   "url": "https://doi.org/10.1016/j.resourpol.2020.101892",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "economia_mineral"
+   ],
+   "periodo": "c. 2019",
+   "metodo": "artigo; escala de licença social de operação (Boutilier e Thomson)",
+   "achados": "Mede a licença social de operação da mineração em Canaã, sede do maior projeto de ferro do mundo.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CRUZ, Thiago Leite; MATLABA, Valente José; MOTA, José Aroudo et al. Measuring the social license to operate of the mining industry in an Amazonian town: A case study of Canaã dos Carajás, Brazil. Resources Policy, v. 74, p. 101892, 2021. DOI: 10.1016/j.resourpol.2020.101892.",
+   "verificado_em": "https://doi.org/10.1016/j.resourpol.2020.101892 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cruz2022migracao",
+   "tipo": "tese",
+   "autores": [
+    "Cruz, Leonardo de Oliveira"
+   ],
+   "ano": 2022,
+   "titulo": "Migração e ocupações de maranhenses no sudeste do Pará: um estudo de caso a partir da moderna mineração em Parauapebas",
+   "veiculo": "Ciências sociais",
+   "instituicao": "Universidade estadual paulista júlio de mesquita filho ( marília )",
+   "url": "http://hdl.handle.net/11449/236500",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "migracao",
+    "urbanizacao"
+   ],
+   "periodo": "1980s–2022",
+   "metodo": "tese (UNESP); trajetórias de migrantes",
+   "achados": "Migrantes maranhenses formaram o primeiro núcleo urbano de Parauapebas (Vila Rio Verde) atraídos pela mineração.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "CRUZ, Leonardo de Oliveira. Migração e ocupações de maranhenses no sudeste do Pará: um estudo de caso a partir da moderna mineração em Parauapebas. 2022. Tese (Doutorado em Ciências sociais) – Universidade estadual paulista júlio de mesquita filho ( marília ), 2022.",
+   "verificado_em": "http://hdl.handle.net/11449/236500 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "cruz2022mudancas",
+   "tipo": "anais",
+   "autores": [
+    "Cruz, James Thiago Leite",
+    "Pinto, Pedro Israel Mota"
+   ],
+   "ano": 2022,
+   "titulo": "Mudanças climáticas e impactos ambientais da mineração em comunidades rurais de Parauapebas e Canaã dos Carajás (Pará, Brasil)",
+   "veiculo": "Anais do 60º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural (SOBER)",
+   "publicador": "Even3",
+   "doi": "10.29327/sober2022.486738",
+   "url": "https://doi.org/10.29327/sober2022.486738",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente"
+   ],
+   "periodo": "2022",
+   "metodo": "anais SOBER",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "CRUZ, James Thiago Leite; PINTO, Pedro Israel Mota. Mudanças climáticas e impactos ambientais da mineração em comunidades rurais de Parauapebas e Canaã dos Carajás (Pará, Brasil). In: Anais do 60º Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural (SOBER), 2022. DOI: 10.29327/sober2022.486738.",
+   "verificado_em": "https://doi.org/10.29327/sober2022.486738 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "cruz2024sustainable",
+   "tipo": "capitulo",
+   "autores": [
+    "Cruz, James Thiago Leite"
+   ],
+   "ano": 2024,
+   "titulo": "(in)sustainable development - analyzing the use of the financial compensation for exploration of mineral resources (CFEM) in Canaã dos Carajás (Pará, brazil)",
+   "veiculo": "Direitos Fundamentais e Sustentabilidade Ambiental, Vol. II",
+   "publicador": "Iberojur Science Press",
+   "doi": "10.62140/jtlc3172024",
+   "url": "https://doi.org/10.62140/jtlc3172024",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2010s–2023",
+   "metodo": "capítulo; análise da Constituição, legislação da CFEM e LOA municipal",
+   "achados": "Se a CFEM foi aplicada em áreas estratégicas e prioritárias, conforme a legislação.",
+   "fontes_busca": [
+    "crossref",
+    "openalex"
+   ],
+   "abnt": "CRUZ, James Thiago Leite. (in)sustainable development - analyzing the use of the financial compensation for exploration of mineral resources (CFEM) in Canaã dos Carajás (Pará, brazil). In: Direitos Fundamentais e Sustentabilidade Ambiental, Vol. II, 2024. DOI: 10.62140/jtlc3172024.",
+   "verificado_em": "https://doi.org/10.62140/jtlc3172024 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "dias2025incentivos",
+   "tipo": "dissertacao",
+   "autores": [
+    "Dias, Anderson Saldanha"
+   ],
+   "ano": 2025,
+   "titulo": "Os incentivos fiscais federais ao setor de mineração e sua contribuição para o desenvolvimento da Amazônia: o caso da Vale s11d em Canaã dos Carajás",
+   "instituicao": "UFPA",
+   "url": "https://repositorio.ufpa.br/handle/2011/17899",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2010s–2025",
+   "metodo": "dissertação (UFPA)",
+   "achados": "Lacuna entre os objetivos dos incentivos fiscais federais ao S11D e os resultados de desenvolvimento regional.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "DIAS, Anderson Saldanha. Os incentivos fiscais federais ao setor de mineração e sua contribuição para o desenvolvimento da Amazônia: o caso da Vale s11d em Canaã dos Carajás. 2025. Dissertação (Mestrado) – UFPA, 2025.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/17899 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "domingues2021geografias",
+   "tipo": "artigo",
+   "autores": [
+    "Domingues, Á.",
+    "Godinho, André Portugal"
+   ],
+   "ano": 2021,
+   "titulo": "Geografias da Urbanização Planetária",
+   "veiculo": "e-cadernos CES",
+   "numero": "36",
+   "publicador": "OpenEdition",
+   "doi": "10.4000/eces.6518",
+   "url": "https://www.semanticscholar.org/paper/b21367a1fe0fddb83c590efc22a1c0134f73a724",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "—",
+   "metodo": "artigo teórico; urbanização planetária",
+   "achados": "O 'hinterland' formado por geografias do extrativismo — de favelas a company towns.",
+   "fontes_busca": [
+    "s2"
+   ],
+   "abnt": "DOMINGUES, Á.; GODINHO, André Portugal. Geografias da Urbanização Planetária. e-cadernos CES, n. 36, 2021. DOI: 10.4000/eces.6518.",
+   "verificado_em": "https://doi.org/10.4000/eces.6518 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "emilio2025cidade",
+   "tipo": "artigo",
+   "autores": [
+    "Emilio, Mauro Emilio Costa Silva",
+    "João, Silvia Regina"
+   ],
+   "ano": 2025,
+   "titulo": "A cidade da Vale s.a? Parauapebas, entre expansão urbana e periférica e a psicosfera da grande coorporação mineral the city of Vale s.a? Parauapebas, between urban and peripheral expansion and the psychosphere of the great mineral coorporation la ciudad de Vale s.a? Parauapebas, entre la expansión urbana y periférica y la psicosfera de la gran coorporación minera",
+   "veiculo": "Espaço em Revista",
+   "volume": "27",
+   "numero": "1",
+   "paginas": "342-365",
+   "publicador": "Instituto de Geografia da Universidade Federal de Catalão",
+   "doi": "10.70261/er.v27i1.74892",
+   "url": "https://doi.org/10.70261/er.v27i1.74892",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "planejamento"
+   ],
+   "periodo": "2020s",
+   "metodo": "artigo; entrevistas, campo e dados",
+   "achados": "A Vale molda a psicosfera urbana e a governança territorial de Parauapebas.",
+   "fontes_busca": [
+    "crossref",
+    "openalex"
+   ],
+   "abnt": "EMILIO, Mauro Emilio Costa Silva; JOÃO, Silvia Regina. A cidade da Vale s.a? Parauapebas, entre expansão urbana e periférica e a psicosfera da grande coorporação mineral the city of Vale s.a? Parauapebas, between urban and peripheral expansion and the psychosphere of the great mineral coorporation la ciudad de Vale s.a? Parauapebas, entre la expansión urbana y periférica y la psicosfera de la gran coorporación minera. Espaço em Revista, v. 27, n. 1, p. 342-365, 2025. DOI: 10.70261/er.v27i1.74892.",
+   "verificado_em": "https://doi.org/10.70261/er.v27i1.74892 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "farias2008mineracao",
+   "tipo": "tese",
+   "autores": [
+    "Farias, André Luis Assunção"
+   ],
+   "ano": 2008,
+   "titulo": "Mineração, subcontração e desenvolvimento em paraubebpas e canaa dpos Carajás: Possibilidades e limites para a região sudeste do Pará",
+   "veiculo": "Desenvolvimento sustentável do trópico úmido",
+   "instituicao": "Universidade federal do Pará",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "trabalho"
+   ],
+   "periodo": "2000s",
+   "metodo": "tese (NAEA/UFPA)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — subcontratação e desenvolvimento em Parauapebas e Canaã.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "FARIAS, André Luis Assunção. Mineração, subcontração e desenvolvimento em paraubebpas e canaa dpos Carajás: Possibilidades e limites para a região sudeste do Pará. 2008. Tese (Doutorado em Desenvolvimento sustentável do trópico úmido) – Universidade federal do Pará, 2008.",
+   "verificado_em": "https://catalogodeteses.capes.gov.br (registro 20082915001016002P5; UNIVERSIDADE FEDERAL DO PARÁ; DESENVOLVIMENTO SUSTENTÁVEL DO TRÓPICO ÚMIDO) — título/autor/ano de defesa conferidos em 2026-09-10"
+  },
+  {
+   "slug": "faro2022amunicipios",
+   "tipo": "dissertacao",
+   "autores": [
+    "Faro, Roberta Pina Barbosa"
+   ],
+   "ano": 2022,
+   "titulo": "Amunicípios mineradores e a utilização da CFEM (compensação financeira pela exploração de recursos minerais) para combate à pandemia da covid-19: Um estudo sobre as políticas públicas de itaituba, paragominas e Canaã dos Carajás",
+   "veiculo": "Direito, Políticas Públicas e Desenvolvimento Regional",
+   "instituicao": "Centro universitário do estado do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11619683",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "saude"
+   ],
+   "periodo": "2020–2021",
+   "metodo": "dissertação (Direito)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — uso da CFEM no combate à COVID-19.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "FARO, Roberta Pina Barbosa. Amunicípios mineradores e a utilização da CFEM (compensação financeira pela exploração de recursos minerais) para combate à pandemia da covid-19: Um estudo sobre as políticas públicas de itaituba, paragominas e Canaã dos Carajás. 2022. Dissertação (Mestrado em Direito, Políticas Públicas e Desenvolvimento Regional) – Centro universitário do estado do Pará, 2022.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11619683 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "fernandes2023natureza",
+   "tipo": "capitulo",
+   "autores": [
+    "Fernandes, Patrícia Capanema Álvares"
+   ],
+   "ano": 2023,
+   "titulo": "Natureza, infraestrutura, mineração e urbanização: cartografando interseções históricas na região de Carajás",
+   "veiculo": "Amazônia:",
+   "paginas": "93-114",
+   "publicador": "NAEA",
+   "doi": "10.4322/978-85-7143-217-8.cap06",
+   "url": "https://doi.org/10.4322/978-85-7143-217-8.cap06",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "meio_ambiente",
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "1984–2020s",
+   "metodo": "capítulo; geoprocessamento de imagens desde 1984–1986",
+   "achados": "Desmatamento em Carajás fortemente vinculado às infraestruturas dos governos militares.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "FERNANDES, Patrícia Capanema Álvares. Natureza, infraestrutura, mineração e urbanização: cartografando interseções históricas na região de Carajás. In: Amazônia:, p. 93-114, 2023. DOI: 10.4322/978-85-7143-217-8.cap06.",
+   "verificado_em": "https://doi.org/10.4322/978-85-7143-217-8.cap06 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "ferreira2025sobrevivendo",
+   "tipo": "artigo",
+   "autores": [
+    "Ferreira, Rita de Kássia Pinheiro",
+    "Bringel, Fabiano de Oliveira"
+   ],
+   "ano": 2025,
+   "titulo": "“Sobrevivendo ao Inferno”: mineração e luta pela terra em Canaã dos Carajás (PA) – o caso do Acampamento Oziel Alves do MST “Surviving Hell”: mining and the struggle for land in Canaã dos Carajás (PA) – the case of the MST Oziel Alves Camp “Sobreviviendo al infierno”: la minería y la lucha por la tierra en Canaã dos Carajás (PA) – el caso del Campamento Oziel Alves del MST",
+   "veiculo": "Revista da ANPEGE",
+   "volume": "21",
+   "numero": "45",
+   "publicador": "ANPEGE - Revista",
+   "doi": "10.5418/ra2025.v21i45.19622",
+   "url": "https://doi.org/10.5418/ra2025.v21i45.19622",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2020s",
+   "metodo": "artigo; estudo de caso do Acampamento Oziel Alves (MST)",
+   "achados": "Proletarização do camponês no circuito espacial da mineração e estratégias de resistência.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "FERREIRA, Rita de Kássia Pinheiro; BRINGEL, Fabiano de Oliveira. “Sobrevivendo ao Inferno”: mineração e luta pela terra em Canaã dos Carajás (PA) – o caso do Acampamento Oziel Alves do MST “Surviving Hell”: mining and the struggle for land in Canaã dos Carajás (PA) – the case of the MST Oziel Alves Camp “Sobreviviendo al infierno”: la minería y la lucha por la tierra en Canaã dos Carajás (PA) – el caso del Campamento Oziel Alves del MST. Revista da ANPEGE, v. 21, n. 45, 2025. DOI: 10.5418/ra2025.v21i45.19622.",
+   "verificado_em": "https://doi.org/10.5418/ra2025.v21i45.19622 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "filgueiras2018approaches",
+   "tipo": "capitulo",
+   "autores": [
+    "Filgueiras, Liesel Mack",
+    "Rabetim, Andreia",
+    "Pillar, Isabel Aché"
+   ],
+   "ano": 2018,
+   "titulo": "Approaches to Supporting Local and Community Development",
+   "veiculo": "Extractive Industries",
+   "paginas": "633-651",
+   "publicador": "Oxford University PressOxford",
+   "doi": "10.1093/oso/9780198817369.003.0030",
+   "url": "https://doi.org/10.1093/oso/9780198817369.003.0030",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "planejamento",
+    "economia_mineral"
+   ],
+   "periodo": "2010s",
+   "metodo": "capítulo de livro; parceria social público-privada (fundação corporativa)",
+   "achados": "Governança intersetorial liderada por fundação corporativa, governo e sociedade civil no desenvolvimento social de cidade com grande empreendimento.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "FILGUEIRAS, Liesel Mack; RABETIM, Andreia; PILLAR, Isabel Aché. Approaches to Supporting Local and Community Development. In: Extractive Industries, p. 633-651, 2018. DOI: 10.1093/oso/9780198817369.003.0030.",
+   "verificado_em": "https://doi.org/10.1093/oso/9780198817369.003.0030 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "furtado2014ocupacao",
+   "tipo": "artigo",
+   "autores": [
+    "Furtado, Ana Maria Medeiros",
+    "Ponte, F."
+   ],
+   "ano": 2014,
+   "titulo": "Ocupação e impactos decorrentes da expansão urbana da cidade de Parauapebas, estado do Pará",
+   "veiculo": "Revista do Instituto Histórico e Geográfico do Pará",
+   "volume": "1",
+   "numero": "1",
+   "paginas": "123-134",
+   "publicador": "Galoa Events Proceedings",
+   "doi": "10.17553/2359-0831/ihgp.n1v1p123-134",
+   "url": "https://www.semanticscholar.org/paper/3d3d54dd6e371f0eed24a546353ce297f0e85944",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1980s–2014",
+   "metodo": "artigo",
+   "achados": "Parauapebas nasceu como núcleo planejado para a mineração de ferro e tornou-se o município de maior crescimento demográfico do Pará.",
+   "fontes_busca": [
+    "s2"
+   ],
+   "abnt": "FURTADO, Ana Maria Medeiros; PONTE, F.. Ocupação e impactos decorrentes da expansão urbana da cidade de Parauapebas, estado do Pará. Revista do Instituto Histórico e Geográfico do Pará, v. 1, n. 1, p. 123-134, 2014. DOI: 10.17553/2359-0831/ihgp.n1v1p123-134.",
+   "verificado_em": "https://doi.org/10.17553/2359-0831/ihgp.n1v1p123-134 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "furtado2023deteccao",
+   "tipo": "artigo",
+   "autores": [
+    "Furtado, Layse Gomes",
+    "Braga Pereira, Carla",
+    "Silva, Davi Farias da",
+    "Belato, Leoni de Souza",
+    "Freitas Pereira, Bruno Wendell de"
+   ],
+   "ano": 2023,
+   "titulo": "Detecção de Mudanças do Uso e Cobertura do Solo no Município de Canaã dos Carajás, Pará",
+   "veiculo": "Revista Verde Grande: Geografia e Interdisciplinaridade",
+   "volume": "5",
+   "numero": "02",
+   "paginas": "116-131",
+   "publicador": "Universidade Estadual de Montes Claros (UNIIMONTES)",
+   "doi": "10.46551/rvg2675239520232116131",
+   "url": "https://doi.org/10.46551/rvg2675239520232116131",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "urbanizacao"
+   ],
+   "periodo": "c. 1990–2020 (30 anos)",
+   "metodo": "artigo; classificação de imagens, matriz de conversão",
+   "achados": "Série histórica de uso e cobertura com matriz de transição e persistência — comparação direta para a mancha da E3b.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "FURTADO, Layse Gomes; BRAGA PEREIRA, Carla; SILVA, Davi Farias da et al. Detecção de Mudanças do Uso e Cobertura do Solo no Município de Canaã dos Carajás, Pará. Revista Verde Grande: Geografia e Interdisciplinaridade, v. 5, n. 02, p. 116-131, 2023. DOI: 10.46551/rvg2675239520232116131.",
+   "verificado_em": "https://doi.org/10.46551/rvg2675239520232116131 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "godinho2021fast",
+   "tipo": "capitulo",
+   "autores": [
+    "Godinho, A.P."
+   ],
+   "ano": 2021,
+   "titulo": "Fast urbanization and the commodities global market – The example of Parauapebas - Brazil",
+   "veiculo": "Research Tracks in Urbanism: Dynamics, Planning and Design in Contemporary Urban Territories",
+   "paginas": "35-41",
+   "publicador": "CRC Press",
+   "doi": "10.1201/9781003220855-5",
+   "url": "https://doi.org/10.1201/9781003220855-5",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1980s–2020",
+   "metodo": "capítulo; morfologia urbana em três fases",
+   "achados": "Três tipologias urbanas em Parauapebas (Núcleo de Carajás, cidade aberta, expansão) ligadas ao ferro.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "GODINHO, A.P.. Fast urbanization and the commodities global market – The example of Parauapebas - Brazil. In: Research Tracks in Urbanism: Dynamics, Planning and Design in Contemporary Urban Territories, p. 35-41, 2021. DOI: 10.1201/9781003220855-5.",
+   "verificado_em": "https://doi.org/10.1201/9781003220855-5 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "juarez2021espaco",
+   "tipo": "artigo",
+   "autores": [
+    "Juarez, Rodson"
+   ],
+   "ano": 2021,
+   "titulo": "O espaço urbano como efeito do fordismo na Amazônia: O caso de Serra do Navio/AP / Urban space as an amazon fordism effect: Serra do Navio/Ap (Brazil) case",
+   "veiculo": "Brazilian Journal of Development",
+   "volume": "7",
+   "numero": "8",
+   "paginas": "76237-76254",
+   "publicador": "South Florida Publishing LLC",
+   "doi": "10.34117/bjdv7n8-036",
+   "url": "https://doi.org/10.34117/bjdv7n8-036",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1950s–2021",
+   "metodo": "artigo; estudo de caso de company town",
+   "achados": "Espaço urbano de Serra do Navio como efeito do fordismo.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "JUAREZ, Rodson. O espaço urbano como efeito do fordismo na Amazônia: O caso de Serra do Navio/AP / Urban space as an amazon fordism effect: Serra do Navio/Ap (Brazil) case. Brazilian Journal of Development, v. 7, n. 8, p. 76237-76254, 2021. DOI: 10.34117/bjdv7n8-036.",
+   "verificado_em": "https://doi.org/10.34117/bjdv7n8-036 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "leite2016mensuracao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Leite, Alegria dos Santos"
+   ],
+   "ano": 2016,
+   "titulo": "Mensuração da Complexificação da Periferia Dinâmica: Aplicação da Metodologia de Contas Alfa em Canaã dos Carajas",
+   "veiculo": "Economia",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3545549",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2000s–2015",
+   "metodo": "dissertação; metodologia de contas alfa",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "LEITE, Alegria dos Santos. Mensuração da Complexificação da Periferia Dinâmica: Aplicação da Metodologia de Contas Alfa em Canaã dos Carajas. 2016. Dissertação (Mestrado em Economia) – Universidade federal do Pará, 2016.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3545549 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "leopoldo2023apresentacao",
+   "tipo": "artigo",
+   "autores": [
+    "Leopoldo, Eudes"
+   ],
+   "ano": 2023,
+   "titulo": "Apresentação do dossiê Planejamento, Urbanização e Políticas Públicas na Região de Carajás",
+   "veiculo": "Confins",
+   "volume": "61",
+   "publicador": "OpenEdition",
+   "doi": "10.4000/confins.55368",
+   "url": "https://doi.org/10.4000/confins.55368",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "planejamento",
+    "urbanizacao"
+   ],
+   "periodo": "2023",
+   "metodo": "apresentação de dossiê (Confins)",
+   "achados": "Dossiê 'Planejamento, Urbanização e Políticas Públicas na Região de Carajás'.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "LEOPOLDO, Eudes. Apresentação do dossiê Planejamento, Urbanização e Políticas Públicas na Região de Carajás. Confins, v. 61, 2023. DOI: 10.4000/confins.55368.",
+   "verificado_em": "https://doi.org/10.4000/confins.55368 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "lima2018economia",
+   "tipo": "artigo",
+   "autores": [
+    "Lima, Ricardo Ângelo Pereira de",
+    "Silva, João Márcio Palheta da"
+   ],
+   "ano": 2018,
+   "titulo": "Economia mineral e os impactos nos territórios amazônicos do Sudeste Paraense",
+   "veiculo": "Planeta Amazônia: Revista Internacional de Direito Ambiental e Políticas Públicas",
+   "numero": "9",
+   "paginas": "103",
+   "publicador": "Universidade Federal do Amapa",
+   "doi": "10.18468/planetaamazonia.2017n9.p103-116",
+   "url": "http://doi.org/10.18468/planetaamazonia.2017n9.p103-116",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2004–2012",
+   "metodo": "artigo; análise territorial comparada",
+   "achados": "Mineração como instrumento de ordenamento territorial produz efeitos socioeconômicos diferenciados em Marabá, Parauapebas e Canaã.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "LIMA, Ricardo Ângelo Pereira de; SILVA, João Márcio Palheta da. Economia mineral e os impactos nos territórios amazônicos do Sudeste Paraense. Planeta Amazônia: Revista Internacional de Direito Ambiental e Políticas Públicas, n. 9, p. 103, 2018. DOI: 10.18468/planetaamazonia.2017n9.p103-116.",
+   "verificado_em": "https://doi.org/10.18468/planetaamazonia.2017n9.p103-116 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "lima2019sistematizacao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Lima, Debora Garcia"
+   ],
+   "ano": 2019,
+   "titulo": "Sistematização da experiência de reorganização do acolhimento aos usuários nas unidades de atenção básica do município de canaí dos Carajás",
+   "veiculo": "Saúde da famíla",
+   "instituicao": "Universidade estácio de sá",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=8945965",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude"
+   ],
+   "periodo": "2019",
+   "metodo": "dissertação profissional; sistematização de experiência",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "LIMA, Debora Garcia. Sistematização da experiência de reorganização do acolhimento aos usuários nas unidades de atenção básica do município de canaí dos Carajás. 2019. Dissertação (Mestrado em Saúde da famíla) – Universidade estácio de sá, 2019.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=8945965 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "lopes2026impacto",
+   "tipo": "artigo",
+   "autores": [
+    "Lopes, Athos Ricardo Souza",
+    "Barcelos, Tiago Soares",
+    "Trindade, Lucas Lopes da",
+    "Silva Jr, Elizeu Paulo da",
+    "Santos, Saymon Souza dos"
+   ],
+   "ano": 2026,
+   "titulo": "O impacto da mineração em Parauapebas-PA",
+   "veiculo": "Espaço em Revista",
+   "volume": "27",
+   "numero": "2",
+   "paginas": "256-281",
+   "publicador": "Instituto de Geografia da Universidade Federal de Catalão",
+   "doi": "10.70261/er.v27i2.75124",
+   "url": "https://doi.org/10.70261/er.v27i2.75124",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2010s–2026",
+   "metodo": "artigo; análise documental e dados secundários",
+   "achados": "Aplicação da CFEM em Parauapebas limitada por falhas institucionais.",
+   "fontes_busca": [
+    "crossref"
+   ],
+   "abnt": "LOPES, Athos Ricardo Souza; BARCELOS, Tiago Soares; TRINDADE, Lucas Lopes da et al. O impacto da mineração em Parauapebas-PA. Espaço em Revista, v. 27, n. 2, p. 256-281, 2026. DOI: 10.70261/er.v27i2.75124.",
+   "verificado_em": "https://doi.org/10.70261/er.v27i2.75124 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "loureiro2023conhecimento",
+   "tipo": "artigo",
+   "autores": [
+    "Loureiro, João Paulo Borges de",
+    "Santos, Marcos Antônio Souza dos",
+    "Lopes, Maria Lúcia Bahia",
+    "Santos, Jorge Filipe dos",
+    "Demajorovic, Jacques",
+    "Costa, Nilson Luíz",
+    "Martins, Cyntia Meireles"
+   ],
+   "ano": 2023,
+   "titulo": "Conhecimento e senso de pertencimento territorial como indicadores de capital social em um município com economia de base mineral na Amazônia brasileira",
+   "veiculo": "Revista de Gestão e Secretariado (Management and Administrative Professional Review)",
+   "volume": "14",
+   "numero": "3",
+   "publicador": "Brazilian Journals",
+   "doi": "10.7769/gesec.v14i3.1842",
+   "url": "http://dx.doi.org/10.7769/gesec.v14i3.1842",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "sociedade",
+    "economia_mineral"
+   ],
+   "periodo": "c. 2022",
+   "metodo": "artigo; dois levantamentos por survey em Parauapebas",
+   "achados": "A população desconhece a CFEM e as compensações ambientais e tem baixo pertencimento territorial.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "LOUREIRO, João Paulo Borges de; SANTOS, Marcos Antônio Souza dos; LOPES, Maria Lúcia Bahia et al. Conhecimento e senso de pertencimento territorial como indicadores de capital social em um município com economia de base mineral na Amazônia brasileira. Revista de Gestão e Secretariado (Management and Administrative Professional Review), v. 14, n. 3, 2023. DOI: 10.7769/gesec.v14i3.1842.",
+   "verificado_em": "https://doi.org/10.7769/gesec.v14i3.1842 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "macchiavelloferradas2022urbanizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Macchiavello Ferradas, Fiorella",
+    "Carvalho de Carvalho, Larissa",
+    "Regina Galvão, Lilyan"
+   ],
+   "ano": 2022,
+   "titulo": "A urbanização como processo na implantação de grandes empreendimentos: Um olhar sobre fordlândia, porto de pecém e Carajás urbanization as a process in implementation of great enterprises: A look at fordlândia, port de pecém and Carajás",
+   "veiculo": "Revista Espaço e Geografia",
+   "volume": "21",
+   "numero": "2",
+   "publicador": "Biblioteca Central da UNB",
+   "doi": "10.26512/2236-56562018e40198",
+   "url": "https://doi.org/10.26512/2236-56562018e40198",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "—",
+   "metodo": "artigo; comparação de megaprojetos",
+   "achados": "Urbanização desencadeada por megaprojetos em Fordlândia, Pecém e Carajás.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MACCHIAVELLO FERRADAS, Fiorella; CARVALHO DE CARVALHO, Larissa; REGINA GALVÃO, Lilyan. A urbanização como processo na implantação de grandes empreendimentos: Um olhar sobre fordlândia, porto de pecém e Carajás urbanization as a process in implementation of great enterprises: A look at fordlândia, port de pecém and Carajás. Revista Espaço e Geografia, v. 21, n. 2, 2022. DOI: 10.26512/2236-56562018e40198.",
+   "verificado_em": "https://doi.org/10.26512/2236-56562018e40198 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "macedo2020caracterizacao",
+   "tipo": "tese",
+   "autores": [
+    "Macêdo, Olinda"
+   ],
+   "ano": 2020,
+   "titulo": "Caracterização epidemiológica e molecular do vírus da imunodeficiência humana 1 (HIV-1) nos municípios de Canaã dos Carajás, Curionópolis, Marabá e Parauapebas, Pará, Brasil, 2005 - 2014",
+   "instituicao": "IEC",
+   "url": "https://patua.iec.gov.br/handle/iec/4486",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude",
+    "migracao"
+   ],
+   "periodo": "c. 2015–2019",
+   "metodo": "tese (IEC); epidemiologia molecular",
+   "achados": "Prevalência e características do HIV-1 em quatro municípios do complexo de Carajás, motivada pelo grande fluxo migratório.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "MACÊDO, Olinda. Caracterização epidemiológica e molecular do vírus da imunodeficiência humana 1 (HIV-1) nos municípios de Canaã dos Carajás, Curionópolis, Marabá e Parauapebas, Pará, Brasil, 2005 - 2014. 2020. Tese (Doutorado) – IEC, 2020.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/IEC-2_d78922eae5e23e02619c37d74a511b60 — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "macedo2020prevalence",
+   "tipo": "artigo",
+   "autores": [
+    "Macêdo, Olinda",
+    "Freitas, Felipe Bonfim",
+    "Reis, Raimundo Macedo dos",
+    "Bensabath, Gilberta",
+    "Nunes, Heloisa Marciliano",
+    "Siqueira, Jones Anderson Monteiro",
+    "Gabbay, Yvone Benchimol"
+   ],
+   "ano": 2020,
+   "titulo": "Prevalence and epidemiological characteristics of human immunodeficiency virus-1 infection in an iron mining area with intense migratory flow in Pará State, Brazilian amazon, 2005–2014",
+   "veiculo": "Brazilian Journal of Microbiology",
+   "volume": "51",
+   "numero": "4",
+   "paginas": "1737-1745",
+   "publicador": "Springer Science and Business Media LLC",
+   "doi": "10.1007/s42770-020-00361-7",
+   "url": "https://doi.org/10.1007/s42770-020-00361-7",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude",
+    "migracao"
+   ],
+   "periodo": "c. 2015–2019",
+   "metodo": "artigo; inquérito sorológico e epidemiológico",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — prevalência de HIV-1 em área de mineração de ferro com intenso fluxo migratório.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MACÊDO, Olinda; FREITAS, Felipe Bonfim; REIS, Raimundo Macedo dos et al. Prevalence and epidemiological characteristics of human immunodeficiency virus-1 infection in an iron mining area with intense migratory flow in Pará State, Brazilian amazon, 2005–2014. Brazilian Journal of Microbiology, v. 51, n. 4, p. 1737-1745, 2020. DOI: 10.1007/s42770-020-00361-7.",
+   "verificado_em": "https://doi.org/10.1007/s42770-020-00361-7 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "machado2024urbanizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Machado, Rodrigo",
+    "Rodrigues, Jovenildo",
+    "Fernandes, Rui"
+   ],
+   "ano": 2024,
+   "titulo": "Urbanização, moradia e desigualdade socioespacial",
+   "veiculo": "Revista geonorte",
+   "volume": "15",
+   "numero": "50",
+   "publicador": "Revista Geonorte",
+   "doi": "10.21170/geonorte.2024.v.15.n.50.01.25",
+   "url": "https://doi.org/10.21170/geonorte.2024.v.15.n.50.01.25",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "moradia",
+    "urbanizacao"
+   ],
+   "periodo": "2000–2024",
+   "metodo": "artigo; materialismo histórico-dialético",
+   "achados": "Desigualdades socioespaciais na produção da moradia em Parauapebas desde 2000.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MACHADO, Rodrigo; RODRIGUES, Jovenildo; FERNANDES, Rui. Urbanização, moradia e desigualdade socioespacial. Revista geonorte, v. 15, n. 50, 2024. DOI: 10.21170/geonorte.2024.v.15.n.50.01.25.",
+   "verificado_em": "https://doi.org/10.21170/geonorte.2024.v.15.n.50.01.25 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "mascarenhas2021conflitos",
+   "tipo": "artigo",
+   "autores": [
+    "Mascarenhas, Abraão Levi dos Santos",
+    "Vidal, Maria Rita"
+   ],
+   "ano": 2021,
+   "titulo": "Conflitos e Tensões no Acesso dos Recursos Terra-Água",
+   "veiculo": "GEOGRAFIA (Londrina)",
+   "volume": "30",
+   "numero": "2",
+   "paginas": "149",
+   "publicador": "Universidade Estadual de Londrina",
+   "doi": "10.5433/2447-1747.2021v30n2p149",
+   "url": "https://doi.org/10.5433/2447-1747.2021v30n2p149",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "meio_ambiente"
+   ],
+   "periodo": "2018",
+   "metodo": "artigo; dados da CPT e cartografia temática",
+   "achados": "Tipologias dos conflitos por terra e água na região.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "MASCARENHAS, Abraão Levi dos Santos; VIDAL, Maria Rita. Conflitos e Tensões no Acesso dos Recursos Terra-Água. GEOGRAFIA (Londrina), v. 30, n. 2, p. 149, 2021. DOI: 10.5433/2447-1747.2021v30n2p149.",
+   "verificado_em": "https://doi.org/10.5433/2447-1747.2021v30n2p149 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "matlaba2017social",
+   "tipo": "artigo",
+   "autores": [
+    "Matlaba, Valente José",
+    "Mota, José Aroudo",
+    "Maneschy, Maria Cristina",
+    "Santos, Jorge Filipe dos"
+   ],
+   "ano": 2017,
+   "titulo": "Social perception at the onset of a mining development in Eastern Amazonia, Brazil",
+   "veiculo": "Resources Policy",
+   "volume": "54",
+   "paginas": "157-166",
+   "publicador": "Elsevier BV",
+   "doi": "10.1016/j.resourpol.2017.09.012",
+   "url": "https://doi.org/10.1016/j.resourpol.2017.09.012",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "economia_mineral"
+   ],
+   "periodo": "c. 2016",
+   "metodo": "artigo; survey de percepção social",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — percepção social no início do empreendimento S11D.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MATLABA, Valente José; MOTA, José Aroudo; MANESCHY, Maria Cristina et al. Social perception at the onset of a mining development in Eastern Amazonia, Brazil. Resources Policy, v. 54, p. 157-166, 2017. DOI: 10.1016/j.resourpol.2017.09.012.",
+   "verificado_em": "https://doi.org/10.1016/j.resourpol.2017.09.012 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "matlaba2019socioeconomic",
+   "tipo": "artigo",
+   "autores": [
+    "Matlaba, Valente José",
+    "Maneschy, Maria Cristina",
+    "Filipe dos Santos, Jorge",
+    "Mota, José Aroudo"
+   ],
+   "ano": 2019,
+   "titulo": "Socioeconomic dynamics of a mining town in Amazon: a case study from Canaã dos Carajás, Brazil",
+   "veiculo": "Mineral Economics",
+   "volume": "32",
+   "numero": "1",
+   "paginas": "75-90",
+   "publicador": "Springer Science and Business Media LLC",
+   "doi": "10.1007/s13563-018-0159-6",
+   "url": "https://doi.org/10.1007/s13563-018-0159-6",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "migracao"
+   ],
+   "periodo": "2000–2016",
+   "metodo": "artigo; indicadores socioeconômicos",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — dinâmica socioeconômica de uma cidade mineradora.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MATLABA, Valente José; MANESCHY, Maria Cristina; FILIPE DOS SANTOS, Jorge et al. Socioeconomic dynamics of a mining town in Amazon: a case study from Canaã dos Carajás, Brazil. Mineral Economics, v. 32, n. 1, p. 75-90, 2019. DOI: 10.1007/s13563-018-0159-6.",
+   "verificado_em": "https://doi.org/10.1007/s13563-018-0159-6 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "matlaba2021resilience",
+   "tipo": "artigo",
+   "autores": [
+    "Matlaba, Valente José",
+    "Pereira, Lorena Reis",
+    "Mota, José Aroudo",
+    "Santos, Jorge Filipe dos"
+   ],
+   "ano": 2021,
+   "titulo": "Resilience Perception of a Mining Town in Eastern Amazonia: A Case Study of Canaã Dos Carajás, Brazil",
+   "veiculo": "Environmental Management",
+   "volume": "67",
+   "numero": "4",
+   "paginas": "698-716",
+   "publicador": "Springer Science and Business Media LLC",
+   "doi": "10.1007/s00267-020-01405-2",
+   "url": "https://doi.org/10.1007/s00267-020-01405-2",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "planejamento",
+    "sociedade"
+   ],
+   "periodo": "c. 2017",
+   "metodo": "artigo; survey de percepção de resiliência",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MATLABA, Valente José; PEREIRA, Lorena Reis; MOTA, José Aroudo et al. Resilience Perception of a Mining Town in Eastern Amazonia: A Case Study of Canaã Dos Carajás, Brazil. Environmental Management, v. 67, n. 4, p. 698-716, 2021. DOI: 10.1007/s00267-020-01405-2.",
+   "verificado_em": "https://doi.org/10.1007/s00267-020-01405-2 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "matlaba2024local",
+   "tipo": "artigo",
+   "autores": [
+    "Matlaba, Valente José",
+    "Santos, Jorge Filipe dos",
+    "Mota, José Aroudo",
+    "Cruz, Leon Nazaré da",
+    "Cruz, Thiago Leite",
+    "Belato, Leoni de Souza",
+    "Demétrio Neto, Eduardo Nicolau",
+    "Dias, Rafael Pompeu",
+    "Vilarinho, Charles Caldas",
+    "Andrade, Diego de Souza",
+    "Serrão, Sérgio Luis Cardoso",
+    "Pires, Válber de Almeida"
+   ],
+   "ano": 2024,
+   "titulo": "Local social perception of mining in Parauapebas and Canaã dos Carajás in the eastern Amazonia, Brazil",
+   "veiculo": "Resources Policy",
+   "volume": "96",
+   "paginas": "105237",
+   "publicador": "Elsevier BV",
+   "doi": "10.1016/j.resourpol.2024.105237",
+   "url": "https://doi.org/10.1016/j.resourpol.2024.105237",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "economia_mineral"
+   ],
+   "periodo": "c. 2022",
+   "metodo": "artigo; survey de percepção",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MATLABA, Valente José; SANTOS, Jorge Filipe dos; MOTA, José Aroudo et al. Local social perception of mining in Parauapebas and Canaã dos Carajás in the eastern Amazonia, Brazil. Resources Policy, v. 96, p. 105237, 2024. DOI: 10.1016/j.resourpol.2024.105237.",
+   "verificado_em": "https://doi.org/10.1016/j.resourpol.2024.105237 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "matos2014estruturas",
+   "tipo": "artigo",
+   "autores": [
+    "Matos, Aliny Soan de Jesus",
+    "Garcia, Caísa Costa",
+    "Pena, Heriberto Wagner Amanajás"
+   ],
+   "ano": 2014,
+   "titulo": "Estruturas economicas da região sudeste do estado do Pará, Amazônia-Brasil. Uma abordagem produtiva do municipio de Canaã dos Carajás",
+   "veiculo": "Observatório de la economía latinoamericana",
+   "url": "https://EconPapers.repec.org/RePEc:erv:observ:y:2014:i:201:21",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2000s–2012",
+   "metodo": "artigo; Quociente Locacional, índice de Hirschman-Herfindahl e matriz de dinamismo",
+   "achados": "Classifica as atividades econômicas estratégicas de Canaã e a especialização produtiva induzida pela mineração.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MATOS, Aliny Soan de Jesus; GARCIA, Caísa Costa; PENA, Heriberto Wagner Amanajás. Estruturas economicas da região sudeste do estado do Pará, Amazônia-Brasil. Uma abordagem produtiva do municipio de Canaã dos Carajás. Observatório de la economía latinoamericana, 2014.",
+   "verificado_em": "https://EconPapers.repec.org/RePEc:erv:observ:y:2014:i:201:21 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "medeiros2016dinamicas",
+   "tipo": "artigo",
+   "autores": [
+    "Medeiros, L.F."
+   ],
+   "ano": 2016,
+   "titulo": "Dinâmicas Territoriais e Produção do Espaço no Município de Canaã dos Carajás Antes e Depois da Chegada da Mineração",
+   "veiculo": "Boletim Amazônico de Geografia",
+   "volume": "3",
+   "numero": "5",
+   "paginas": "112-130",
+   "publicador": "Boletim Amazonico de Geografia",
+   "doi": "10.17552/2358-7040/bag.v3n5p112-130",
+   "url": "https://doi.org/10.17552/2358-7040/bag.v3n5p112-130",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "c. 2004–2014",
+   "metodo": "artigo; categoria território e indicadores socioeconômicos de dez anos",
+   "achados": "Produção do espaço de Canaã antes e depois da chegada das mineradoras, com leitura dialética do desenvolvimento.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MEDEIROS, L.F.. Dinâmicas Territoriais e Produção do Espaço no Município de Canaã dos Carajás Antes e Depois da Chegada da Mineração. Boletim Amazônico de Geografia, v. 3, n. 5, p. 112-130, 2016. DOI: 10.17552/2358-7040/bag.v3n5p112-130.",
+   "verificado_em": "https://doi.org/10.17552/2358-7040/bag.v3n5p112-130 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "medeiros2016gestao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Medeiros, Gláucia Rodrigues Nascimento"
+   ],
+   "ano": 2016,
+   "titulo": "Gestão do território e responsabilidade social das empresas de mineração no estado do Pará",
+   "veiculo": "Geografia",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://repositorio.ufpa.br/handle/2011/9028",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "planejamento",
+    "economia_mineral"
+   ],
+   "periodo": "2010–2016",
+   "metodo": "dissertação; responsabilidade social corporativa e gestão do território",
+   "achados": "Prefeitura e Vale se articulam para preparar Canaã para o S11D, com investimento em infraestrutura voltado às obras.",
+   "fontes_busca": [
+    "bdtd",
+    "s2"
+   ],
+   "abnt": "MEDEIROS, Gláucia Rodrigues Nascimento. Gestão do território e responsabilidade social das empresas de mineração no estado do Pará. 2016. Dissertação (Mestrado em Geografia) – Universidade federal do Pará, 2016.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/9028 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "medeiros2018gestao",
+   "tipo": "artigo",
+   "autores": [
+    "Medeiros, Gláucia Rodrigues Nascimento",
+    "Medeiros, Marcus Vinicius Batella",
+    "Medeiros, Luana Faria"
+   ],
+   "ano": 2018,
+   "titulo": "GESTÃO DO TERRITÓRIO: análise econômica da mineração nos municípios da Amazônia Oriental paraense (2010 a 2017)",
+   "veiculo": "InterEspaço: Revista de Geografia e Interdisciplinaridade",
+   "volume": "4",
+   "numero": "12",
+   "paginas": "227",
+   "publicador": "Universidade Federal do Maranhao",
+   "doi": "10.18764/2446-6549.v4n12p228-252",
+   "url": "https://doi.org/10.18764/2446-6549.v4n12p228-252",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2010–2017",
+   "metodo": "artigo; análise de receitas e PIB",
+   "achados": "Impostos, taxas e CFEM tornam Parauapebas e Canaã vetores econômicos do Pará.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MEDEIROS, Gláucia Rodrigues Nascimento; MEDEIROS, Marcus Vinicius Batella; MEDEIROS, Luana Faria. GESTÃO DO TERRITÓRIO: análise econômica da mineração nos municípios da Amazônia Oriental paraense (2010 a 2017). InterEspaço: Revista de Geografia e Interdisciplinaridade, v. 4, n. 12, p. 227, 2018. DOI: 10.18764/2446-6549.v4n12p228-252.",
+   "verificado_em": "https://doi.org/10.18764/2446-6549.v4n12p228-252 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "melo2016papel",
+   "tipo": "artigo",
+   "autores": [
+    "Melo, Ana Carolina Campos de",
+    "Cardoso, Ana Cláudia Duarte"
+   ],
+   "ano": 2016,
+   "titulo": "O papel da grande mineração e sua interação com a dinâmica urbana em uma região de fronteira na Amazônia",
+   "veiculo": "Nova Economia",
+   "volume": "26",
+   "numero": "spe",
+   "paginas": "1211-1243",
+   "publicador": "FapUNIFESP (SciELO)",
+   "doi": "10.1590/0103-6351/3963",
+   "url": "https://doi.org/10.1590/0103-6351/3963",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "2000s–2015",
+   "metodo": "artigo; urbanização extensiva e níveis da realidade social (Lefebvre)",
+   "achados": "A mineração articula os territórios de extração aos circuitos globais, alterando a estruturação urbana e a relação urbano-rural na fronteira.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MELO, Ana Carolina Campos de; CARDOSO, Ana Cláudia Duarte. O papel da grande mineração e sua interação com a dinâmica urbana em uma região de fronteira na Amazônia. Nova Economia, v. 26, n. spe, p. 1211-1243, 2016. DOI: 10.1590/0103-6351/3963.",
+   "verificado_em": "https://doi.org/10.1590/0103-6351/3963 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "melo2020invisivel",
+   "tipo": "tese",
+   "autores": [
+    "Melo, Ana Carolina Campos de"
+   ],
+   "ano": 2020,
+   "titulo": "O invisível em movimento um estudo sobre o urbano e suas possibilidades no Sudeste Paraense",
+   "veiculo": "Economia",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=10796886",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "2000s–2020",
+   "metodo": "tese (Economia, Cedeplar/UFMG)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — o urbano no sudeste paraense.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "MELO, Ana Carolina Campos de. O invisível em movimento um estudo sobre o urbano e suas possibilidades no Sudeste Paraense. 2020. Tese (Doutorado em Economia) – Universidade federal do Pará, 2020.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=10796886 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "miranda2017efeito",
+   "tipo": "dissertacao",
+   "autores": [
+    "Miranda, Brenno Morais"
+   ],
+   "ano": 2017,
+   "titulo": "Efeito da Dinâmica Socioeconômica Derivada da Ocupação Urbana e Exploração Mineral: Crescimento da Criminalidade dos Municípios de Canaã dos Carajás e Parauapebas, de 2008 a 2013",
+   "veiculo": "Segurança publica",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6156608",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade"
+   ],
+   "periodo": "2000s–2016",
+   "metodo": "dissertação (Segurança Pública)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — crescimento da criminalidade em Canaã e Parauapebas.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "MIRANDA, Brenno Morais. Efeito da Dinâmica Socioeconômica Derivada da Ocupação Urbana e Exploração Mineral: Crescimento da Criminalidade dos Municípios de Canaã dos Carajás e Parauapebas, de 2008 a 2013. 2017. Dissertação (Mestrado em Segurança publica) – Universidade federal do Pará, 2017.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=6156608 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "miranda2023territorializacao",
+   "tipo": "artigo",
+   "autores": [
+    "Miranda, Rogério Rego",
+    "Gomes, Lucas Ferreira"
+   ],
+   "ano": 2023,
+   "titulo": "TERRITORIALIZAÇÃO CAMPONESA NO SUDESTE PARAENSE A PARTIR DOS ACAMPAMENTOS: o caso de Canaã dos Carajás-Pará",
+   "veiculo": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "doi": "10.12957/geouerj.2023.73213",
+   "url": "https://www.e-publicacoes.uerj.br/geouerj/article/view/73213",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2010s–2023",
+   "metodo": "artigo; revisão, documentos, campo",
+   "achados": "Acampamentos disputam áreas de interesse mineral da Vale; territorialização da luta pela terra.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "MIRANDA, Rogério Rego; GOMES, Lucas Ferreira. TERRITORIALIZAÇÃO CAMPONESA NO SUDESTE PARAENSE A PARTIR DOS ACAMPAMENTOS: o caso de Canaã dos Carajás-Pará. LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas), 2023. DOI: 10.12957/geouerj.2023.73213.",
+   "verificado_em": "https://www.e-publicacoes.uerj.br/geouerj/article/view/73213 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "montecardoso2018mineracao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Monte-Cardoso, Daniel"
+   ],
+   "ano": 2018,
+   "titulo": "Mineração e subdesenvolvimento : impactos da atividade mineradora nos municípios de Canaã dos Carajás, Marabá e Parauapebas (2004 - 2015)",
+   "veiculo": "Desenvolvimento econômico",
+   "instituicao": "Universidade estadual de campinas",
+   "url": "https://hdl.handle.net/20.500.12733/1636230",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2004–2015",
+   "metodo": "dissertação (Economia, Unicamp); indicadores socioeconômicos municipais",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — mineração e subdesenvolvimento em Canaã, Marabá e Parauapebas.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "MONTE-CARDOSO, Daniel. Mineração e subdesenvolvimento : impactos da atividade mineradora nos municípios de Canaã dos Carajás, Marabá e Parauapebas (2004 - 2015). 2018. Dissertação (Mestrado em Desenvolvimento econômico) – Universidade estadual de campinas, 2018.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UNICAMP-30_a63ea3940ad5fc0a2b6663eb84630ce5 — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "monteiro2025variacoes",
+   "tipo": "artigo",
+   "autores": [
+    "Monteiro, Aline Cecília de Oliveira",
+    "Gallardo, Nuria Pérez"
+   ],
+   "ano": 2025,
+   "titulo": "Variações do índice de calor ao longo de duas décadas: Evidências em Canaã dos Carajás e suas implicações climáticas",
+   "veiculo": "Revista Políticas Públicas & Cidades",
+   "volume": "14",
+   "numero": "10",
+   "paginas": "e3068",
+   "publicador": "Editoriales Iberoamericanos",
+   "doi": "10.23900/2359-1552v14n10-56-2025",
+   "url": "https://doi.org/10.23900/2359-1552v14n10-56-2025",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente",
+    "urbanizacao"
+   ],
+   "periodo": "c. 2003–2023",
+   "metodo": "artigo; Índice Humidex com dados NASA POWER",
+   "achados": "Aumento do índice de calor ao longo de duas décadas, associado ao crescimento urbano.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "MONTEIRO, Aline Cecília de Oliveira; GALLARDO, Nuria Pérez. Variações do índice de calor ao longo de duas décadas: Evidências em Canaã dos Carajás e suas implicações climáticas. Revista Políticas Públicas & Cidades, v. 14, n. 10, p. e3068, 2025. DOI: 10.23900/2359-1552v14n10-56-2025.",
+   "verificado_em": "https://doi.org/10.23900/2359-1552v14n10-56-2025 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "moraes2023compensacao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Moraes, Thiago Moraes de"
+   ],
+   "ano": 2023,
+   "titulo": "COMPENSAÇÃO FINANCEIRA PELA EXPLORAÇÃO MINERAL NOS MUNICÍPIOS DO ESTADO DO PARÁ: uma proposta de instrumentalização do controle social sob uma visão sistêmica",
+   "veiculo": "Gestão Pública",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=14024479",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2010s–2023",
+   "metodo": "dissertação profissional",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "MORAES, Thiago Moraes de. COMPENSAÇÃO FINANCEIRA PELA EXPLORAÇÃO MINERAL NOS MUNICÍPIOS DO ESTADO DO PARÁ: uma proposta de instrumentalização do controle social sob uma visão sistêmica. 2023. Dissertação (Mestrado em Gestão Pública) – Universidade federal do Pará, 2023.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=14024479 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "moura2005mina",
+   "tipo": "anais",
+   "autores": [
+    "Moura, Alexandro",
+    "Nunes, Jareston",
+    "Menezes, João",
+    "Medeiros, Luciano",
+    "Mazzucchelli, Nereide"
+   ],
+   "ano": 2005,
+   "titulo": "Mina de cobre do Sossego da companhia Vale do rio doce - emprego e desenvolvimento para o Pará. Divisas para o Brasil",
+   "veiculo": "ABM Proceedings",
+   "paginas": "36-39",
+   "publicador": "Editora Blucher",
+   "doi": "10.5151/5463-5463-0010",
+   "url": "https://doi.org/10.5151/5463-5463-0010",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "trabalho"
+   ],
+   "periodo": "2004–2005",
+   "metodo": "relato técnico da mineradora (congresso ABM)",
+   "achados": "Sossego gerava ~500 empregos diretos Vale e ~800 em contratadas; meta de 70% de mão de obra local esbarrava na baixa qualificação de um município recém-emancipado.",
+   "fontes_busca": [
+    "crossref",
+    "openalex"
+   ],
+   "abnt": "MOURA, Alexandro; NUNES, Jareston; MENEZES, João et al. Mina de cobre do Sossego da companhia Vale do rio doce - emprego e desenvolvimento para o Pará. Divisas para o Brasil. In: ABM Proceedings, p. 36-39, 2005. DOI: 10.5151/5463-5463-0010.",
+   "verificado_em": "https://doi.org/10.5151/5463-5463-0010 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "muller2021conhecimento",
+   "tipo": "dissertacao",
+   "autores": [
+    "Muller, Patrick Hans Pessoa de Mello"
+   ],
+   "ano": 2021,
+   "titulo": "(Re) Conhecimento da estrutura fundiária dos munícipios paraenses de Parauapebas e Canaã dos Carajás",
+   "veiculo": "Uso Sustentável de Recursos Naturais em Regiões Tropicais",
+   "instituicao": "Associação instituto tecnológico Vale – desenvolvimento sustentável",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=13757981",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "planejamento"
+   ],
+   "periodo": "2021",
+   "metodo": "dissertação profissional (ITV)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — estrutura fundiária de Parauapebas e Canaã.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "MULLER, Patrick Hans Pessoa de Mello. (Re) Conhecimento da estrutura fundiária dos munícipios paraenses de Parauapebas e Canaã dos Carajás. 2021. Dissertação (Mestrado em Uso Sustentável de Recursos Naturais em Regiões Tropicais) – Associação instituto tecnológico Vale – desenvolvimento sustentável, 2021.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=13757981 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "nascimento2024dinamica",
+   "tipo": "dissertacao",
+   "autores": [
+    "Nascimento, Marcus Vinicius Brito"
+   ],
+   "ano": 2024,
+   "titulo": "A dinâmica das áreas verdes em Canaã dos Carajás e 11 suas repercussões no espaço urbano",
+   "veiculo": "Planejamento e desenvolvimento regional e urbano na Amazônia",
+   "instituicao": "Universidade federal do sul e sudeste do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=16158033",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "meio_ambiente"
+   ],
+   "periodo": "2024",
+   "metodo": "dissertação (Unifesspa)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — áreas verdes e espaço urbano.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "NASCIMENTO, Marcus Vinicius Brito. A dinâmica das áreas verdes em Canaã dos Carajás e 11 suas repercussões no espaço urbano. 2024. Dissertação (Mestrado em Planejamento e desenvolvimento regional e urbano na Amazônia) – Universidade federal do sul e sudeste do Pará, 2024.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=16158033 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "nascimentoneto2021emancipacao",
+   "tipo": "artigo",
+   "autores": [
+    "Nascimento Neto, Pedro Luiz do"
+   ],
+   "ano": 2021,
+   "titulo": "Emancipação e crescimento de Canaã dos Carajás-PA: uma abordagem para o ensino de história local",
+   "veiculo": "Gnosis Carajás",
+   "volume": "1",
+   "numero": "2",
+   "paginas": "e21008",
+   "publicador": "Gnosis Carajas",
+   "doi": "10.55723/gc.v1i2.14",
+   "url": "https://doi.org/10.55723/gc.v1i2.14",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "1994–2020",
+   "metodo": "artigo; história local com documentos",
+   "achados": "Contexto de emancipação e crescimento de Canaã e consequências ambientais da mineração, para uso em sala de aula.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "NASCIMENTO NETO, Pedro Luiz do. Emancipação e crescimento de Canaã dos Carajás-PA: uma abordagem para o ensino de história local. Gnosis Carajás, v. 1, n. 2, p. e21008, 2021. DOI: 10.55723/gc.v1i2.14.",
+   "verificado_em": "https://doi.org/10.55723/gc.v1i2.14 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "nogueira2022gestao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Nogueira, Valder Almeida"
+   ],
+   "ano": 2022,
+   "titulo": "Gestão democrática escolar no sistema municipal de educação de Canaã dos Carajás, Pará (1997-2021)",
+   "instituicao": "Universidade Federal do Tocantins",
+   "url": "http://hdl.handle.net/11612/5978",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade"
+   ],
+   "periodo": "1997–2021",
+   "metodo": "dissertação profissional (UFT); pesquisa documental",
+   "achados": "Institucionalização da gestão democrática escolar no Sistema Municipal de Educação.",
+   "fontes_busca": [
+    "bdtd",
+    "openalex"
+   ],
+   "abnt": "NOGUEIRA, Valder Almeida. Gestão democrática escolar no sistema municipal de educação de Canaã dos Carajás, Pará (1997-2021). 2022. Dissertação (Mestrado) – Universidade Federal do Tocantins, 2022.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UFT_2d06d63004d55b53f40b377852598a7f — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "oliveira2021cfem",
+   "tipo": "dissertacao",
+   "autores": [
+    "Oliveira, Antonia Larissa Alves"
+   ],
+   "ano": 2021,
+   "titulo": "CFEM e o desenvolvimento socioeconômico na Amazônia: uma análise dos municípios de Canaã dos Carajás (PA), Marabá (PA) e Parauapebas (PA)",
+   "veiculo": "Planejamento e desenvolvimento regional e urbano na Amazônia",
+   "instituicao": "Universidade federal do sul e sudeste do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11158801",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2000s–2020",
+   "metodo": "dissertação (Unifesspa)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "OLIVEIRA, Antonia Larissa Alves. CFEM e o desenvolvimento socioeconômico na Amazônia: uma análise dos municípios de Canaã dos Carajás (PA), Marabá (PA) e Parauapebas (PA). 2021. Dissertação (Mestrado em Planejamento e desenvolvimento regional e urbano na Amazônia) – Universidade federal do sul e sudeste do Pará, 2021.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11158801 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "oliveira2021processo",
+   "tipo": "artigo",
+   "autores": [
+    "Oliveira, Ritianne de Fátima Silva de",
+    "Nogueira, Valder Almeida"
+   ],
+   "ano": 2021,
+   "titulo": "O processo de tombamento das escolas rurais no município de Canaã dos Carajás-PA no período 2007 a 2016",
+   "veiculo": "Gnosis Carajás",
+   "volume": "1",
+   "numero": "1",
+   "paginas": "e21002",
+   "publicador": "Gnosis Carajas",
+   "doi": "10.55723/gc.v1i1.6",
+   "url": "https://doi.org/10.55723/gc.v1i1.6",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "historia"
+   ],
+   "periodo": "2007–2016",
+   "metodo": "artigo; documentos do Conselho Municipal de Educação",
+   "achados": "Desativação e extinção de escolas rurais no período de expansão mineral.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "OLIVEIRA, Ritianne de Fátima Silva de; NOGUEIRA, Valder Almeida. O processo de tombamento das escolas rurais no município de Canaã dos Carajás-PA no período 2007 a 2016. Gnosis Carajás, v. 1, n. 1, p. e21002, 2021. DOI: 10.55723/gc.v1i1.6.",
+   "verificado_em": "https://doi.org/10.55723/gc.v1i1.6 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "padilha2020estado",
+   "tipo": "tese",
+   "autores": [
+    "Padilha, Simone Cristina Contente"
+   ],
+   "ano": 2020,
+   "titulo": "Estado, território e mineração no Brasil: o caso do Projeto S11D/Vale em Canaã dos Carajás-Pa",
+   "veiculo": "Ciências sociais em desenvolvimento, agricultura e sociedade",
+   "instituicao": "Universidade federal rural do Rio de Janeiro",
+   "url": "https://rima.ufrrj.br/jspui/handle/20.500.14407/9490",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2008–2020",
+   "metodo": "tese (UFRRJ)",
+   "achados": "O S11D como resposta da Vale à queda do preço do ferro pós-2008 e o papel do Estado no licenciamento e na produção do território.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "PADILHA, Simone Cristina Contente. Estado, território e mineração no Brasil: o caso do Projeto S11D/Vale em Canaã dos Carajás-Pa. 2020. Tese (Doutorado em Ciências sociais em desenvolvimento, agricultura e sociedade) – Universidade federal rural do Rio de Janeiro, 2020.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UFRRJ-1_e8d7e526987cebf14c1bb908839165b3 — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "paz2011mineiros",
+   "tipo": "artigo",
+   "autores": [
+    "Paz, Adalberto"
+   ],
+   "ano": 2011,
+   "titulo": "Os mineiros da floresta : sociedade e trabalho em uma fronteira de mineração industrial amazônica (1943-1964)",
+   "url": "https://www.semanticscholar.org/paper/5257aeee2acae941f92e6111b8012b6d4ebd87ed",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "trabalho",
+    "historia"
+   ],
+   "periodo": "1943–1964",
+   "metodo": "tese (história social)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — Serra do Navio como fronteira de mineração industrial.",
+   "fontes_busca": [
+    "capes",
+    "s2"
+   ],
+   "abnt": "PAZ, Adalberto. Os mineiros da floresta : sociedade e trabalho em uma fronteira de mineração industrial amazônica (1943-1964). 2011.",
+   "verificado_em": "https://catalogodeteses.capes.gov.br (registro 2011133003017019P9; UNIVERSIDADE ESTADUAL DE CAMPINAS; HISTÓRIA) — título/autor/ano de defesa conferidos em 2026-09-10"
+  },
+  {
+   "slug": "pereira2011programa",
+   "tipo": "tese",
+   "autores": [
+    "Pereira, Alexandre Macedo"
+   ],
+   "ano": 2011,
+   "titulo": "O programa de educação ambiental dos grandes empreendimentos (Vale S/A) na amazônia e as implicações socioambientais nas comunidades do entorno: o caso da vila Bom Jesus no município de Canaã dos Carajás",
+   "veiculo": "Gestão dos recursos naturais e desenvolvimento local na amaz",
+   "instituicao": "Universidade federal do Pará",
+   "url": "http://repositorio.ufpa.br/jspui/handle/2011/9719",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "meio_ambiente"
+   ],
+   "periodo": "2004–2011",
+   "metodo": "dissertação; estudo de caso (Vila Bom Jesus) sobre o Programa de Educação Ambiental do Projeto Sossego",
+   "achados": "Questiona se o PEA da Vale promove transformação socioambiental e cidadania na comunidade do entorno da mina.",
+   "fontes_busca": [
+    "bdtd",
+    "capes",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "PEREIRA, Alexandre Macedo. O programa de educação ambiental dos grandes empreendimentos (Vale S/A) na amazônia e as implicações socioambientais nas comunidades do entorno: o caso da vila Bom Jesus no município de Canaã dos Carajás. 2011. Tese (Doutorado em Gestão dos recursos naturais e desenvolvimento local na amaz) – Universidade federal do Pará, 2011.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UFPA_dbf8f8762b728a502ad6cc39d9476d8f — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "pereira2017percepcao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Pereira, Lorena Reis"
+   ],
+   "ano": 2017,
+   "titulo": "Percepção de resiliência em municípios com empreendimentos minerários: Estudo do caso Canaã dos Carajás, Brasil",
+   "veiculo": "Uso Sustentável de Recursos Naturais em Regiões Tropicais",
+   "instituicao": "Instituto tecnológico Vale – desenvolvimento sustentável",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=5766799",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "planejamento",
+    "sociedade"
+   ],
+   "periodo": "2016–2017",
+   "metodo": "dissertação profissional (ITV); percepção de resiliência",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "PEREIRA, Lorena Reis. Percepção de resiliência em municípios com empreendimentos minerários: Estudo do caso Canaã dos Carajás, Brasil. 2017. Dissertação (Mestrado em Uso Sustentável de Recursos Naturais em Regiões Tropicais) – Instituto tecnológico Vale – desenvolvimento sustentável, 2017.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=5766799 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "pereira2021producao",
+   "tipo": "artigo",
+   "autores": [
+    "Pereira, Alba Lúcia Ribeiro Raithy",
+    "Miranda, Cláudia do Socorro Carvalho",
+    "Guedes, Juan Andrade",
+    "Oliveira, Rafael Aleixo Coelho de",
+    "Campos, Pedro Silvestre da Silva",
+    "Palácios, Vera Regina da Cunha Menezes",
+    "Faria, Camylle Maia Costa",
+    "Filgueiras, Tainara Carvalho Garcia Miranda",
+    "Figueiredo, Roberto Carlos",
+    "Gonçalves, Nelson Veiga"
+   ],
+   "ano": 2021,
+   "titulo": "A produção socioambiental da malária em três municípios da região de Carajás, Pará, Brasil",
+   "veiculo": "Revista de Saúde Pública",
+   "volume": "55",
+   "paginas": "73",
+   "publicador": "Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais",
+   "doi": "10.11606/s1518-8787.2021055003463",
+   "url": "https://doi.org/10.11606/s1518-8787.2021055003463",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude",
+    "meio_ambiente"
+   ],
+   "periodo": "2014–2018",
+   "metodo": "artigo; estudo ecológico (SIVEP-Malária, IBGE, TerraClass)",
+   "achados": "Produção socioambiental da malária em Marabá, Parauapebas e Canaã associada ao uso da terra.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "PEREIRA, Alba Lúcia Ribeiro Raithy; MIRANDA, Cláudia do Socorro Carvalho; GUEDES, Juan Andrade et al. A produção socioambiental da malária em três municípios da região de Carajás, Pará, Brasil. Revista de Saúde Pública, v. 55, p. 73, 2021. DOI: 10.11606/s1518-8787.2021055003463.",
+   "verificado_em": "https://doi.org/10.11606/s1518-8787.2021055003463 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "pereira2023migracao",
+   "tipo": "artigo",
+   "autores": [
+    "Pereira, Raimundo Miguel dos Reis"
+   ],
+   "ano": 2023,
+   "titulo": "Migração e desterritorialização: Sociabilidade afetada e exclusão social da força de trabalho migrante em Parauapebas-PA",
+   "veiculo": "Revista Contemporânea",
+   "volume": "3",
+   "numero": "8",
+   "paginas": "12512-12536",
+   "publicador": "South Florida Publishing LLC",
+   "doi": "10.56083/rcv3n8-142",
+   "url": "http://dx.doi.org/10.56083/rcv3n8-142",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "migracao",
+    "trabalho"
+   ],
+   "periodo": "1960s–2023",
+   "metodo": "artigo",
+   "achados": "Desterritorialização, sociabilidade afetada e exclusão da força de trabalho migrante maranhense em Parauapebas.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "PEREIRA, Raimundo Miguel dos Reis. Migração e desterritorialização: Sociabilidade afetada e exclusão social da força de trabalho migrante em Parauapebas-PA. Revista Contemporânea, v. 3, n. 8, p. 12512-12536, 2023. DOI: 10.56083/rcv3n8-142.",
+   "verificado_em": "https://doi.org/10.56083/rcv3n8-142 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "pereirajunior2020analise",
+   "tipo": "artigo",
+   "autores": [
+    "Pereira Júnior, Antônio",
+    "Pereira, Lucimar Costa",
+    "Dias, Layla Bianca Almeida",
+    "Garcia, Paulo da Silva"
+   ],
+   "ano": 2020,
+   "titulo": "Análise multitemporal do desmatamento ocorrido entre 2006 e 2017 no sudeste do Pará",
+   "veiculo": "Revista Eletrônica de Gestão e Tecnologias Ambientais",
+   "volume": "8",
+   "numero": "2",
+   "paginas": "84",
+   "publicador": "Universidade Federal da Bahia",
+   "doi": "10.9771/gesta.v8i2.38243",
+   "url": "https://doi.org/10.9771/gesta.v8i2.38243",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "meio_ambiente"
+   ],
+   "periodo": "2006–2017",
+   "metodo": "artigo; PRODES/DETER (INPE) na sub-bacia do Itacaiúnas",
+   "achados": "Evolução trienal do desflorestamento no sudeste paraense.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "PEREIRA JÚNIOR, Antônio; PEREIRA, Lucimar Costa; DIAS, Layla Bianca Almeida et al. Análise multitemporal do desmatamento ocorrido entre 2006 e 2017 no sudeste do Pará. Revista Eletrônica de Gestão e Tecnologias Ambientais, v. 8, n. 2, p. 84, 2020. DOI: 10.9771/gesta.v8i2.38243.",
+   "verificado_em": "https://doi.org/10.9771/gesta.v8i2.38243 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "pinheiro2016royalties",
+   "tipo": "dissertacao",
+   "autores": [
+    "Pinheiro, Leandro Andrei Lopes"
+   ],
+   "ano": 2016,
+   "titulo": "Royalties da mineração em Canaã dos Carajás",
+   "veiculo": "Uso Sustentável de Recursos Naturais em Regiões Tropicais",
+   "instituicao": "Instituto tecnológico Vale – desenvolvimento sustentável",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4938367",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2000s–2016",
+   "metodo": "dissertação profissional (ITV)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — royalties minerais em Canaã.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "PINHEIRO, Leandro Andrei Lopes. Royalties da mineração em Canaã dos Carajás. 2016. Dissertação (Mestrado em Uso Sustentável de Recursos Naturais em Regiões Tropicais) – Instituto tecnológico Vale – desenvolvimento sustentável, 2016.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4938367 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "pinto2018mineracao",
+   "tipo": "artigo",
+   "autores": [
+    "Pinto, Jax Nildo Aragão"
+   ],
+   "ano": 2018,
+   "titulo": "Mineração e saúde coletiva no sudeste paraense: a vida nos assentamentos rurais da Amazônia",
+   "veiculo": "Arca - Repositório Institucional da Fiocruz",
+   "url": "https://arca.fiocruz.br/handle/icict/38619",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude",
+    "historia"
+   ],
+   "periodo": "c. 2018",
+   "metodo": "projeto/relatório Fiocruz; entrevistas com assentados do MST",
+   "achados": "Impactos do Programa Grande Carajás no processo saúde-doença de assentamentos rurais de cinco municípios, incluindo Canaã.",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "PINTO, Jax Nildo Aragão. Mineração e saúde coletiva no sudeste paraense: a vida nos assentamentos rurais da Amazônia. Arca - Repositório Institucional da Fiocruz, 2018.",
+   "verificado_em": "https://arca.fiocruz.br/handle/icict/38619 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "pires1995organizacao",
+   "tipo": "tese",
+   "autores": [
+    "Pires, Jose Carlos"
+   ],
+   "ano": 1995,
+   "titulo": "A organizacao do espaco no mundo tropical: O caso da area da atravessada pela estrada de ferro carajas-amazonia Oriental(br)",
+   "veiculo": "Geografia (geografia humana)",
+   "instituicao": "Universidade de são paulo",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "1980s–1995",
+   "metodo": "tese (Geografia)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — organização do espaço ao longo da Estrada de Ferro Carajás.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "PIRES, Jose Carlos. A organizacao do espaco no mundo tropical: O caso da area da atravessada pela estrada de ferro carajas-amazonia Oriental(br). 1995. Tese (Doutorado em Geografia (geografia humana)) – Universidade de são paulo, 1995.",
+   "verificado_em": "https://catalogodeteses.capes.gov.br (registro 19952533002010035P8; UNIVERSIDADE DE SÃO PAULO; GEOGRAFIA (GEOGRAFIA HUMANA)) — título/autor/ano de defesa conferidos em 2026-09-10"
+  },
+  {
+   "slug": "rego2025urbanizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Rego, Anna Karyne Costa",
+    "Ribeiro, Sabrina Santos",
+    "Costa, Izaura Cristina Nunes Pereira",
+    "Santos, Marcos Antônio Souza dos"
+   ],
+   "ano": 2025,
+   "titulo": "Urbanização e agricultura urbana na Amazônia: o caso da “Capital do Minério”, Parauapebas - PA",
+   "veiculo": "Revista de Gestão e Secretariado",
+   "volume": "16",
+   "numero": "1",
+   "paginas": "e4555",
+   "publicador": "Brazilian Journals",
+   "doi": "10.7769/gesec.v16i1.4555",
+   "url": "https://doi.org/10.7769/gesec.v16i1.4555",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "2020s",
+   "metodo": "artigo",
+   "achados": "Agricultura urbana na 'Capital do Minério'.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "REGO, Anna Karyne Costa; RIBEIRO, Sabrina Santos; COSTA, Izaura Cristina Nunes Pereira et al. Urbanização e agricultura urbana na Amazônia: o caso da “Capital do Minério”, Parauapebas - PA. Revista de Gestão e Secretariado, v. 16, n. 1, p. e4555, 2025. DOI: 10.7769/gesec.v16i1.4555.",
+   "verificado_em": "https://doi.org/10.7769/gesec.v16i1.4555 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "reis2016usos",
+   "tipo": "dissertacao",
+   "autores": [
+    "Reis, Walison Silva"
+   ],
+   "ano": 2016,
+   "titulo": "Usos hegemônicos e não hegemônicos do território no sudeste do Pará: a moderna mineração e o circuito inferior da economia urbana em Parauapebas",
+   "veiculo": "Geografia",
+   "instituicao": "Universidade federal de uberlândia",
+   "url": "https://repositorio.ufu.br/handle/123456789/17972",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "trabalho"
+   ],
+   "periodo": "1950s–2016",
+   "metodo": "dissertação (UFU); dois circuitos da economia urbana",
+   "achados": "Parauapebas combina modernização mineral e circuito inferior da economia urbana.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "REIS, Walison Silva. Usos hegemônicos e não hegemônicos do território no sudeste do Pará: a moderna mineração e o circuito inferior da economia urbana em Parauapebas. 2016. Dissertação (Mestrado em Geografia) – Universidade federal de uberlândia, 2016.",
+   "verificado_em": "https://repositorio.ufu.br/handle/123456789/17972 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "ribeiro2014analise",
+   "tipo": "artigo",
+   "autores": [
+    "Ribeiro, Igor Conceição",
+    "Pereira, José Danilo Santana",
+    "Pena, Heriberto Wagner Amanajás"
+   ],
+   "ano": 2014,
+   "titulo": "Análise da dinâmica da estrutura produtiva do município de Canaã dos Carajás – Pará, Amazõnia-Brasil",
+   "veiculo": "Observatório de la economía latinoamericana",
+   "url": "https://econpapers.repec.org/RePEc:erv:observ:y:2014:i:194:26",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "2001–2012",
+   "metodo": "artigo; indicadores de estrutura produtiva",
+   "achados": "Município recém-criado com PIB de R$ 17 mi (2001), baseado na pecuária leiteira, passa a 'cidade ímã' com investimento de >R$ 1 bi no Sossego.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "RIBEIRO, Igor Conceição; PEREIRA, José Danilo Santana; PENA, Heriberto Wagner Amanajás. Análise da dinâmica da estrutura produtiva do município de Canaã dos Carajás – Pará, Amazõnia-Brasil. Observatório de la economía latinoamericana, 2014.",
+   "verificado_em": "https://econpapers.repec.org/RePEc:erv:observ:y:2014:i:194:26 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "rodrigues2001company",
+   "tipo": "dissertacao",
+   "autores": [
+    "Rodrigues, Roberta Menezes"
+   ],
+   "ano": 2001,
+   "titulo": "\"Company Towns e mineração na Amazônia Oriental: especificidades, processos e transformações de um modelo urbanístico\"",
+   "veiculo": "Planejamento do desenvolvimento",
+   "instituicao": "Universidade federal do Pará",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "planejamento"
+   ],
+   "periodo": "1960s–2001",
+   "metodo": "dissertação (NAEA)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — company towns na Amazônia Oriental.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "RODRIGUES, Roberta Menezes. \"Company Towns e mineração na Amazônia Oriental: especificidades, processos e transformações de um modelo urbanístico\". 2001. Dissertação (Mestrado em Planejamento do desenvolvimento) – Universidade federal do Pará, 2001.",
+   "verificado_em": "https://catalogodeteses.capes.gov.br (registro 200113615001016002P5; UNIVERSIDADE FEDERAL DO PARÁ; PLANEJAMENTO DO DESENVOLVIMENTO) — título/autor/ano de defesa conferidos em 2026-09-10"
+  },
+  {
+   "slug": "rodrigues2016politicas",
+   "tipo": "dissertacao",
+   "autores": [
+    "Rodrigues, Giselle Viegas Dantas"
+   ],
+   "ano": 2016,
+   "titulo": "Políticas empresariais “sociais” implementadas em comunidades atingidas por projetos minerometalúrgicos no estado do Pará",
+   "instituicao": "UFPA",
+   "url": "https://repositorio.ufpa.br/handle/2011/9691",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade",
+    "planejamento"
+   ],
+   "periodo": "2010s",
+   "metodo": "dissertação; teoria social crítica, entrevistas com comunidades, governo, empresas",
+   "achados": "Estrutura e estratégias de comunicação das políticas 'sociais' de mineradoras em comunidades atingidas no Pará.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "RODRIGUES, Giselle Viegas Dantas. Políticas empresariais “sociais” implementadas em comunidades atingidas por projetos minerometalúrgicos no estado do Pará. 2016. Dissertação (Mestrado) – UFPA, 2016.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/9691 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "sanches2025canaa",
+   "tipo": "anais",
+   "autores": [
+    "Sanches, Maria Clara Souza",
+    "Rodrigues, Janine Stefani Mendes",
+    "Nascimento, Bruno Jesus do"
+   ],
+   "ano": 2025,
+   "titulo": "Canaã dos Carajás: Cidade do imigrante ou a cidade da mineração",
+   "veiculo": "Anais do XIII Coninter - Congresso Internacional Interdisciplinar em Sociais e Humanidades: Desenvolvimentos, mitos, ideias e projetos para um mundo em conflito",
+   "publicador": "Even3",
+   "doi": "10.29327/9786527212591.863432",
+   "url": "https://doi.org/10.29327/9786527212591.863432",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "migracao",
+    "urbanizacao"
+   ],
+   "periodo": "2000s–2025",
+   "metodo": "anais; ensaio",
+   "achados": "Relação entre o processo migratório de Canaã e os investimentos minerários no sudeste paraense.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANCHES, Maria Clara Souza; RODRIGUES, Janine Stefani Mendes; NASCIMENTO, Bruno Jesus do. Canaã dos Carajás: Cidade do imigrante ou a cidade da mineração. In: Anais do XIII Coninter - Congresso Internacional Interdisciplinar em Sociais e Humanidades: Desenvolvimentos, mitos, ideias e projetos para um mundo em conflito, 2025. DOI: 10.29327/9786527212591.863432.",
+   "verificado_em": "https://doi.org/10.29327/9786527212591.863432 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "santos2011grande",
+   "tipo": "dissertacao",
+   "autores": [
+    "Santos, Dalva Maria Vasconcelos dos"
+   ],
+   "ano": 2011,
+   "titulo": "Grande mineração e desenvolvimento de comunidades: uma leitura a partir de Canaã dos Carajás, Pará",
+   "veiculo": "Administração",
+   "instituicao": "Universidade da Amazônia",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "sociedade"
+   ],
+   "periodo": "2004–2011",
+   "metodo": "dissertação (Administração)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "SANTOS, Dalva Maria Vasconcelos dos. Grande mineração e desenvolvimento de comunidades: uma leitura a partir de Canaã dos Carajás, Pará. 2011. Dissertação (Mestrado em Administração) – Universidade da Amazônia, 2011.",
+   "verificado_em": "https://catalogodeteses.capes.gov.br (registro 2011915004015005P3; UNIVERSIDADE DA AMAZÔNIA; ADMINISTRAÇÃO) — título/autor/ano de defesa conferidos em 2026-09-10"
+  },
+  {
+   "slug": "santos2017conflitos",
+   "tipo": "dissertacao",
+   "autores": [
+    "Santos, Sanmarie Rigaud dos"
+   ],
+   "ano": 2017,
+   "titulo": "Conflitos agrários decorrentes da mineração: um estudo do Projeto Ferro Carajás S11D em Canaã dos Carajás/Pará",
+   "veiculo": "Direito agrário",
+   "instituicao": "Universidade federal de goiás",
+   "url": "https://repositorio.bc.ufg.br/tede/bitstream/tede/8203/5/Disserta%c3%a7%c3%a3o%20-%20Sanmarie%20Rigaud%20dos%20Santos%20%20-%202017.pdf",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2010–2017",
+   "metodo": "dissertação; análise jurídica, econômica e social de conflito (Vila Racha Placa)",
+   "achados": "Conflito agrário entre trabalhadores rurais e a Vale na implantação do S11D.",
+   "fontes_busca": [
+    "bdtd",
+    "capes",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANTOS, Sanmarie Rigaud dos. Conflitos agrários decorrentes da mineração: um estudo do Projeto Ferro Carajás S11D em Canaã dos Carajás/Pará. 2017. Dissertação (Mestrado em Direito agrário) – Universidade federal de goiás, 2017.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UFG-2_e6e5d9689179889dbae3bbf454267adb — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "santos2017desenvolvimento",
+   "tipo": "artigo",
+   "autores": [
+    "Santos, Rodrigo Salles Pereira dos"
+   ],
+   "ano": 2017,
+   "titulo": "DESENVOLVIMENTO ECONÔMICO E MUDANÇA SOCIAL: a Vale e a mineração na Amazônia Oriental",
+   "veiculo": "Caderno CRH",
+   "volume": "29",
+   "numero": "77",
+   "paginas": "295-312",
+   "publicador": "Universidade Federal da Bahia",
+   "doi": "10.9771/ccrh.v29i77.20004",
+   "url": "https://doi.org/10.9771/ccrh.v29i77.20004",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "economia_mineral",
+    "sociedade"
+   ],
+   "periodo": "1980s–2016",
+   "metodo": "artigo; sociologia e antropologia do desenvolvimento",
+   "achados": "PFC e S11D induziram transformação estrutural na Amazônia Oriental, sem convergência ao desenvolvimento social.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANTOS, Rodrigo Salles Pereira dos. DESENVOLVIMENTO ECONÔMICO E MUDANÇA SOCIAL: a Vale e a mineração na Amazônia Oriental. Caderno CRH, v. 29, n. 77, p. 295-312, 2017. DOI: 10.9771/ccrh.v29i77.20004.",
+   "verificado_em": "https://doi.org/10.9771/ccrh.v29i77.20004 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "santos2020avaliacao",
+   "tipo": "relatorio",
+   "autores": [
+    "Santos, Jorge",
+    "Matlaba, Valente",
+    "Silva, Rosa",
+    "Pires, João",
+    "Souza, Aldo",
+    "Vilarinho, Charles",
+    "Almeida, Eline",
+    "Machado, Fernanda",
+    "Borja, Oscar",
+    "Dias, Rafael",
+    "Cruz, Thiago",
+    "Pires, Válber",
+    "Silva, Ygor"
+   ],
+   "ano": 2020,
+   "titulo": "Avaliação do potencial para diversificação socioeconômica dos territórios em Canaã dos Carajás, Parauapebas, Curionópolis, Ourilândia do Norte e Tucumã, com vista a prospecção de novos negócios e identificação de potenciais empreendedores",
+   "veiculo": "ITV",
+   "publicador": "ITV",
+   "doi": "10.29223/prod.tec.itv.ds.2020.06.santos",
+   "url": "https://doi.org/10.29223/prod.tec.itv.ds.2020.06.santos",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral",
+    "planejamento"
+   ],
+   "periodo": "2020",
+   "metodo": "relatório técnico ITV",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — potencial de diversificação socioeconômica.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANTOS, Jorge; MATLABA, Valente; SILVA, Rosa et al. Avaliação do potencial para diversificação socioeconômica dos territórios em Canaã dos Carajás, Parauapebas, Curionópolis, Ourilândia do Norte e Tucumã, com vista a prospecção de novos negócios e identificação de potenciais empreendedores. ITV, 2020.",
+   "verificado_em": "https://doi.org/10.29223/prod.tec.itv.ds.2020.06.santos — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "santos2021mineracao",
+   "tipo": "capitulo",
+   "autores": [
+    "Santos, Marcelo Melo dos",
+    "Cruz, Thiago Martins da",
+    "Lopes, Rafael Rodrigues"
+   ],
+   "ano": 2021,
+   "titulo": "Mineração e conflitos pela posse da terra em Canaã dos Carajás: O caso do acampamento Planalto Serra Dourada",
+   "veiculo": "Ciência Política: Poder e Establishment",
+   "paginas": "153-164",
+   "publicador": "Atena Editora",
+   "doi": "10.22533/at.ed.84021100214",
+   "url": "https://doi.org/10.22533/at.ed.84021100214",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2012–2020",
+   "metodo": "capítulo; revisão, documentos, entrevistas",
+   "achados": "Implantação do S11D acirra conflitos pela posse da terra (acampamento Planalto Serra Dourada).",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANTOS, Marcelo Melo dos; CRUZ, Thiago Martins da; LOPES, Rafael Rodrigues. Mineração e conflitos pela posse da terra em Canaã dos Carajás: O caso do acampamento Planalto Serra Dourada. In: Ciência Política: Poder e Establishment, p. 153-164, 2021. DOI: 10.22533/at.ed.84021100214.",
+   "verificado_em": "https://doi.org/10.22533/at.ed.84021100214 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "santos2021urbanizacao",
+   "tipo": "tese",
+   "autores": [
+    "Santos, Rodrigo Castriota de Mello"
+   ],
+   "ano": 2021,
+   "titulo": "Urbanização extensiva na Amazônia Oriental: escavando a não-cidade em Carajás",
+   "veiculo": "Economia",
+   "instituicao": "Universidade federal de Minas Gerais",
+   "url": "http://hdl.handle.net/1843/38598",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1960s–2020",
+   "metodo": "tese (UFMG); urbanização extensiva (Monte-Mór), trabalho de campo",
+   "achados": "Reinterpreta a colonização e a mineração em Carajás como urbanização extensiva, a 'não-cidade'.",
+   "fontes_busca": [
+    "bdtd",
+    "capes",
+    "openalex"
+   ],
+   "abnt": "SANTOS, Rodrigo Castriota de Mello. Urbanização extensiva na Amazônia Oriental: escavando a não-cidade em Carajás. 2021. Tese (Doutorado em Economia) – Universidade federal de Minas Gerais, 2021.",
+   "verificado_em": "http://hdl.handle.net/1843/38598 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "santos2023marias",
+   "tipo": "dissertacao",
+   "autores": [
+    "Santos, Lais Alves dos"
+   ],
+   "ano": 2023,
+   "titulo": "MARIAS EM MOVIMENTOS: O corpo-território a partir da r-existência das mulheres acampadas em Canaã dos Carajás (PA) MARABÁ 2023",
+   "veiculo": "Dinâmicas Territoriais e Sociedade na Amazônia",
+   "instituicao": "Universidade federal do sul e sudeste do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=15029628",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "sociedade"
+   ],
+   "periodo": "2020s",
+   "metodo": "dissertação (Unifesspa)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — mulheres acampadas.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "SANTOS, Lais Alves dos. MARIAS EM MOVIMENTOS: O corpo-território a partir da r-existência das mulheres acampadas em Canaã dos Carajás (PA) MARABÁ 2023. 2023. Dissertação (Mestrado em Dinâmicas Territoriais e Sociedade na Amazônia) – Universidade federal do sul e sudeste do Pará, 2023.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=15029628 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "santos2024utilizacao",
+   "tipo": "anais",
+   "autores": [
+    "Santos, Ivan Nelson Mota dos",
+    "Castro, Cecília Maria C. do N.",
+    "Cardoso, Alfeu Silva",
+    "Fernandes, Claumir Assunção",
+    "Costa, Gabrielle Bezerra",
+    "Santos, Priscilla Maciel dos",
+    "Rocha, Wendell Trindade",
+    "Figueiredo, Radson Lima"
+   ],
+   "ano": 2024,
+   "titulo": "Utilização de SIG na regularização fundiária de zonas de risco: Estudo de caso do bairro Paraíso das Águas - Canaã dos Carajás/pa",
+   "veiculo": "Livro de memórias do Sustentare & WIPIS",
+   "publicador": "Even3",
+   "doi": "10.29327/sustentare-wipis-2023-311985.748809",
+   "url": "https://doi.org/10.29327/sustentare-wipis-2023-311985.748809",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia",
+    "planejamento"
+   ],
+   "periodo": "2023",
+   "metodo": "anais; SIG",
+   "achados": "Regularização fundiária de zona de risco no bairro Paraíso das Águas.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SANTOS, Ivan Nelson Mota dos; CASTRO, Cecília Maria C. do N.; CARDOSO, Alfeu Silva et al. Utilização de SIG na regularização fundiária de zonas de risco: Estudo de caso do bairro Paraíso das Águas - Canaã dos Carajás/pa. In: Livro de memórias do Sustentare & WIPIS, 2024. DOI: 10.29327/sustentare-wipis-2023-311985.748809.",
+   "verificado_em": "https://doi.org/10.29327/sustentare-wipis-2023-311985.748809 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "silva2006arranjos",
+   "tipo": "tese",
+   "autores": [
+    "Silva, Manoel Alves da"
+   ],
+   "ano": 2006,
+   "titulo": "Arranjos político-institucionais: a criação de novos municípios, novas estruturas de poder e as lideranças locais - a divisão territorial de Marabá na década de 1980",
+   "veiculo": "Desenvolvimento sustentável do trópico úmido",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://repositorio.ufpa.br/handle/2011/2633",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "planejamento"
+   ],
+   "periodo": "década de 1980–1990",
+   "metodo": "tese; sociologia política (Bourdieu), pesquisa documental e entrevistas",
+   "achados": "A criação dos municípios desmembrados de Marabá (Parauapebas e, depois, Canaã) insere-se na modernização capitalista e na formação de novas lideranças e estruturas de poder locais.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "SILVA, Manoel Alves da. Arranjos político-institucionais: a criação de novos municípios, novas estruturas de poder e as lideranças locais - a divisão territorial de Marabá na década de 1980. 2006. Tese (Doutorado em Desenvolvimento sustentável do trópico úmido) – Universidade federal do Pará, 2006.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/2633 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "silva2016territorio",
+   "tipo": "dissertacao",
+   "autores": [
+    "Silva, Fernando Flavio Lopes"
+   ],
+   "ano": 2016,
+   "titulo": "Uso do território e implicações socioespaciais da mineração no município de Canaã dos carajas",
+   "veiculo": "Geografia",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3626650",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "2000s–2016",
+   "metodo": "dissertação (Geografia)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — uso do território e implicações socioespaciais da mineração.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "SILVA, Fernando Flavio Lopes. Uso do território e implicações socioespaciais da mineração no município de Canaã dos carajas. 2016. Dissertação (Mestrado em Geografia) – Universidade federal do Pará, 2016.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3626650 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "silva2017conflicts",
+   "tipo": "artigo",
+   "autores": [
+    "Silva, João Márcio Palheta da",
+    "Silva, Christian Nunes",
+    "Oliveira Neto, Adolfo da Costa",
+    "Nascimento, Flávio Rodrigues do"
+   ],
+   "ano": 2017,
+   "titulo": "Conflicts over the use of territory in mineral amazon",
+   "veiculo": "Mercator",
+   "volume": "16",
+   "numero": "9",
+   "paginas": "1-20",
+   "publicador": "Universidade Federal do Ceará (UFC)",
+   "doi": "10.4215/rm2017.16e023",
+   "url": "https://doi.org/10.4215/rm2017.16e023",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia",
+    "economia_mineral"
+   ],
+   "periodo": "2000–2017",
+   "metodo": "artigo; leitura geográfica do território da Região de Carajás",
+   "achados": "Conflitos pelo uso do território nos municípios que concentram os projetos da Vale (Parauapebas, Canaã, Marabá etc.).",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SILVA, João Márcio Palheta da; SILVA, Christian Nunes; OLIVEIRA NETO, Adolfo da Costa et al. Conflicts over the use of territory in mineral amazon. Mercator, v. 16, n. 9, p. 1-20, 2017. DOI: 10.4215/rm2017.16e023.",
+   "verificado_em": "https://doi.org/10.4215/rm2017.16e023 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "silva2022condicoes",
+   "tipo": "artigo",
+   "autores": [
+    "Silva, Daniel Nogueira",
+    "Sousa, Rithielly Lira"
+   ],
+   "ano": 2022,
+   "titulo": "As condições de moradia das famílias pobres em Canaã dos Carajás, uma cidade mineral da Amazônia",
+   "veiculo": "Revista de Políticas Públicas",
+   "volume": "26",
+   "numero": "1",
+   "paginas": "228-248",
+   "publicador": "Universidade Federal do Maranhao",
+   "doi": "10.18764/2178-2865.v26n1p228-248",
+   "url": "https://doi.org/10.18764/2178-2865.v26n1p228-248",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia"
+   ],
+   "periodo": "2020–2021",
+   "metodo": "artigo; revisão e dados do CadÚnico",
+   "achados": "Panorama das condições habitacionais das famílias pobres de uma cidade mineral; precariedade concentrada nesse grupo.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SILVA, Daniel Nogueira; SOUSA, Rithielly Lira. As condições de moradia das famílias pobres em Canaã dos Carajás, uma cidade mineral da Amazônia. Revista de Políticas Públicas, v. 26, n. 1, p. 228-248, 2022. DOI: 10.18764/2178-2865.v26n1p228-248.",
+   "verificado_em": "https://doi.org/10.18764/2178-2865.v26n1p228-248 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "silva2025regularizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Silva, Maria do Carmo Campos da"
+   ],
+   "ano": 2025,
+   "titulo": "Regularização fundiária urbana no pós-regularização:o caso do núcleo urbano informal Paraíso das Águas na cidade de Canaã dos Carajás (PA), Brasil",
+   "veiculo": "Novos Cadernos NAEA",
+   "volume": "28",
+   "numero": "2",
+   "publicador": "Universidade Federal do Pará",
+   "doi": "10.18542/ncn.v28i2.18057",
+   "url": "https://doi.org/10.18542/ncn.v28i2.18057",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia",
+    "planejamento"
+   ],
+   "periodo": "2010s–2025",
+   "metodo": "artigo; avaliação pós-regularização",
+   "achados": "Pós-regularização fundiária do núcleo urbano informal Paraíso das Águas.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SILVA, Maria do Carmo Campos da. Regularização fundiária urbana no pós-regularização:o caso do núcleo urbano informal Paraíso das Águas na cidade de Canaã dos Carajás (PA), Brasil. Novos Cadernos NAEA, v. 28, n. 2, 2025. DOI: 10.18542/ncn.v28i2.18057.",
+   "verificado_em": "https://doi.org/10.18542/ncn.v28i2.18057 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "silva2026atividades",
+   "tipo": "artigo",
+   "autores": [
+    "Silva, Karla Vitória Barbosa da",
+    "Souza, Alcione Santos de"
+   ],
+   "ano": 2026,
+   "titulo": "Atividades mineradoras e conflitos nos municípios da Amazônia paraense: Uma análise das ocorrências em barcarena, Canaã dos Carajás e Parauapebas",
+   "veiculo": "Zenodo (CERN European Organization for Nuclear Research)",
+   "publicador": "Zenodo",
+   "doi": "10.5281/zenodo.18756943",
+   "url": "https://doi.org/10.5281/zenodo.18756943",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2020s",
+   "metodo": "trabalho de congresso; cartografia de conflitos",
+   "achados": "Mapeamento de conflitos da mineração em territórios tradicionais (Barcarena, Canaã, Parauapebas).",
+   "fontes_busca": [
+    "openalex"
+   ],
+   "abnt": "SILVA, Karla Vitória Barbosa da; SOUZA, Alcione Santos de. Atividades mineradoras e conflitos nos municípios da Amazônia paraense: Uma análise das ocorrências em barcarena, Canaã dos Carajás e Parauapebas. Zenodo (CERN European Organization for Nuclear Research), 2026. DOI: 10.5281/zenodo.18756943.",
+   "verificado_em": "https://doi.org/10.5281/zenodo.18756943 — DataCite: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "silvareis2022modernizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Silva Reis, Walison",
+    "Macedo de Sousa, Jailson"
+   ],
+   "ano": 2022,
+   "titulo": "Modernização antagônica do território no sudeste paraense: uma análise do circuito inferior em Parauapebas-PA ANTAGONIC MODERNIZATION OF THE TERRITORY IN SOUTHEAST PARAENSE: AN ANALYSIS OF THE LOWER CIRCUIT IN PARAUAPEBAS-PA",
+   "veiculo": "Revista Espaço e Geografia",
+   "volume": "23",
+   "numero": "1",
+   "paginas": "115-147",
+   "publicador": "Biblioteca Central da UNB",
+   "doi": "10.26512/2236-56562020e40182",
+   "url": "https://doi.org/10.26512/2236-56562020e40182",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "trabalho"
+   ],
+   "periodo": "2010s–2020",
+   "metodo": "artigo; circuito inferior da economia urbana",
+   "achados": "Espaço antagônico em Parauapebas entre a mineração moderna e pequenas atividades locais.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SILVA REIS, Walison; MACEDO DE SOUSA, Jailson. Modernização antagônica do território no sudeste paraense: uma análise do circuito inferior em Parauapebas-PA ANTAGONIC MODERNIZATION OF THE TERRITORY IN SOUTHEAST PARAENSE: AN ANALYSIS OF THE LOWER CIRCUIT IN PARAUAPEBAS-PA. Revista Espaço e Geografia, v. 23, n. 1, p. 115-147, 2022. DOI: 10.26512/2236-56562020e40182.",
+   "verificado_em": "https://doi.org/10.26512/2236-56562020e40182 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "siravenha2017avaliacao",
+   "tipo": "tese",
+   "autores": [
+    "Siravenha, Ana Carolina Quintão"
+   ],
+   "ano": 2017,
+   "titulo": "Avaliação de técnica semi-supervisionada de análise de vetor comprimido (C2VA) em imagens de satélites para detecção de mudanças de uso e cobertura da terra",
+   "veiculo": "Engenharia elétrica",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://repositorio.ufpa.br/handle/2011/10082",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "meio_ambiente"
+   ],
+   "periodo": "décadas de 1980–2010",
+   "metodo": "tese; detecção de mudanças por C2VA semi-supervisionado em imagens Landsat",
+   "achados": "Testa técnica de detecção de mudança de uso e cobertura na região de Carajás, incluindo Canaã — referência metodológica para a E3b.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "SIRAVENHA, Ana Carolina Quintão. Avaliação de técnica semi-supervisionada de análise de vetor comprimido (C2VA) em imagens de satélites para detecção de mudanças de uso e cobertura da terra. 2017. Tese (Doutorado em Engenharia elétrica) – Universidade federal do Pará, 2017.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/10082 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "sousa2016avaliacao",
+   "tipo": "dissertacao",
+   "autores": [
+    "Sousa, Gutembergue Santos de"
+   ],
+   "ano": 2016,
+   "titulo": "Avaliação do programa de controle da hanseníase no contexto da atenção primária em saúde: Um estudo por triangulação de métodos no município de Canaã dos Carajás-Pará",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4826851",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude"
+   ],
+   "periodo": "2015–2016",
+   "metodo": "dissertação; avaliação de programa por triangulação de métodos",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — programa de controle da hanseníase na APS de Canaã.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "SOUSA, Gutembergue Santos de. Avaliação do programa de controle da hanseníase no contexto da atenção primária em saúde: Um estudo por triangulação de métodos no município de Canaã dos Carajás-Pará. 2016. Dissertação (Mestrado) – Universidade federal do Pará, 2016.",
+   "verificado_em": "https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4826851 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "sousa2017hanseniase",
+   "tipo": "artigo",
+   "autores": [
+    "Sousa, Gutembergue Santos de",
+    "Silva, Rodrigo Luís Ferreira da",
+    "Xavier, Marília Brasil"
+   ],
+   "ano": 2017,
+   "titulo": "Hanseníase e Atenção Primária à Saúde: uma avaliação de estrutura do programa",
+   "veiculo": "Saúde em Debate",
+   "volume": "41",
+   "numero": "112",
+   "paginas": "230-242",
+   "publicador": "FapUNIFESP (SciELO)",
+   "doi": "10.1590/0103-1104201711219",
+   "url": "https://doi.org/10.1590/0103-1104201711219",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude"
+   ],
+   "periodo": "2015–2016",
+   "metodo": "artigo; avaliação de estrutura com questionários a gestores",
+   "achados": "Estrutura do programa municipal de hanseníase classificada entre insatisfatória e regular.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SOUSA, Gutembergue Santos de; SILVA, Rodrigo Luís Ferreira da; XAVIER, Marília Brasil. Hanseníase e Atenção Primária à Saúde: uma avaliação de estrutura do programa. Saúde em Debate, v. 41, n. 112, p. 230-242, 2017. DOI: 10.1590/0103-1104201711219.",
+   "verificado_em": "https://doi.org/10.1590/0103-1104201711219 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "sousa2024volatilidade",
+   "tipo": "artigo",
+   "autores": [
+    "Sousa, Karen H.",
+    "Matos, Antonio Nilton",
+    "Oliveira, Poliana",
+    "Silva, Ingred",
+    "Gomes, Wiliam Dias",
+    "Silva, Jordana Cristiane",
+    "Fernandes, Victor Mateus"
+   ],
+   "ano": 2024,
+   "titulo": "Volatilidade epidemiológica do hiv/aids em região mineraria da Amazônia",
+   "veiculo": "Revista ft",
+   "paginas": "30-31",
+   "publicador": "Revista ft Ltda",
+   "doi": "10.69849/revistaft/fa10202408092230",
+   "url": "https://doi.org/10.69849/revistaft/fa10202408092230",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude"
+   ],
+   "periodo": "2010s–2023",
+   "metodo": "artigo; dados DATASUS",
+   "achados": "Perfil epidemiológico do HIV/AIDS em Canaã e Parauapebas.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SOUSA, Karen H.; MATOS, Antonio Nilton; OLIVEIRA, Poliana et al. Volatilidade epidemiológica do hiv/aids em região mineraria da Amazônia. Revista ft, p. 30-31, 2024. DOI: 10.69849/revistaft/fa10202408092230.",
+   "verificado_em": "https://doi.org/10.69849/revistaft/fa10202408092230 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "souza2022mulheres",
+   "tipo": "dissertacao",
+   "autores": [
+    "Souza, Alyne Marcely Fernandes de"
+   ],
+   "ano": 2022,
+   "titulo": "Mulheres no mercado de trabalho no setor extrativista mineral no município de Canaã dos Carajás, estado do Pará",
+   "veiculo": "Direito, Políticas Públicas e Desenvolvimento Regional",
+   "instituicao": "Centro universitário do estado do Pará",
+   "url": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11643762",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "trabalho"
+   ],
+   "periodo": "2010s–2022",
+   "metodo": "dissertação (Direito, Políticas Públicas e Desenvolvimento Regional)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — mulheres no mercado de trabalho da extração mineral.",
+   "fontes_busca": [
+    "capes"
+   ],
+   "abnt": "SOUZA, Alyne Marcely Fernandes de. Mulheres no mercado de trabalho no setor extrativista mineral no município de Canaã dos Carajás, estado do Pará. 2022. Dissertação (Mestrado em Direito, Políticas Públicas e Desenvolvimento Regional) – Centro universitário do estado do Pará, 2022.",
+   "verificado_em": "https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=11643762 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "souza2023insercao",
+   "tipo": "artigo",
+   "autores": [
+    "Souza, Marcus Vinicius Mariano de",
+    "Ferreira Júnior, Dionel Barbosa"
+   ],
+   "ano": 2023,
+   "titulo": "Inserção urbana e desigualdades socioespaciais no programa Minha Casa Minha Vida",
+   "veiculo": "InterEspaço: Revista de Geografia e Interdisciplinaridade",
+   "publicador": "Universidade Federal do Maranhao",
+   "doi": "10.18764/2446-6549.e2023.11",
+   "url": "https://doi.org/10.18764/2446-6549.e2023.11",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "moradia",
+    "urbanizacao"
+   ],
+   "periodo": "c. 2022",
+   "metodo": "artigo; formulários e campo no Residencial Canaã",
+   "achados": "Conjunto do PMCMV com inserção urbana problemática — desigualdade socioespacial em município de grande afluxo populacional.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SOUZA, Marcus Vinicius Mariano de; FERREIRA JÚNIOR, Dionel Barbosa. Inserção urbana e desigualdades socioespaciais no programa Minha Casa Minha Vida. InterEspaço: Revista de Geografia e Interdisciplinaridade, 2023. DOI: 10.18764/2446-6549.e2023.11.",
+   "verificado_em": "https://doi.org/10.18764/2446-6549.e2023.11 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "souza2024conflitos",
+   "tipo": "tese",
+   "autores": [
+    "Souza, Alcione Santos de"
+   ],
+   "ano": 2024,
+   "titulo": "Conflitos pelo uso do território: camponeses e mineração no Estado do Pará",
+   "veiculo": "Geografia",
+   "instituicao": "Universidade federal do rio grande do norte",
+   "url": "https://repositorio.ufrn.br/handle/123456789/59807",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "2000–2024",
+   "metodo": "tese/dissertação",
+   "achados": "Grandes projetos alimentam conflitos e expropriação de populações camponesas no Pará.",
+   "fontes_busca": [
+    "bdtd",
+    "openalex"
+   ],
+   "abnt": "SOUZA, Alcione Santos de. Conflitos pelo uso do território: camponeses e mineração no Estado do Pará. 2024. Tese (Doutorado em Geografia) – Universidade federal do rio grande do norte, 2024.",
+   "verificado_em": "https://repositorio.ufrn.br/server/api/pid/find?id=123456789/59807 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "souza2024urbanizacao",
+   "tipo": "tese",
+   "autores": [
+    "Souza, Michele Kely Moraes Santos"
+   ],
+   "ano": 2024,
+   "titulo": "A urbanização de Parauapebas/PA : a cidade produzida pela mineração",
+   "url": "https://repositorio.ufpb.br/jspui/handle/123456789/34639",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1960s–2024",
+   "metodo": "tese/dissertação",
+   "achados": "Parauapebas como cidade produzida pela mineração no âmbito do Programa Grande Carajás.",
+   "fontes_busca": [
+    "bdtd",
+    "capes",
+    "openalex"
+   ],
+   "abnt": "SOUZA, Michele Kely Moraes Santos. A urbanização de Parauapebas/PA : a cidade produzida pela mineração. 2024. Tese (Doutorado) – [s.l.], 2024.",
+   "verificado_em": "https://repositorio.ufpb.br/jspui/handle/123456789/34639 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "souza2025reestruturacao",
+   "tipo": "artigo",
+   "autores": [
+    "Souza, Camila Garcia Nascimento de",
+    "Souza, Marcus Vinícius Mariano de"
+   ],
+   "ano": 2025,
+   "titulo": "Reestruturação urbana e reestruturação da cidade: a redefinição da centralidade intraurbana em Parauapebas - PA / Brasil Urban restructuring and city restructuring: The redefinition of intra-urban centrality in parauapebas - PA / Brazil",
+   "veiculo": "Desenvolvimento em Questão",
+   "volume": "23",
+   "numero": "63",
+   "paginas": "e16809",
+   "publicador": "Editora Unijui",
+   "doi": "10.21527/2237-6453.2025.63.16809",
+   "url": "https://doi.org/10.21527/2237-6453.2025.63.16809",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "2020s",
+   "metodo": "artigo",
+   "achados": "Reestruturação urbana e novas centralidades em Parauapebas.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "SOUZA, Camila Garcia Nascimento de; SOUZA, Marcus Vinícius Mariano de. Reestruturação urbana e reestruturação da cidade: a redefinição da centralidade intraurbana em Parauapebas - PA / Brasil Urban restructuring and city restructuring: The redefinition of intra-urban centrality in parauapebas - PA / Brazil. Desenvolvimento em Questão, v. 23, n. 63, p. e16809, 2025. DOI: 10.21527/2237-6453.2025.63.16809.",
+   "verificado_em": "https://doi.org/10.21527/2237-6453.2025.63.16809 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "teixeira2006interferencia",
+   "tipo": "dissertacao",
+   "autores": [
+    "Teixeira, Sheila do Socorro Lima"
+   ],
+   "ano": 2006,
+   "titulo": "A Interferência da mineração industrial na estabilidade de assentamentos rurais: o caso de Parauapebas",
+   "veiculo": "Desenvolvimento sustentável do trópico úmido",
+   "instituicao": "Universidade federal do Pará",
+   "url": "https://repositorio.ufpa.br/handle/2011/3675",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "historia"
+   ],
+   "periodo": "1970s–2006",
+   "metodo": "dissertação (UFPA); três assentamentos de Parauapebas",
+   "achados": "A mineração de grande escala alterou a produção camponesa nos assentamentos.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "TEIXEIRA, Sheila do Socorro Lima. A Interferência da mineração industrial na estabilidade de assentamentos rurais: o caso de Parauapebas. 2006. Dissertação (Mestrado em Desenvolvimento sustentável do trópico úmido) – Universidade federal do Pará, 2006.",
+   "verificado_em": "https://repositorio.ufpa.br/handle/2011/3675 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  },
+  {
+   "slug": "tonelli2018canaa",
+   "tipo": "dissertacao",
+   "autores": [
+    "Tonelli, Lívia Maria"
+   ],
+   "ano": 2018,
+   "titulo": "Canaã dos Carajás : terra prometida para que(m)? A geografia de um saque anunciado na Serra Sul da Província Mineral de Carajás",
+   "instituicao": "UNICAMP",
+   "url": "https://hdl.handle.net/20.500.12733/1634672",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "2000s–2018",
+   "metodo": "dissertação (Geografia, Unicamp)",
+   "achados": "resumo indisponível nas fontes de busca — ler o texto integral na E6 — 'saque anunciado' na Serra Sul.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "TONELLI, Lívia Maria. Canaã dos Carajás : terra prometida para que(m)? A geografia de um saque anunciado na Serra Sul da Província Mineral de Carajás. 2018. Dissertação (Mestrado) – UNICAMP, 2018.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UNICAMP-30_894ef2303433b298dbde1753ad3f1608 — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "trevisan2025complexo",
+   "tipo": "artigo",
+   "autores": [
+    "Trevisan, Ricardo",
+    "Brandão, Simone Cristina Soares",
+    "Reis, Talita Rocha",
+    "Teixeira, Carolina Guida",
+    "Vilela, Nádia Botelho Trindade",
+    "Nobrega, L.E."
+   ],
+   "ano": 2025,
+   "titulo": "Complexo Carajás, Amazônia: as pretensiosas pegadas urbanizadoras de um território",
+   "veiculo": "Ensayo: Revista de arquitectura, urbanismo y territorio",
+   "numero": "6",
+   "paginas": "19-41",
+   "publicador": "Sistema de Bibliotecas PUCP",
+   "doi": "10.18800/ensayo.202506.001",
+   "url": "https://doi.org/10.18800/ensayo.202506.001",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao",
+    "historia"
+   ],
+   "periodo": "1960s–1985",
+   "metodo": "artigo; fontes e documentos",
+   "achados": "Geopolítica militar e a criação ou expansão de núcleos urbanos para viabilizar Carajás.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "TREVISAN, Ricardo; BRANDÃO, Simone Cristina Soares; REIS, Talita Rocha et al. Complexo Carajás, Amazônia: as pretensiosas pegadas urbanizadoras de um território. Ensayo: Revista de arquitectura, urbanismo y territorio, n. 6, p. 19-41, 2025. DOI: 10.18800/ensayo.202506.001.",
+   "verificado_em": "https://doi.org/10.18800/ensayo.202506.001 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "trindade2015ciclo",
+   "tipo": "artigo",
+   "autores": [
+    "Trindade, José Raimundo Barreto",
+    "Oliveira, Wesley Pereira de",
+    "Borges, Gedson Thiago do Nascimento"
+   ],
+   "ano": 2015,
+   "titulo": "O CICLO MINERAL E A URGÊNCIA DE POLÍTICAS DE DESENVOLVIMENTO LOCAL: o caso do município de Parauapebas no sudeste do Estado do Pará",
+   "veiculo": "Revista Políticas Públicas",
+   "volume": "18",
+   "numero": "2",
+   "paginas": "603",
+   "publicador": "Universidade Federal do Maranhao",
+   "doi": "10.18764/2178-2865.v18n2p603-618",
+   "url": "https://doi.org/10.18764/2178-2865.v18n2p603-618",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "economia_mineral",
+    "urbanizacao"
+   ],
+   "periodo": "2000s–2014",
+   "metodo": "artigo",
+   "achados": "Contradições do crescimento econômico e demográfico acelerado pelo ciclo mineral em Parauapebas e necessidade de políticas locais.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "TRINDADE, José Raimundo Barreto; OLIVEIRA, Wesley Pereira de; BORGES, Gedson Thiago do Nascimento. O CICLO MINERAL E A URGÊNCIA DE POLÍTICAS DE DESENVOLVIMENTO LOCAL: o caso do município de Parauapebas no sudeste do Estado do Pará. Revista Políticas Públicas, v. 18, n. 2, p. 603, 2015. DOI: 10.18764/2178-2865.v18n2p603-618.",
+   "verificado_em": "https://doi.org/10.18764/2178-2865.v18n2p603-618 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "vale2020reorganizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Vale, Eliana Pessoa do",
+    "Rodrigues, Gizele Moreira",
+    "Costa, Douglas Pacheco da",
+    "Queiroz, Juliana da Mota",
+    "Lima, Débora Garcia",
+    "Mereiros, Luanna Priscylla Faustino",
+    "Oliveira, Daiane Celestrini",
+    "Baia, Eric Gonçalves",
+    "Costa, Ana Lúcia Araújo",
+    "Neto, Miguel Bento Pereira"
+   ],
+   "ano": 2020,
+   "titulo": "Reorganização da Rede de Atenção à Saúde para o enfrentamento da COVID-19 no município de Canaã dos Carajás, Pará",
+   "veiculo": "Aps em revista",
+   "volume": "2",
+   "numero": "2",
+   "paginas": "83-90",
+   "publicador": "Lepidus Tecnologia",
+   "doi": "10.14295/aps.v2i2.101",
+   "url": "https://doi.org/10.14295/aps.v2i2.101",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "saude"
+   ],
+   "periodo": "2020",
+   "metodo": "artigo; relato de experiência a partir de documentos da gestão",
+   "achados": "Reorganização da Rede de Atenção à Saúde para a COVID-19, com ampliação da carteira da Atenção Básica.",
+   "fontes_busca": [
+    "crossref",
+    "openalex",
+    "s2"
+   ],
+   "abnt": "VALE, Eliana Pessoa do; RODRIGUES, Gizele Moreira; COSTA, Douglas Pacheco da et al. Reorganização da Rede de Atenção à Saúde para o enfrentamento da COVID-19 no município de Canaã dos Carajás, Pará. Aps em revista, v. 2, n. 2, p. 83-90, 2020. DOI: 10.14295/aps.v2i2.101.",
+   "verificado_em": "https://doi.org/10.14295/aps.v2i2.101 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "vianajunior2008royalties",
+   "tipo": "dissertacao",
+   "autores": [
+    "Viana Júnior, Elias Marques"
+   ],
+   "ano": 2008,
+   "titulo": "Royalties na mineração : uma ferramenta para o desenvolvimento regional da Amazônia oriental brasileira",
+   "veiculo": "Engenharia mineral",
+   "instituicao": "Universidade federal de ouro preto",
+   "url": "https://bdtd.ibict.br/vufind/Record/UFOP_6b3bb6cbf74bf16193d82c2b8df317a8",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "economia_mineral"
+   ],
+   "periodo": "1989–2007",
+   "metodo": "dissertação; análise comparativa de indicadores municipais e da CFEM",
+   "achados": "Avalia impactos positivos e negativos da CFEM em Parauapebas, Oriximiná, Canaã dos Carajás e Ipixuna do Pará.",
+   "fontes_busca": [
+    "bdtd",
+    "capes"
+   ],
+   "abnt": "VIANA JÚNIOR, Elias Marques. Royalties na mineração : uma ferramenta para o desenvolvimento regional da Amazônia oriental brasileira. 2008. Dissertação (Mestrado em Engenharia mineral) – Universidade federal de ouro preto, 2008.",
+   "verificado_em": "https://bdtd.ibict.br/vufind/Record/UFOP_6b3bb6cbf74bf16193d82c2b8df317a8 — registro BDTD/IBICT (API) com título/autor/ano conferidos em 2026-09-10"
+  },
+  {
+   "slug": "xavier2025metropolizacao",
+   "tipo": "artigo",
+   "autores": [
+    "Xavier, Bruna de Souza",
+    "Nogueira, José Wanderley Moura",
+    "Ramundo, Lucas Di Candia",
+    "Guedes, Dyeggo Rocha",
+    "Simões, Jorge Eduardo Macedo"
+   ],
+   "ano": 2025,
+   "titulo": "A metropolização da amazônia legal: Processo histórico e socioeconômico de formação da capital de Carajás",
+   "veiculo": "Desenvolvimento em Questão",
+   "volume": "23",
+   "numero": "63",
+   "paginas": "e17041",
+   "publicador": "Editora Unijui",
+   "doi": "10.21527/2237-6453.2025.63.17041",
+   "url": "https://doi.org/10.21527/2237-6453.2025.63.17041",
+   "nacional": true,
+   "camada": "contexto",
+   "eixos": [
+    "urbanizacao"
+   ],
+   "periodo": "1960s–2025",
+   "metodo": "artigo",
+   "achados": "Metropolização de Marabá como polo da Região de Integração de Carajás.",
+   "fontes_busca": [
+    "openalex",
+    "s2"
+   ],
+   "abnt": "XAVIER, Bruna de Souza; NOGUEIRA, José Wanderley Moura; RAMUNDO, Lucas Di Candia et al. A metropolização da amazônia legal: Processo histórico e socioeconômico de formação da capital de Carajás. Desenvolvimento em Questão, v. 23, n. 63, p. e17041, 2025. DOI: 10.21527/2237-6453.2025.63.17041.",
+   "verificado_em": "https://doi.org/10.21527/2237-6453.2025.63.17041 — Crossref: título/ano/1º autor conferidos (sim. título 1.00) em 2026-09-10"
+  },
+  {
+   "slug": "zonta2022adentrando",
+   "tipo": "dissertacao",
+   "autores": [
+    "Zonta, Maria das Graças Silva"
+   ],
+   "ano": 2022,
+   "titulo": "Adentrando territórios e mentes: a Vale e sua atuação na cultura das comunidades ao longo do corredor de Carajás",
+   "veiculo": "Desenvolvimento territorial na américa latina e caribe",
+   "instituicao": "Universidade estadual paulista júlio de mesquita filho (sede)",
+   "url": "https://hdl.handle.net/11449/257491",
+   "nacional": true,
+   "camada": "nucleo",
+   "eixos": [
+    "sociedade"
+   ],
+   "periodo": "2010s–2022",
+   "metodo": "dissertação (UNESP)",
+   "achados": "Atuação cultural da Vale ao longo do corredor Carajás, incluindo Canaã.",
+   "fontes_busca": [
+    "bdtd"
+   ],
+   "abnt": "ZONTA, Maria das Graças Silva. Adentrando territórios e mentes: a Vale e sua atuação na cultura das comunidades ao longo do corredor de Carajás. 2022. Dissertação (Mestrado em Desenvolvimento territorial na américa latina e caribe) – Universidade estadual paulista júlio de mesquita filho (sede), 2022.",
+   "verificado_em": "https://hdl.handle.net/11449/257491 — página conferida: título (100% dos termos) e 1º autor em 2026-09-10"
+  }
+ ]
+}

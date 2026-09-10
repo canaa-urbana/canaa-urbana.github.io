@@ -1,0 +1,205 @@
+{
+  "fonte": "MapBiomas Brasil, Coleção 11 — códigos de legenda oficiais",
+  "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/08/legend_code_mapbiomas_brazil_collection_11.csv",
+  "acessado_em": "2026-09-09",
+  "classes": [
+    {
+      "class_id": 3,
+      "classe_pt": "Formação Florestal",
+      "classe_en": "Forest Formation",
+      "hex": "#1f8d49"
+    },
+    {
+      "class_id": 6,
+      "classe_pt": "Floresta Alagável",
+      "classe_en": "Floodable Forest",
+      "hex": "#007785"
+    },
+    {
+      "class_id": 4,
+      "classe_pt": "Formação Savânica",
+      "classe_en": "Savanna Formation",
+      "hex": "#7dc975"
+    },
+    {
+      "class_id": 7,
+      "classe_pt": "Savana Alagada (beta)",
+      "classe_en": "Flooded Savanna (beta)",
+      "hex": "#228c70"
+    },
+    {
+      "class_id": 5,
+      "classe_pt": "Mangue",
+      "classe_en": "Mangrove",
+      "hex": "#04381d"
+    },
+    {
+      "class_id": 49,
+      "classe_pt": "Restinga Arbórea",
+      "classe_en": "Wooded Sandbank Vegetation",
+      "hex": "#02d659"
+    },
+    {
+      "class_id": 12,
+      "classe_pt": "Formação Campestre",
+      "classe_en": "Grassland Formation",
+      "hex": "#d6bc74"
+    },
+    {
+      "class_id": 77,
+      "classe_pt": "Formação Herbáceo Arbustiva",
+      "classe_en": "Herbaceous and Shrub Formation",
+      "hex": "#86b074"
+    },
+    {
+      "class_id": 11,
+      "classe_pt": "Campo Alagado e Área Pantanosa",
+      "classe_en": "Wetland",
+      "hex": "#519799"
+    },
+    {
+      "class_id": 84,
+      "classe_pt": "Marismas (beta)",
+      "classe_en": "Salt Marsh (beta)",
+      "hex": "#81dbbf"
+    },
+    {
+      "class_id": 50,
+      "classe_pt": "Restinga Herbácea ou Arbustiva",
+      "classe_en": "Herbaceous Sandbank Vegetation",
+      "hex": "#ffaa5f"
+    },
+    {
+      "class_id": 32,
+      "classe_pt": "Apicum",
+      "classe_en": "Hypersaline Tidal Flat",
+      "hex": "#fc8114"
+    },
+    {
+      "class_id": 29,
+      "classe_pt": "Afloramento Rochoso",
+      "classe_en": "Rocky Outrcrop",
+      "hex": "#ad5100"
+    },
+    {
+      "class_id": 15,
+      "classe_pt": "Pastagem",
+      "classe_en": "Pasture",
+      "hex": "#edde8e"
+    },
+    {
+      "class_id": 39,
+      "classe_pt": "Soja",
+      "classe_en": "Soybean",
+      "hex": "#f5b3c8"
+    },
+    {
+      "class_id": 20,
+      "classe_pt": "Cana",
+      "classe_en": "Sugar cane",
+      "hex": "#db7093"
+    },
+    {
+      "class_id": 40,
+      "classe_pt": "Arroz",
+      "classe_en": "Rice",
+      "hex": "#c71585"
+    },
+    {
+      "class_id": 62,
+      "classe_pt": "Algodão (beta)",
+      "classe_en": "Cotton (beta)",
+      "hex": "#ff69b4"
+    },
+    {
+      "class_id": 41,
+      "classe_pt": "Outras Lavouras Temporárias",
+      "classe_en": "Other Temporary Crops",
+      "hex": "#f54ca9"
+    },
+    {
+      "class_id": 46,
+      "classe_pt": "Café",
+      "classe_en": "Coffe",
+      "hex": "#d68fe2"
+    },
+    {
+      "class_id": 47,
+      "classe_pt": "Citrus",
+      "classe_en": "Citrus",
+      "hex": "#9932cc"
+    },
+    {
+      "class_id": 35,
+      "classe_pt": "Dendê",
+      "classe_en": "Palm Oil",
+      "hex": "#9065d0"
+    },
+    {
+      "class_id": 48,
+      "classe_pt": "Outras Lavouras Perenes",
+      "classe_en": "Other Perennial Crops",
+      "hex": "#e6ccff"
+    },
+    {
+      "class_id": 9,
+      "classe_pt": "Silvicultura",
+      "classe_en": "Forest Plantation",
+      "hex": "#7a5900"
+    },
+    {
+      "class_id": 21,
+      "classe_pt": "Mosaico de usos",
+      "classe_en": "Mosaic of Uses",
+      "hex": "#ffefc3"
+    },
+    {
+      "class_id": 23,
+      "classe_pt": "Praia, Duna e Areal",
+      "classe_en": "Beach, Dune and Sand Spot",
+      "hex": "#ffa07a"
+    },
+    {
+      "class_id": 24,
+      "classe_pt": "Área Urbanizada",
+      "classe_en": "Urban Area",
+      "hex": "#d4271e"
+    },
+    {
+      "class_id": 30,
+      "classe_pt": "Mineração",
+      "classe_en": "Mining",
+      "hex": "#9c0027"
+    },
+    {
+      "class_id": 75,
+      "classe_pt": "Usina Fotovoltaica",
+      "classe_en": "Photovoltaic Power Plant",
+      "hex": "#757272"
+    },
+    {
+      "class_id": 91,
+      "classe_pt": "Parque eólico (beta)",
+      "classe_en": "Wind farm (beta)",
+      "hex": "#403d3e"
+    },
+    {
+      "class_id": 25,
+      "classe_pt": "Outras Área não Vegetadas",
+      "classe_en": "Other non Vegetated Areas",
+      "hex": "#db4d4f"
+    },
+    {
+      "class_id": 33,
+      "classe_pt": "Rio, Lago e Oceano",
+      "classe_en": "River, Lake and Ocean",
+      "hex": "#2532e4"
+    },
+    {
+      "class_id": 31,
+      "classe_pt": "Aquicultura",
+      "classe_en": "Aquaculture",
+      "hex": "#091077"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "fonte": "MapBiomas Brasil, Coleção 11 (classes 24 e 30), recorte da janela da sede de Canaã dos Carajás; áreas em EPSG:31982",
+  "aviso": "série de produto de terceiros, só para comparação: a classe 24 fica estagnada em 1996-2014 e supera a classificação própria ~4x (docs/qa/E3a.md, E3b.md). A série principal está em estatisticas_mancha.json (E3c).",
+  "serie": [
+    {
+      "ano": 1985,
+      "area_urbanizada_ha": 1004.49,
+      "mineracao_ha": 4.88,
+      "area_urbanizada_delta_ha": null,
+      "area_urbanizada_var_pct": null,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1986,
+      "area_urbanizada_ha": 1064.61,
+      "mineracao_ha": 15.72,
+      "area_urbanizada_delta_ha": 60.12,
+      "area_urbanizada_var_pct": 5.98,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1987,
+      "area_urbanizada_ha": 1138.75,
+      "mineracao_ha": 45.29,
+      "area_urbanizada_delta_ha": 74.15,
+      "area_urbanizada_var_pct": 6.96,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1988,
+      "area_urbanizada_ha": 1395.29,
+      "mineracao_ha": 84.81,
+      "area_urbanizada_delta_ha": 256.54,
+      "area_urbanizada_var_pct": 22.53,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1989,
+      "area_urbanizada_ha": 1668.25,
+      "mineracao_ha": 94.14,
+      "area_urbanizada_delta_ha": 272.96,
+      "area_urbanizada_var_pct": 19.56,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1990,
+      "area_urbanizada_ha": 1840.96,
+      "mineracao_ha": 158.97,
+      "area_urbanizada_delta_ha": 172.71,
+      "area_urbanizada_var_pct": 10.35,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1991,
+      "area_urbanizada_ha": 1996.8,
+      "mineracao_ha": 157.81,
+      "area_urbanizada_delta_ha": 155.84,
+      "area_urbanizada_var_pct": 8.47,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1992,
+      "area_urbanizada_ha": 2206.89,
+      "mineracao_ha": 136.67,
+      "area_urbanizada_delta_ha": 210.09,
+      "area_urbanizada_var_pct": 10.52,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1993,
+      "area_urbanizada_ha": 2429.68,
+      "mineracao_ha": 133.12,
+      "area_urbanizada_delta_ha": 222.79,
+      "area_urbanizada_var_pct": 10.1,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1994,
+      "area_urbanizada_ha": 2744.37,
+      "mineracao_ha": 151.68,
+      "area_urbanizada_delta_ha": 314.69,
+      "area_urbanizada_var_pct": 12.95,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1995,
+      "area_urbanizada_ha": 3129.83,
+      "mineracao_ha": 168.65,
+      "area_urbanizada_delta_ha": 385.46,
+      "area_urbanizada_var_pct": 14.05,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1996,
+      "area_urbanizada_ha": 3128.68,
+      "mineracao_ha": 172.73,
+      "area_urbanizada_delta_ha": -1.15,
+      "area_urbanizada_var_pct": -0.04,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1997,
+      "area_urbanizada_ha": 3133.38,
+      "mineracao_ha": 180.46,
+      "area_urbanizada_delta_ha": 4.71,
+      "area_urbanizada_var_pct": 0.15,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1998,
+      "area_urbanizada_ha": 3136.58,
+      "mineracao_ha": 182.23,
+      "area_urbanizada_delta_ha": 3.2,
+      "area_urbanizada_var_pct": 0.1,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 1999,
+      "area_urbanizada_ha": 3134.8,
+      "mineracao_ha": 186.67,
+      "area_urbanizada_delta_ha": -1.78,
+      "area_urbanizada_var_pct": -0.06,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 2000,
+      "area_urbanizada_ha": 3133.3,
+      "mineracao_ha": 188.09,
+      "area_urbanizada_delta_ha": -1.51,
+      "area_urbanizada_var_pct": -0.05,
+      "pop_municipio": 10922.0,
+      "fonte_pop": "censo",
+      "densidade_popmun_hab_ha": 3.49
+    },
+    {
+      "ano": 2001,
+      "area_urbanizada_ha": 3132.76,
+      "mineracao_ha": 189.07,
+      "area_urbanizada_delta_ha": -0.53,
+      "area_urbanizada_var_pct": -0.02,
+      "pop_municipio": 11425.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 3.65
+    },
+    {
+      "ano": 2002,
+      "area_urbanizada_ha": 3132.94,
+      "mineracao_ha": 190.67,
+      "area_urbanizada_delta_ha": 0.18,
+      "area_urbanizada_var_pct": 0.01,
+      "pop_municipio": 11761.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 3.75
+    },
+    {
+      "ano": 2003,
+      "area_urbanizada_ha": 3134.54,
+      "mineracao_ha": 190.23,
+      "area_urbanizada_delta_ha": 1.6,
+      "area_urbanizada_var_pct": 0.05,
+      "pop_municipio": 12151.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 3.88
+    },
+    {
+      "ano": 2004,
+      "area_urbanizada_ha": 3138.09,
+      "mineracao_ha": 190.4,
+      "area_urbanizada_delta_ha": 3.55,
+      "area_urbanizada_var_pct": 0.11,
+      "pop_municipio": 13035.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 4.15
+    },
+    {
+      "ano": 2005,
+      "area_urbanizada_ha": 3140.58,
+      "mineracao_ha": 190.76,
+      "area_urbanizada_delta_ha": 2.49,
+      "area_urbanizada_var_pct": 0.08,
+      "pop_municipio": 13421.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 4.27
+    },
+    {
+      "ano": 2006,
+      "area_urbanizada_ha": 3139.33,
+      "mineracao_ha": 192.89,
+      "area_urbanizada_delta_ha": -1.24,
+      "area_urbanizada_var_pct": -0.04,
+      "pop_municipio": 13870.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 4.42
+    },
+    {
+      "ano": 2007,
+      "area_urbanizada_ha": 3138.45,
+      "mineracao_ha": 192.8,
+      "area_urbanizada_delta_ha": -0.89,
+      "area_urbanizada_var_pct": -0.03,
+      "pop_municipio": 23757.0,
+      "fonte_pop": "contagem",
+      "densidade_popmun_hab_ha": 7.57
+    },
+    {
+      "ano": 2008,
+      "area_urbanizada_ha": 3135.96,
+      "mineracao_ha": 193.25,
+      "area_urbanizada_delta_ha": -2.49,
+      "area_urbanizada_var_pct": -0.08,
+      "pop_municipio": 26135.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 8.33
+    },
+    {
+      "ano": 2009,
+      "area_urbanizada_ha": 3128.23,
+      "mineracao_ha": 192.98,
+      "area_urbanizada_delta_ha": -7.73,
+      "area_urbanizada_var_pct": -0.25,
+      "pop_municipio": 27675.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 8.85
+    },
+    {
+      "ano": 2010,
+      "area_urbanizada_ha": 3122.91,
+      "mineracao_ha": 193.87,
+      "area_urbanizada_delta_ha": -5.33,
+      "area_urbanizada_var_pct": -0.17,
+      "pop_municipio": 26716.0,
+      "fonte_pop": "censo",
+      "densidade_popmun_hab_ha": 8.55
+    },
+    {
+      "ano": 2011,
+      "area_urbanizada_ha": 3119.62,
+      "mineracao_ha": 193.87,
+      "area_urbanizada_delta_ha": -3.29,
+      "area_urbanizada_var_pct": -0.11,
+      "pop_municipio": 27929.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 8.95
+    },
+    {
+      "ano": 2012,
+      "area_urbanizada_ha": 3124.86,
+      "mineracao_ha": 197.15,
+      "area_urbanizada_delta_ha": 5.24,
+      "area_urbanizada_var_pct": 0.17,
+      "pop_municipio": 29101.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 9.31
+    },
+    {
+      "ano": 2013,
+      "area_urbanizada_ha": 3130.1,
+      "mineracao_ha": 199.99,
+      "area_urbanizada_delta_ha": 5.24,
+      "area_urbanizada_var_pct": 0.17,
+      "pop_municipio": 31062.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 9.92
+    },
+    {
+      "ano": 2014,
+      "area_urbanizada_ha": 3144.75,
+      "mineracao_ha": 204.88,
+      "area_urbanizada_delta_ha": 14.65,
+      "area_urbanizada_var_pct": 0.47,
+      "pop_municipio": 32366.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 10.29
+    },
+    {
+      "ano": 2015,
+      "area_urbanizada_ha": 3165.88,
+      "mineracao_ha": 207.81,
+      "area_urbanizada_delta_ha": 21.13,
+      "area_urbanizada_var_pct": 0.67,
+      "pop_municipio": 33632.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 10.62
+    },
+    {
+      "ano": 2016,
+      "area_urbanizada_ha": 3191.01,
+      "mineracao_ha": 210.83,
+      "area_urbanizada_delta_ha": 25.13,
+      "area_urbanizada_var_pct": 0.79,
+      "pop_municipio": 34853.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 10.92
+    },
+    {
+      "ano": 2017,
+      "area_urbanizada_ha": 3202.99,
+      "mineracao_ha": 213.76,
+      "area_urbanizada_delta_ha": 11.99,
+      "area_urbanizada_var_pct": 0.38,
+      "pop_municipio": 36027.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 11.25
+    },
+    {
+      "ano": 2018,
+      "area_urbanizada_ha": 3214.71,
+      "mineracao_ha": 217.4,
+      "area_urbanizada_delta_ha": 11.72,
+      "area_urbanizada_var_pct": 0.37,
+      "pop_municipio": 36050.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 11.21
+    },
+    {
+      "ano": 2019,
+      "area_urbanizada_ha": 3230.52,
+      "mineracao_ha": 219.44,
+      "area_urbanizada_delta_ha": 15.8,
+      "area_urbanizada_var_pct": 0.49,
+      "pop_municipio": 37085.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 11.48
+    },
+    {
+      "ano": 2020,
+      "area_urbanizada_ha": 3241.53,
+      "mineracao_ha": 275.66,
+      "area_urbanizada_delta_ha": 11.01,
+      "area_urbanizada_var_pct": 0.34,
+      "pop_municipio": 38103.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 11.75
+    },
+    {
+      "ano": 2021,
+      "area_urbanizada_ha": 3256.54,
+      "mineracao_ha": 354.97,
+      "area_urbanizada_delta_ha": 15.01,
+      "area_urbanizada_var_pct": 0.46,
+      "pop_municipio": 39103.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 12.01
+    },
+    {
+      "ano": 2022,
+      "area_urbanizada_ha": 3294.99,
+      "mineracao_ha": 454.71,
+      "area_urbanizada_delta_ha": 38.45,
+      "area_urbanizada_var_pct": 1.18,
+      "pop_municipio": 77079.0,
+      "fonte_pop": "censo",
+      "densidade_popmun_hab_ha": 23.39
+    },
+    {
+      "ano": 2023,
+      "area_urbanizada_ha": 3327.4,
+      "mineracao_ha": 515.19,
+      "area_urbanizada_delta_ha": 32.41,
+      "area_urbanizada_var_pct": 0.98,
+      "pop_municipio": null,
+      "fonte_pop": null,
+      "densidade_popmun_hab_ha": null
+    },
+    {
+      "ano": 2024,
+      "area_urbanizada_ha": 3394.17,
+      "mineracao_ha": 632.41,
+      "area_urbanizada_delta_ha": 66.77,
+      "area_urbanizada_var_pct": 2.01,
+      "pop_municipio": 86629.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 25.52
+    },
+    {
+      "ano": 2025,
+      "area_urbanizada_ha": 3445.14,
+      "mineracao_ha": 677.53,
+      "area_urbanizada_delta_ha": 50.97,
+      "area_urbanizada_var_pct": 1.5,
+      "pop_municipio": 89524.0,
+      "fonte_pop": "estimativa",
+      "densidade_popmun_hab_ha": 25.99
+    }
+  ]
+}

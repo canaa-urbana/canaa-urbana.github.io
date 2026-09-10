@@ -1,0 +1,122 @@
+[
+ {
+  "arquivo": "fig_01_populacao.png",
+  "svg": "fig_01_populacao.svg",
+  "titulo": "Da colônia agrícola à cidade mineral: população de Canaã dos Carajás, 1985–2026",
+  "legenda": "Figura 1 — População residente de Canaã dos Carajás, 1985–2026, por tipo de fonte. Faixas ocre em 1985: conversão de famílias assentadas em pessoas (4,76–5,5 moradores por domicílio), em três cenários de escopo; losangos: citações secundárias; círculos vazados: estimativas anuais do IBGE, ancoradas no censo anterior e sistematicamente subestimadas; janelas sombreadas: construção das minas.",
+  "fonte": "IBGE (Censos 1991–2022, Contagem 2007, Estimativas); CETEM (2011); PDP (2007); PLANO.md Fase 1b.",
+  "resumo": "A população municipal passa de cerca de 11 mil (1996–2000) para 26,7 mil (2010) e 77,1 mil (2022); as estimativas anuais do IBGE ficaram muito abaixo do que a Contagem 2007 e o Censo 2022 revelaram."
+ },
+ {
+  "arquivo": "fig_02_mancha_serie.png",
+  "svg": "fig_02_mancha_serie.svg",
+  "titulo": "A sede cresceu 48 vezes em área entre 1984 e 2026, com o maior ritmo entre o Sossego e o S11D",
+  "legenda": "Figura 2 — Área construída contígua da sede de Canaã dos Carajás, 1984–2026 (acima: área mapeada, área ajustada pela acurácia com IC 95 % e MapBiomas como comparação; abaixo: acréscimo anual em hectares). Janelas sombreadas: construção do Sossego (2002–04) e do S11D (2013–16). O valor de 2026 é provisório (último ano da série, sem confirmação temporal).",
+  "fonte": "Elaboração própria: série própria Landsat/Sentinel-2 (30 m), validada com CBERS; população IBGE. MapBiomas Col. 11 (CC-BY).",
+  "resumo": "A área construída da sede passa de menos de 10 ha (1984) para cerca de 140 ha (2000), 1.100 ha (2010), 2.600 ha (2022) e 3.700 ha (2026); os saltos anuais concentram-se nas obras das minas e no pós-2022."
+ },
+ {
+  "arquivo": "fig_03_mapas_censos.png",
+  "svg": "fig_03_mapas_censos.svg",
+  "titulo": "A sede em cinco cortes",
+  "legenda": "Figura 3 — Área construída classificada (30 m) nos anos de 1990, 2000, 2010, 2022 e 2026; em cinza, a mancha do painel anterior. Hachura: loteamentos aprovados sem construção (Áreas Urbanizadas 2022).",
+  "fonte": "Elaboração própria: série própria Landsat/Sentinel-2 (30 m), validada com CBERS; população IBGE.",
+  "resumo": "Cinco mapas na mesma escala mostram a sede passando de um núcleo de 46 ha em 1990 para uma mancha de 3,7 mil ha em 2026, com expansão para oeste e noroeste."
+ },
+ {
+  "arquivo": "fig_04_ano_urbanizacao.png",
+  "svg": "fig_04_ano_urbanizacao.svg",
+  "titulo": "Ano de urbanização",
+  "legenda": "Figura 4 — Primeiro ano em que cada pixel de 30 m da sede foi classificado como construído (série própria, 1984–2026), agrupado pelos ciclos minerais; cruz: centroide do núcleo de 1990.",
+  "fonte": "Elaboração própria: série própria Landsat/Sentinel-2 (30 m), validada com CBERS; população IBGE.",
+  "resumo": "Os anéis de expansão mostram o núcleo de assentamento ao centro, o espraiamento para oeste e noroeste entre 2005 e 2016 e os loteamentos periféricos recentes ao sul e ao norte."
+ },
+ {
+  "arquivo": "fig_05_densidade.png",
+  "svg": "fig_05_densidade.svg",
+  "titulo": "A cidade se espraiou nos anos 2000 e adensou nos anos 2010",
+  "legenda": "Figura 5 — Densidade populacional da sede sobre a área construída (esquerda; barras = IC 95 % da área ajustada) e razão entre a taxa de consumo de solo e a taxa de crescimento populacional (ODS 11.3.1, direita).",
+  "fonte": "Elaboração própria: série própria Landsat/Sentinel-2 (30 m), validada com CBERS; população IBGE.",
+  "resumo": "A densidade ajustada cai de 36 para 24 hab./ha entre 2000 e 2010 (razão ODS 1,23, espraiamento) e sobe para 29 hab./ha em 2022 (razão 0,76, adensamento)."
+ },
+ {
+  "arquivo": "fig_06_coortes_chegada.png",
+  "svg": "fig_06_coortes_chegada.svg",
+  "titulo": "Seis em cada dez moradores não naturais chegaram depois do início das obras do S11D",
+  "legenda": "Figura 6 — Esquerda: residentes de Canaã dos Carajás em 2022 não naturais do município, por ano de chegada (barras de erro: IC 95 %; anos com n insuficiente fundidos pelo controle de revelação e omitidos). Direita: distribuição por período de chegada nos Censos 2000, 2010 e 2022.",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "As chegadas sobreviventes em 2022 sobem em degraus com as obras do Sossego (2002–04) e do S11D (2013–16) e disparam de 2017 em diante; 60 % dos não naturais chegaram a partir de 2013."
+ },
+ {
+  "arquivo": "fig_07_piramides.png",
+  "svg": "fig_07_piramides.svg",
+  "titulo": "De base larga a adulta jovem: pirâmides etárias, 1991–2022",
+  "legenda": "Figura 7 — Pirâmides etárias (% da população total): Parauapebas 1991 (amostra; inclui o atual Canaã), e Canaã dos Carajás 2000, 2010 e 2022 (Universo, SIDRA t/1552 e t/9514).",
+  "fonte": "IBGE — Censos 1991 (amostra, estimativa própria), 2000, 2010 e 2022 (Universo).",
+  "resumo": "A pirâmide passa de base larga (44 % com menos de 15 anos em 1991) a um perfil concentrado nos adultos jovens de 20 a 39 anos em 2010 e 2022, típico de cidade receptora de migrantes em idade ativa."
+ },
+ {
+  "arquivo": "fig_08_seletividade.png",
+  "svg": "fig_08_seletividade.svg",
+  "titulo": "Migrantes recentes são mais escolarizados, mais formalizados e mais presentes na mineração e na construção",
+  "legenda": "Figura 8 — Perfil dos migrantes de data fixa (residiam em outro município em 2017) e dos não migrantes, Canaã dos Carajás, 2022: proporção em cada categoria com IC 95 %; diferença em pontos percentuais (n.s. = não significativa a 95 %). Universos: pessoas de 5+ (sexo, idade, cor, naturalidade), 25+ (instrução), ocupados (setor, posição, formalidade).",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "Em 2022 os migrantes recentes têm mais superior completo, mais carteira assinada e mais inserção na extrativa e na construção, e menos presença na administração pública e no trabalho por conta própria, com renda média do trabalho igual à dos não migrantes."
+ },
+ {
+  "arquivo": "fig_09_setores.png",
+  "svg": "fig_09_setores.svg",
+  "titulo": "Da agropecuária à mineração, à construção e aos serviços: ocupados por setor, 2000–2022",
+  "legenda": "Figura 9 — Ocupados por setor de atividade (CNAE harmonizada), Canaã dos Carajás, Parauapebas e Pará, Censos 2000, 2010 e 2022. Comércio e serviços agrega comércio, serviços, serviços domésticos e outras atividades; cinza: categorias fundidas pelo controle de revelação (Canaã 2000: extrativa + construção).",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "Em Canaã a agropecuária cai de 55 % dos ocupados em 2000 para 3 % em 2022, enquanto a extrativa mineral chega a 10 % e a construção a 14 %, proporções acima das do Pará e próximas às de Parauapebas."
+ },
+ {
+  "arquivo": "fig_10_domicilios.png",
+  "svg": "fig_10_domicilios.svg",
+  "titulo": "Infraestrutura converge; a moradia alugada e o adensamento marcam os domicílios com migrantes",
+  "legenda": "Figura 10 — Condições dos domicílios particulares permanentes de Canaã dos Carajás, 2000–2022, segundo a presença de morador que residia em outro município cinco anos antes (barras: IC 95 %; células suprimidas omitidas).",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "Água, esgoto e lixo melhoram para todos entre 2000 e 2022, mas o aluguel passa de 10 % para 51 % nos domicílios com migrante recente, contra 20 % nos demais, e o adensamento por dormitório é o dobro."
+ },
+ {
+  "arquivo": "fig_11_setores_mapa.png",
+  "svg": "fig_11_setores_mapa.svg",
+  "titulo": "Água e esgoto por setor",
+  "legenda": "Figura 11 — Percentual de domicílios com água da rede geral e com esgoto por rede nos setores censitários da sede, 2010 e 2022 (classes fixas de 20 p.p.; ao fundo, a mancha construída de 2026). O esgoto de 2010 inclui rede pluvial.",
+  "fonte": "IBGE — agregados por setor censitário (2010, 2022).",
+  "resumo": "Em 2010 a rede de esgoto se restringia aos setores centrais; em 2022 a cobertura de água e esgoto se generaliza, mas os setores periféricos mais novos permanecem abaixo de 40 %."
+ },
+ {
+  "arquivo": "fig_12_comparacao_regional.png",
+  "svg": "fig_12_comparacao_regional.svg",
+  "titulo": "Canaã se descola dos municípios comparáveis do Sudeste Paraense a partir de 2010",
+  "legenda": "Figura 12 — Canaã dos Carajás, Parauapebas e grupos de municípios do Pará (Áreas Mínimas Comparáveis 2000–2022, médias ponderadas pela população; grupos por porte de CFEM per capita), Censos 2000, 2010 e 2022.",
+  "fonte": "Painel municipal 2000–2022 do projeto irmão migracoes-mineracao (microdados da amostra dos Censos; ANM).",
+  "resumo": "Enquanto a imigração recente cai em todos os grupos de comparação entre 2000 e 2022, em Canaã ela dobra; a inserção na extrativa, o aluguel e a renda do trabalho também se afastam dos municípios não mineradores do Sudeste Paraense."
+ },
+ {
+  "arquivo": "fig_13_economia.png",
+  "svg": "fig_13_economia.svg",
+  "titulo": "A cidade cresce nas obras; os royalties chegam depois",
+  "legenda": "Figura 13 — Área acrescida anualmente à sede (alto), CFEM distribuída ao município em R$ de julho de 2022 (meio) e PIB per capita a preços correntes (baixo), 2002–2026. Janelas sombreadas: construção das minas.",
+  "fonte": "Elaboração própria: série própria Landsat/Sentinel-2 (30 m), validada com CBERS; população IBGE. ANM (CFEM); IBGE (PIB dos Municípios, estimativas de população); IPCA para o deflacionamento.",
+  "resumo": "O acréscimo de área concentra-se nas fases de obra (2002–04, 2013–16) e no pós-2022, enquanto a CFEM só se torna relevante a partir de 2018 com o S11D; a correlação contemporânea entre CFEM e área acrescida é nula ou negativa."
+ },
+ {
+  "arquivo": "fig_14_baseline_1991.png",
+  "svg": "fig_14_baseline_1991.svg",
+  "titulo": "Trinta anos entre a fronteira agrícola e a cidade mineral: 1991, 2000 e 2022",
+  "legenda": "Figura 14 — Indicadores selecionados para Parauapebas em 1991 (município que então incluía o atual Canaã dos Carajás), Canaã em 2000 e Canaã em 2022 (IC 95 %). Células suprimidas pelo controle de revelação omitidas.",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "Entre a linha de base de 1991 e 2022, a agropecuária deixa de ser o principal setor, a formalidade quase dobra, o superior completo passa de 2 % para 13 % e água, esgoto e lixo coletado saltam de patamares de 20–50 % para 67–93 %."
+ },
+ {
+  "arquivo": "fig_15_cadeia_mineral.png",
+  "svg": "fig_15_cadeia_mineral.svg",
+  "titulo": "Migrantes recentes entram mais na cadeia da mineração, sobretudo pela construção e pela extrativa",
+  "legenda": "Figura 15 — Ocupados na cadeia produtiva da mineração (extrativa mineral, construção e indústria de transformação), Canaã dos Carajás. Esquerda: migrantes de data fixa e não migrantes por elo, 2010 e 2022 (IC 95 %; × = razão de seletividade; n.s. = não significativa). Centro: por origem do migrante, 2022. Direita: por tempo de moradia, 2022 (com menos de 1 ano, só a construção é publicável). Fornecedores de serviços e transporte à mina não são identificáveis no CNAE-Dom.",
+  "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
+  "resumo": "Em 2022, 36 % dos migrantes recentes ocupados estão na cadeia da mineração contra 29 % dos não migrantes (razão 1,23); a diferença vem da construção e da extrativa, é maior entre migrantes de outras UFs e era ainda mais acentuada em 2010, quando os migrantes tinham o dobro da chance de estar na extrativa."
+ }
+]

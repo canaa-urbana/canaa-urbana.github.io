@@ -1,0 +1,222 @@
+{
+ "landsat": {
+  "coordenadas": [
+   [
+    -49.990521,
+    -6.399458
+   ],
+   [
+    -49.749323,
+    -6.399458
+   ],
+   [
+    -49.749323,
+    -6.600815
+   ],
+   [
+    -49.990521,
+    -6.600815
+   ]
+  ],
+  "estiramento": {
+   "blue": [
+    0.017100000753998756,
+    0.06530000269412994
+   ],
+   "green": [
+    0.03550000116229057,
+    0.10429999977350235
+   ],
+   "red": [
+    0.024900000542402267,
+    0.14030000567436218
+   ],
+   "nir": [
+    0.20990000665187836,
+    0.38190001249313354
+   ],
+   "swir1": [
+    0.12880000472068787,
+    0.36640000343322754
+   ],
+   "swir2": [
+    0.047600001096725464,
+    0.23250000178813934
+   ]
+  },
+  "dimensoes_px": [
+   895,
+   752
+  ]
+ },
+ "s2": {
+  "coordenadas": [
+   [
+    -49.990521,
+    -6.399458
+   ],
+   [
+    -49.749413,
+    -6.399458
+   ],
+   [
+    -49.749413,
+    -6.600815
+   ],
+   [
+    -49.990521,
+    -6.600815
+   ]
+  ],
+  "estiramento": {
+   "blue": [
+    0.03689999878406525,
+    0.09870000183582306
+   ],
+   "green": [
+    0.04879999905824661,
+    0.13330000638961792
+   ],
+   "red": [
+    0.0340999998152256,
+    0.186599999666214
+   ],
+   "nir": [
+    0.20990000665187836,
+    0.3594000041484833
+   ],
+   "swir1": [
+    0.17430000007152557,
+    0.4066999852657318
+   ],
+   "swir2": [
+    0.07900000363588333,
+    0.2955020070075989
+   ]
+  },
+  "dimensoes_px": [
+   2684,
+   2256
+  ]
+ },
+ "mss": {
+  "coordenadas": [
+   [
+    -49.990521,
+    -6.399458
+   ],
+   [
+    -49.749323,
+    -6.399458
+   ],
+   [
+    -49.749323,
+    -6.600815
+   ],
+   [
+    -49.990521,
+    -6.600815
+   ]
+  ]
+ },
+ "tamanhos": {
+  "landsat_1984_cor": 117974,
+  "landsat_1984_falsacor": 203646,
+  "landsat_1985_cor": 108976,
+  "landsat_1985_falsacor": 194774,
+  "landsat_1986_cor": 116464,
+  "landsat_1986_falsacor": 214060,
+  "landsat_1987_cor": 130606,
+  "landsat_1987_falsacor": 217940,
+  "landsat_1988_cor": 132916,
+  "landsat_1988_falsacor": 223496,
+  "landsat_1989_cor": 129128,
+  "landsat_1989_falsacor": 216034,
+  "landsat_1990_cor": 130890,
+  "landsat_1990_falsacor": 222190,
+  "landsat_1991_cor": 113104,
+  "landsat_1991_falsacor": 205652,
+  "landsat_1992_cor": 135262,
+  "landsat_1992_falsacor": 197964,
+  "landsat_1993_cor": 148010,
+  "landsat_1993_falsacor": 213908,
+  "landsat_1994_cor": 148334,
+  "landsat_1994_falsacor": 215614,
+  "landsat_1995_cor": 164574,
+  "landsat_1995_falsacor": 216310,
+  "landsat_1996_cor": 155460,
+  "landsat_1996_falsacor": 220866,
+  "landsat_1997_cor": 155352,
+  "landsat_1997_falsacor": 169656,
+  "landsat_1998_cor": 128054,
+  "landsat_1998_falsacor": 168762,
+  "landsat_1999_cor": 168968,
+  "landsat_1999_falsacor": 193042,
+  "landsat_2000_cor": 151672,
+  "landsat_2000_falsacor": 187112,
+  "landsat_2001_cor": 153172,
+  "landsat_2001_falsacor": 185846,
+  "landsat_2002_cor": 136088,
+  "landsat_2002_falsacor": 169538,
+  "landsat_2003_cor": 156092,
+  "landsat_2003_falsacor": 193994,
+  "landsat_2004_cor": 157618,
+  "landsat_2004_falsacor": 194196,
+  "landsat_2005_cor": 166070,
+  "landsat_2005_falsacor": 200506,
+  "landsat_2006_cor": 160608,
+  "landsat_2006_falsacor": 193418,
+  "landsat_2007_cor": 158998,
+  "landsat_2007_falsacor": 196964,
+  "landsat_2008_cor": 170600,
+  "landsat_2008_falsacor": 203146,
+  "landsat_2009_cor": 159732,
+  "landsat_2009_falsacor": 201910,
+  "landsat_2010_cor": 161808,
+  "landsat_2010_falsacor": 185120,
+  "landsat_2011_cor": 171208,
+  "landsat_2011_falsacor": 202756,
+  "landsat_2012_cor": 167250,
+  "landsat_2012_falsacor": 198684,
+  "landsat_2013_cor": 173438,
+  "landsat_2013_falsacor": 215612,
+  "landsat_2014_cor": 159044,
+  "landsat_2014_falsacor": 215380,
+  "landsat_2015_cor": 159508,
+  "landsat_2015_falsacor": 197766,
+  "landsat_2016_cor": 174016,
+  "landsat_2016_falsacor": 208310,
+  "landsat_2017_cor": 181732,
+  "landsat_2017_falsacor": 217306,
+  "landsat_2018_cor": 175002,
+  "landsat_2018_falsacor": 215926,
+  "landsat_2019_cor": 169434,
+  "landsat_2019_falsacor": 203408,
+  "landsat_2020_cor": 183028,
+  "landsat_2020_falsacor": 223664,
+  "landsat_2021_cor": 184974,
+  "landsat_2021_falsacor": 222512,
+  "landsat_2022_cor": 177678,
+  "landsat_2022_falsacor": 222422,
+  "landsat_2023_cor": 185002,
+  "landsat_2023_falsacor": 234176,
+  "landsat_2024_cor": 186746,
+  "landsat_2024_falsacor": 230368,
+  "landsat_2025_cor": 187474,
+  "landsat_2025_falsacor": 234320,
+  "landsat_2026_cor": 185736,
+  "landsat_2026_falsacor": 229320,
+  "s2_2017_cor": 1332790,
+  "s2_2018_cor": 1197720,
+  "s2_2019_cor": 1263024,
+  "s2_2020_cor": 1261488,
+  "s2_2021_cor": 1256486,
+  "s2_2022_cor": 1288406,
+  "s2_2023_cor": 1343432,
+  "s2_2024_cor": 1298006,
+  "s2_2025_cor": 1385482,
+  "s2_2026_cor": 1338030,
+  "mss_1973_falsacor": 289088,
+  "mss_1982_falsacor": 98710
+ }
+}

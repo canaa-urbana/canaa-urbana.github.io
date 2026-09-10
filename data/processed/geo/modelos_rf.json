@@ -1,0 +1,185 @@
+{
+  "tm_etm": {
+    "n_amostras": 38102,
+    "n_urbano": 7910,
+    "oob": 0.9801,
+    "cv_blocos_3km": {
+      "oa": 0.9755,
+      "usuario_urbano": 0.9398,
+      "produtor_urbano": 0.9426,
+      "f1_urbano": 0.9412,
+      "tp": 7456,
+      "fp": 478,
+      "fn": 454,
+      "tn": 29714
+    },
+    "importancias": {
+      "nbr2": 0.3008,
+      "ndvi": 0.1442,
+      "swir2": 0.1137,
+      "bui": 0.0821,
+      "red": 0.0792,
+      "ndvi_max_chuva": 0.0552,
+      "green": 0.0404,
+      "blue": 0.03,
+      "bsi": 0.0266,
+      "ndbi": 0.0209,
+      "swir1": 0.0167,
+      "mndwi": 0.0164,
+      "ibi": 0.0163,
+      "declividade": 0.0132,
+      "std3_ndbi": 0.0088,
+      "std5_nir": 0.0078,
+      "std5_ndbi": 0.0072,
+      "ndvi_amplitude": 0.0072,
+      "std3_nir": 0.0071,
+      "nir": 0.0063
+    },
+    "segundos": 10.2,
+    "n_blocos": 70,
+    "amostras": {
+      "ref_2000": {
+        "urbano_px_disponiveis": 1187,
+        "nao_px_disponiveis": 483850,
+        "pos": 1187,
+        "neg": 12000
+      },
+      "ref_2010": {
+        "urbano_px_disponiveis": 5850,
+        "nao_px_disponiveis": 483910,
+        "pos": 5850,
+        "neg": 12000
+      },
+      "estaveis": {
+        "urbano_px": 291,
+        "nao_px": 46759,
+        "pos": 291,
+        "neg": 2064,
+        "anos": [
+          1990,
+          2000,
+          2010
+        ]
+      }
+    }
+  },
+  "oli": {
+    "n_amostras": 43065,
+    "n_urbano": 12873,
+    "oob": 0.9686,
+    "cv_blocos_3km": {
+      "oa": 0.9623,
+      "usuario_urbano": 0.9183,
+      "produtor_urbano": 0.9592,
+      "f1_urbano": 0.9383,
+      "tp": 12348,
+      "fp": 1099,
+      "fn": 525,
+      "tn": 29093
+    },
+    "importancias": {
+      "nbr2": 0.2309,
+      "ndvi": 0.1408,
+      "ndvi_max_chuva": 0.1209,
+      "red": 0.1025,
+      "swir2": 0.0764,
+      "bui": 0.0606,
+      "green": 0.0497,
+      "blue": 0.0387,
+      "mndwi": 0.0343,
+      "bsi": 0.0305,
+      "ndbi": 0.0237,
+      "nir": 0.0202,
+      "ibi": 0.0181,
+      "swir1": 0.0139,
+      "ndvi_amplitude": 0.0097,
+      "std3_ndbi": 0.0068,
+      "std5_ndbi": 0.0065,
+      "std5_nir": 0.006,
+      "std3_nir": 0.0049,
+      "declividade": 0.0049
+    },
+    "segundos": 14.2,
+    "n_blocos": 70,
+    "amostras": {
+      "ref_2019": {
+        "urbano_px_disponiveis": 14185,
+        "nao_px_disponiveis": 485805,
+        "pos": 6000,
+        "neg": 12000
+      },
+      "ref_2022": {
+        "urbano_px_disponiveis": 16451,
+        "nao_px_disponiveis": 483527,
+        "pos": 6000,
+        "neg": 12000
+      },
+      "estaveis": {
+        "urbano_px": 291,
+        "nao_px": 46759,
+        "pos": 291,
+        "neg": 2064,
+        "anos": [
+          2014,
+          2019,
+          2022
+        ]
+      }
+    }
+  },
+  "msi10": {
+    "n_amostras": 50390,
+    "n_urbano": 17238,
+    "oob": 0.9572,
+    "cv_blocos_3km": {
+      "oa": 0.9522,
+      "usuario_urbano": 0.9147,
+      "produtor_urbano": 0.9488,
+      "f1_urbano": 0.9314,
+      "tp": 16356,
+      "fp": 1526,
+      "fn": 882,
+      "tn": 31626
+    },
+    "importancias": {
+      "nbr2": 0.2922,
+      "swir2": 0.1134,
+      "ndvi": 0.1085,
+      "bui": 0.0682,
+      "ndvi_max_chuva": 0.0681,
+      "red": 0.0645,
+      "blue": 0.0419,
+      "std5_nir": 0.0386,
+      "bsi": 0.0298,
+      "green": 0.0258,
+      "std5_ndbi": 0.0255,
+      "ndbi": 0.022,
+      "swir1": 0.0207,
+      "std3_nir": 0.0195,
+      "std3_ndbi": 0.015,
+      "mndwi": 0.0143,
+      "ndvi_amplitude": 0.0119,
+      "declividade": 0.008,
+      "nir": 0.007,
+      "ibi": 0.0051
+    },
+    "segundos": 12.2,
+    "n_blocos": 70,
+    "amostras": {
+      "ref_2022": {
+        "urbano_px_disponiveis": 171144,
+        "nao_px_disponiveis": 4400177,
+        "pos": 12000,
+        "neg": 24000
+      },
+      "estaveis": {
+        "pos": 2619,
+        "neg": 4576,
+        "anos": [
+          2018,
+          2025
+        ]
+      }
+    }
+  }
+}
