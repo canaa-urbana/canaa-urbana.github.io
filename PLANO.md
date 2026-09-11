@@ -88,7 +88,7 @@ O termo de compromisso (assinado 31/08/2026, finalidade "pesquisa acadêmica / m
 Objetivo: recompor, a partir de bibliografia, citações de terceiros e fontes históricas, a população do assentamento/vila/distrito de Canaã dos Carajás desde o início do assentamento GETAT (Projeto de Assentamento Carajás, CEDERE I–III, 1982–85) até a criação (1994), instalação (1997) e os primeiros registros oficiais (Contagem 1996; Censo 2000).
 1. `15_trajetoria_historica.py` + `data/externo/historico/trajetoria_pre_1994.csv`: tabela ponto a ponto — ano | valor | unidade (famílias/pessoas) | recorte (CEDERE I / sede / distrito / município) | fonte (autor, ano, página) | URL | confiabilidade. Fontes: IBGE Cidades (histórico), Biblioteca IBGE (Sinopse Preliminar 1991 e Resultados do Universo 1991 – Pará; localidades/aglomerados de Parauapebas), Contagem 1996 e 2007 (SIDRA), GETAT/INCRA (1.551 famílias assentadas 1982–85; 816 títulos até 1985), CETEM ("do leite ao cobre"), ANPUR ("A cidade na fronteira"), Carmo (2023), RBEUR, Plano Diretor (2006/2007 e revisões), EIA/RIMA do Sossego (linha de base ~2001), teses sobre Parauapebas/Carajás/GETAT, Prefeitura.
 2. Série anual consistente 1982–2000: âncoras oficiais (1991 Parauapebas incl. Canaã; Contagem 1996; Censo 2000) + pontos bibliográficos; conversão famílias→pessoas com tamanho médio de domicílio regional dos próprios censos (1991/2000, microdados); interpolação geométrica entre âncoras com faixas de incerteza; cada valor rotulado como "oficial", "citação de terceiro" ou "estimativa própria". Cruzamento com a mancha urbana 1990–2000 (densidade implícita) como teste de plausibilidade.
-3. Saída: gráfico de trajetória 1982–2026 no dashboard (aba "Anos censitários"/"Mineração e economia", com marcadores por tipo de fonte) e seção do artigo ("Da colônia agrícola à cidade mineral: trajetória demográfica 1982–2000").
+3. Saída: gráfico de trajetória 1982–2026 no dashboard (aba "Anos censitários"/"Mineração e economia", com marcadores por tipo de fonte) e seção do artigo ("Da colônia agrícola à cidade mineradora: trajetória demográfica 1982–2000").
 **Pontos históricos encontrados (levantamento de 09/09/2026, todas as fontes verificadas)**
 
 | Ano | Figura | Unidade / recorte | Fonte | Confiabilidade |
@@ -322,4 +322,4 @@ Paralelismo permitido: E1 ∥ E2 ∥ E3a ∥ E4 após E0; E3b após E3a; E5 apó
 | E5 — Análise e figuras | concluída | 2026-09-10 | `docs/qa/E5.md` |
 | E6 — Artigo | concluída | 2026-09-10 | `docs/qa/E6.md` |
 | E7 — Dashboard | concluída | 2026-09-10 | `docs/qa/E7.md` |
-| E8 — Publicação e QA final | concluída — site em https://canaa-urbana.github.io; DOI 10.5281/zenodo.22699960 (v1.0.0) | 2026-09-10 | `docs/qa/E8.md` |
+| E8 — Publicação e QA final | concluída — site em https://canaa-urbana.github.io; DOI conceitual 10.5281/zenodo.22699960, versão corrente v1.0.1 (10.5281/zenodo.22709148) | 2026-09-10 | `docs/qa/E8.md` |
