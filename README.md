@@ -133,8 +133,9 @@ com o gate violado ou com dado pessoal.
 > Versão 1.0.1. [S. l.]: Zenodo, 2026. DOI: https://doi.org/10.5281/zenodo.22699960.
 
 O DOI acima é o **conceitual** (resolve sempre para a versão mais recente). Para citar
-exatamente a versão 1.0.0 (dados `2026-09-10-e8`), use
-[10.5281/zenodo.22699961](https://doi.org/10.5281/zenodo.22699961).
+exatamente a versão 1.0.1 (dados `2026-09-10-e8`), use
+[10.5281/zenodo.22709148](https://doi.org/10.5281/zenodo.22709148); para a
+versão 1.0.0 (mesmos dados), [10.5281/zenodo.22699961](https://doi.org/10.5281/zenodo.22699961).
 
 Metadados legíveis por máquina: [`CITATION.cff`](CITATION.cff) e [`.zenodo.json`](.zenodo.json).
 ORCID do autor: [0000-0002-6632-3991](https://orcid.org/0000-0002-6632-3991).

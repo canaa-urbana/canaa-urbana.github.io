@@ -74,6 +74,13 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
       quiser o DOI no próprio registro), `web/src/lib/publicacao.ts` (`DOI`) e à seção
       "Disponibilidade de dados e código" do artigo (`artigo/texto.md` → `pipeline/50_artigo.py`),
       e rodar de novo `pipeline/60_dados_web.py` e o build.
+- [x] **Release `v1.0.1`** (2026-09-11): versão de apresentação, dados inalterados
+      (`2026-09-10-e8`). Título da obra passa a "cidade mineradora"; pirâmides etárias do painel
+      alinhadas como na figura 7; fundo de figura `#FAFAF9`; tooltips dos mapas consolidados em
+      `app.css` e tooltip de volume no mapa de fluxos. DOI da versão
+      **10.5281/zenodo.22709148** (conceitual inalterado), propagado a `CITATION.cff` e
+      `README.md`. O artigo passou a citar só o DOI conceitual, para não precisar ser regerado a
+      cada release.
 - [ ] Google Search Console / Bing Webmaster (opcional): verificar a propriedade e enviar
       `sitemap.xml`.
 

@@ -19,6 +19,9 @@ identifiers:
     value: "10.5281/zenodo.22699960"
     description: "DOI conceitual no Zenodo (todas as versões)"
   - type: doi
+    value: "10.5281/zenodo.22709148"
+    description: "DOI da versão v1.0.1 no Zenodo (dados 2026-09-10-e8)"
+  - type: doi
     value: "10.5281/zenodo.22699961"
     description: "DOI da versão v1.0.0 no Zenodo (dados 2026-09-10-e8)"
 keywords:
