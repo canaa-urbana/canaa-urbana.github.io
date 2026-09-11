@@ -322,4 +322,4 @@ Paralelismo permitido: E1 ∥ E2 ∥ E3a ∥ E4 após E0; E3b após E3a; E5 apó
 | E5 — Análise e figuras | concluída | 2026-09-10 | `docs/qa/E5.md` |
 | E6 — Artigo | concluída | 2026-09-10 | `docs/qa/E6.md` |
 | E7 — Dashboard | concluída | 2026-09-10 | `docs/qa/E7.md` |
-| E8 — Publicação e QA final | concluída localmente (push, Pages e DOI aguardam o titular) | 2026-09-10 | `docs/qa/E8.md` |
+| E8 — Publicação e QA final | concluída — site em https://canaa-urbana.github.io; DOI 10.5281/zenodo.22699960 (v1.0.0) | 2026-09-10 | `docs/qa/E8.md` |
