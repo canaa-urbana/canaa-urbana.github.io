@@ -1,4 +1,5 @@
 # Dependências mínimas do job "verificar" do CI (verify_gate.py e auditoria_publicacao.py).
 # O pipeline completo usa o pyproject.toml (uv) e precisa dos microdados locais.
 pyarrow>=17
+pandas>=2.2
 pillow>=10
