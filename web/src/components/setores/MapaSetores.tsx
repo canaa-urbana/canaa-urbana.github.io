@@ -7,7 +7,7 @@ import type { Tema, VizTokens } from '../../lib/theme'
 import { tokens } from '../../lib/theme'
 import { fmtNum } from '../../lib/format'
 import { bboxFC } from './dados'
-import { PERTENCE_ROTULO, type IndicadorMeta, type IndicadoresSetores, type SetorFC } from './tipos'
+import { PERTENCE_ROTULO, type IndicadorMeta, type SetorFC } from './tipos'
 
 export interface MapaSetoresHandle {
   map: MLMap | null
@@ -17,7 +17,6 @@ export interface MapaSetoresProps {
   fc: SetorFC | undefined
   ano: number
   indicador: IndicadorMeta
-  indicadores: IndicadoresSetores | undefined
   breaks: number[] | null
   tema: Tema
   mostrarMancha: boolean
@@ -33,11 +32,16 @@ export interface MapaSetoresProps {
 const FONTE_SETORES = 'setores-src'
 const FONTE_MANCHA = 'setores-mancha-src'
 
-function linhaTooltip(rotulo: string, valor: string): string {
-  return `<tr><th>${rotulo}</th><td>${valor}</td></tr>`
+/** `<b>` marca o número: só a unidade passa para a linha de baixo quando o valor não cabe. */
+function linhaTooltip(rotulo: string, valor: string, unidade = '', destaque = false): string {
+  const cls = destaque ? ' class="mapa-tooltip__destaque"' : ''
+  return `<tr${cls}><th>${rotulo}</th><td><b>${valor}</b>${unidade ? ' ' + unidade : ''}</td></tr>`
 }
 
-function tooltipHtml(props: Record<string, unknown>, indicadores: IndicadoresSetores | undefined, ano: number): string {
+// só a Pertença/População/Domicílios de base + o indicador escolhido no seletor (o mesmo que
+// colore o mapa) — mostrar os ~14 indicadores da malha de uma vez deixava o popup mais alto que
+// o próprio mapa e o conteúdo vazava para fora do cartão.
+function tooltipHtml(props: Record<string, unknown>, indicador: IndicadorMeta, ano: number): string {
   const cod = String(props.cod_setor ?? '')
   const pertence = PERTENCE_ROTULO[props.pertence as keyof typeof PERTENCE_ROTULO] ?? String(props.pertence ?? '')
   const linhas = [
@@ -45,12 +49,13 @@ function tooltipHtml(props: Record<string, unknown>, indicadores: IndicadoresSet
     linhaTooltip('População', fmtNum(props.pop as number)),
     linhaTooltip('Domicílios', fmtNum(props.dom as number)),
   ]
-  for (const ind of indicadores?.indicadores ?? []) {
-    if (!ind.anos.includes(ano)) continue
-    const v = props[ind.id]
-    if (v === undefined || v === null) continue
-    const un = ind.unidade === '%' ? ' %' : ' ' + ind.unidade
-    linhas.push(linhaTooltip(ind.rotulo, `${fmtNum(v as number, ind.casas)}${un}`))
+  if (indicador.anos.includes(ano)) {
+    const v = props[indicador.id]
+    if (v !== undefined && v !== null) {
+      const num = indicador.unidade === '%' ? `${fmtNum(v as number, indicador.casas)} %` : fmtNum(v as number, indicador.casas)
+      const un = indicador.unidade === '%' ? '' : indicador.unidade
+      linhas.push(linhaTooltip(indicador.rotulo, num, un, true))
+    }
   }
   return `<div class="mapa-tooltip"><p class="mapa-tooltip__titulo">Setor ${cod}</p><table>${linhas.join('')}</table></div>`
 }
@@ -66,7 +71,7 @@ function expressaoCor(indicadorId: string, breaks: number[] | null, viz: VizToke
 }
 
 const MapaSetores = forwardRef<MapaSetoresHandle, MapaSetoresProps>(function MapaSetores(
-  { fc, ano, indicador, indicadores, breaks, tema, mostrarMancha, manifesto, selecionado, hover, onHover, onClick, interativo = true, className },
+  { fc, ano, indicador, breaks, tema, mostrarMancha, manifesto, selecionado, hover, onHover, onClick, interativo = true, className },
   ref,
 ) {
   const elRef = useRef<HTMLDivElement>(null)
@@ -74,7 +79,7 @@ const MapaSetores = forwardRef<MapaSetoresHandle, MapaSetoresProps>(function Map
   const popupRef = useRef<maplibregl.Popup | null>(null)
   const [pronto, setPronto] = useState(false)
   const ajustadoRef = useRef(false)
-  const indicadoresRef = useRef(indicadores)
+  const indicadorRef = useRef(indicador)
   const anoRef = useRef(ano)
 
   useImperativeHandle(ref, () => ({
@@ -84,9 +89,9 @@ const MapaSetores = forwardRef<MapaSetoresHandle, MapaSetoresProps>(function Map
   }))
 
   useEffect(() => {
-    indicadoresRef.current = indicadores
+    indicadorRef.current = indicador
     anoRef.current = ano
-  }, [indicadores, ano])
+  }, [indicador, ano])
 
   // cria o mapa uma única vez
   useEffect(() => {
@@ -144,7 +149,7 @@ const MapaSetores = forwardRef<MapaSetoresHandle, MapaSetoresProps>(function Map
 
     const CAMADAS_INTERATIVAS = ['setor-dados', 'setor-semdado', 'setor-outros']
     if (interativo) {
-      popupRef.current = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: 'mapa-popup', maxWidth: '260px' })
+      popupRef.current = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: 'mapa-popup', maxWidth: 'none' })
       m.on('mousemove', (e) => {
         const layers = CAMADAS_INTERATIVAS.filter((id) => m.getLayer(id))
         if (!layers.length) return
@@ -157,7 +162,7 @@ const MapaSetores = forwardRef<MapaSetoresHandle, MapaSetoresProps>(function Map
         }
         m.getCanvas().style.cursor = 'pointer'
         onHover(String(f.properties?.cod_setor ?? ''))
-        popupRef.current?.setLngLat(e.lngLat).setHTML(tooltipHtml(f.properties ?? {}, indicadoresRef.current, anoRef.current)).addTo(m)
+        popupRef.current?.setLngLat(e.lngLat).setHTML(tooltipHtml(f.properties ?? {}, indicadorRef.current, anoRef.current)).addTo(m)
       })
       m.on('mouseleave', () => {
         m.getCanvas().style.cursor = ''

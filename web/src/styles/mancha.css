@@ -295,20 +295,7 @@
 /* Tooltip de hover no mapa (maplibregl.Popup)                            */
 /* --------------------------------------------------------------------- */
 
-.mapa-popup .maplibregl-popup-content {
-  background: var(--ard-surface);
-  color: var(--ard-text);
-  border: 1px solid var(--ard-border);
-  border-radius: var(--ard-radius);
-  box-shadow: none;
-  padding: 8px 10px;
-  font: 400 12px/1.4 var(--ard-sans);
-}
-.mapa-popup .maplibregl-popup-tip { border-top-color: var(--ard-border); border-bottom-color: var(--ard-border); }
-.mapa-tooltip__titulo { margin: 0 0 4px; font: 600 12px/1.3 var(--ard-sans); color: var(--ard-text); }
-.mapa-tooltip table { border-collapse: collapse; }
-.mapa-tooltip th { text-align: left; font-weight: 400; color: var(--ard-text-3); padding-right: 8px; }
-.mapa-tooltip td { color: var(--ard-text-2); }
+/* .mapa-popup / .mapa-tooltip estão em app.css — compartilhados com o mapa de setores. */
 
 @media (max-width: 1100px) {
   .mancha-layout__mapa, .comparador__mapas { height: 60vh; }

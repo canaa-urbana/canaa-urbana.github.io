@@ -98,8 +98,8 @@ const ESTILO_URL: Record<Tema, string> = {
   light: 'https://tiles.openfreemap.org/styles/positron',
   dark: 'https://tiles.openfreemap.org/styles/dark',
 }
-/** Fundo da base na cor do papel Ardósia, para o mapa assentar na página. */
-const FUNDO: Record<Tema, string> = { light: '#F4F2ED', dark: '#171B1E' }
+/** Fundo da base na cor de figura Ardósia (claro quase branco), igual ao card que o contém. */
+const FUNDO: Record<Tema, string> = { light: '#FAFAF9', dark: '#171B1E' }
 const FONTES_BASE = new Set(['openmaptiles', 'ne2_shaded'])
 export const ATRIB_BASE =
   '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank">OpenMapTiles</a>, dados © contribuidores do <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'

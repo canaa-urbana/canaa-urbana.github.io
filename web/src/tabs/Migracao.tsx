@@ -260,9 +260,21 @@ function PainelOrigens({ R, linhas }: { R: ReturnType<typeof useRotulos>['data']
   const [censo, setCenso] = useState(2022)
   if (!R) return null
   const rows = busca(linhas, { censo, geografia: 'canaa_municipio', universo: 'migrantes_internos', estatistica: 'proporcao', dim1: 'origem_uf', dim2: null })
-  const publicadas: (FluxoUF & { rotuloUf: string })[] = rows
+  // contagem ponderada da mesma célula, para o tooltip do mapa mostrar volume além da participação
+  const contagens = new Map(
+    busca(linhas, { censo, geografia: 'canaa_municipio', universo: 'migrantes_internos', estatistica: 'contagem', dim1: 'origem_uf', dim2: null }).map(
+      (r) => [r.cat1!, r.valor],
+    ),
+  )
+  const publicadas: FluxoUF[] = rows
     .filter((r) => r.cat1 && !r.cat1.startsWith('outros:'))
-    .map((r) => ({ uf: R.ufs[r.cat1!] ?? r.cat1!, valor: r.valor ?? 0, cv: r.cv, classe: r.classe, rotuloUf: R.ufs[r.cat1!] ?? r.cat1! }))
+    .map((r) => ({
+      uf: R.ufs[r.cat1!] ?? r.cat1!,
+      valor: r.valor ?? 0,
+      cv: r.cv,
+      classe: r.classe,
+      pessoas: contagens.get(r.cat1!) ?? null,
+    }))
     .sort((a, b) => b.valor - a.valor)
   const fundidas = rows.filter((r) => r.cat1?.startsWith('outros:'))
 

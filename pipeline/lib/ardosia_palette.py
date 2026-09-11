@@ -14,6 +14,9 @@ FILETE       = "#D8D4CC"
 FILETE_CL    = "#E6E2DA"
 PAPEL        = "#F4F2ED"
 PAPEL_CL     = "#FAF9F6"
+# Fundo de figura: cinza claro quase branco, o tom mais claro da paleta. E o fundo
+# de TODA figura, grafico e mapa (matplotlib em modo claro, cards do dashboard).
+PAPEL_FIG    = "#FAFAF9"
 
 # --- Assinatura -----------------------------------------------------------
 ARDOSIA      = "#24404F"
@@ -82,7 +85,7 @@ def apply_ardosia(dark=False, base_size=10):
         except (AttributeError, ValueError):
             pass
 
-    fundo  = FUNDO_ESC if dark else PAPEL
+    fundo  = FUNDO_ESC if dark else PAPEL_FIG
     superf = SUPERF_ESC if dark else PAPEL_CL
     texto  = TEXTO_ESC if dark else TINTA
     texto2 = TEXTO2_ESC if dark else PEDRA

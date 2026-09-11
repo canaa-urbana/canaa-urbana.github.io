@@ -3,8 +3,10 @@
 // Espessura do arco ∝ estimativa; só desenha células publicadas (a fusão "outros:" some só na
 // tabela, nunca como arco). Rolagem da página nunca é capturada (scrollZoom desligado).
 import { useEffect, useRef, useState } from 'react'
+import maplibregl from 'maplibre-gl'
 import { criarMapa, trocarTemaBase, FONTE_MAPA, type MLMap } from '../../lib/mapa'
 import { useTema } from '../../lib/theme'
+import { fmtNum, fmtPct } from '../../lib/format'
 import { CAPITAIS_UF, CANAA } from '../censos/estimativas'
 import type { Classe } from '../../lib/data'
 
@@ -13,6 +15,8 @@ export interface FluxoUF {
   valor: number
   cv: number | null
   classe: Classe | null
+  /** Volume estimado de migrantes (contagem ponderada, arredondada pelo gate). */
+  pessoas?: number | null
 }
 
 /** Bbox aproximado do Brasil, com folga (o `criarMapa` ajusta com `padding`). */
@@ -44,6 +48,10 @@ function arco(a: [number, number], b: [number, number], n = 32): [number, number
   return pts
 }
 
+function propriedades(d: FluxoUF) {
+  return { uf: d.uf, valor: d.valor, pessoas: d.pessoas ?? null, cv: d.cv, classe: d.classe ?? 'boa' }
+}
+
 function arcosGeojson(dados: FluxoUF[]): GeoJSON.FeatureCollection {
   const maxValor = Math.max(1, ...dados.map((d) => d.valor))
   return {
@@ -54,7 +62,7 @@ function arcosGeojson(dados: FluxoUF[]): GeoJSON.FeatureCollection {
         const largura = LARGURA_MIN + Math.sqrt(d.valor / maxValor) * (LARGURA_MAX - LARGURA_MIN)
         return {
           type: 'Feature',
-          properties: { uf: d.uf, valor: d.valor, largura, classe: d.classe ?? 'boa' },
+          properties: { ...propriedades(d), largura },
           geometry: { type: 'LineString', coordinates: arco(CAPITAIS_UF[d.uf], CANAA) },
         }
       }),
@@ -68,10 +76,22 @@ function ufsGeojson(dados: FluxoUF[]): GeoJSON.FeatureCollection {
       .filter((d) => CAPITAIS_UF[d.uf])
       .map((d) => ({
         type: 'Feature',
-        properties: { uf: d.uf },
+        properties: propriedades(d),
         geometry: { type: 'Point', coordinates: CAPITAIS_UF[d.uf] },
       })),
   }
+}
+
+function tooltipHtml(props: Record<string, unknown>): string {
+  const pessoas = props.pessoas as number | null
+  const linhas = [
+    pessoas != null
+      ? `<tr><th>Migrantes</th><td><b>${fmtNum(pessoas)}</b> pessoas</td></tr>`
+      : '',
+    `<tr><th>Participação</th><td><b>${fmtPct(props.valor as number)}</b> dos migrantes internos</td></tr>`,
+    `<tr class="mapa-tooltip__destaque"><th>Precisão</th><td><b>CV ${fmtPct(props.cv as number)}</b> (${props.classe})</td></tr>`,
+  ]
+  return `<div class="mapa-tooltip"><p class="mapa-tooltip__titulo">${props.uf} → Canaã dos Carajás</p><table>${linhas.join('')}</table></div>`
 }
 
 const DESTINO: GeoJSON.FeatureCollection = {
@@ -82,6 +102,7 @@ const DESTINO: GeoJSON.FeatureCollection = {
 export function FlowMap({ dados }: { dados: FluxoUF[] }) {
   const el = useRef<HTMLDivElement>(null)
   const mapa = useRef<MLMap | null>(null)
+  const popupRef = useRef<maplibregl.Popup | null>(null)
   const [pronto, setPronto] = useState(false)
   const { tema, viz } = useTema()
 
@@ -102,6 +123,18 @@ export function FlowMap({ dados }: { dados: FluxoUF[] }) {
           source: 'arcos',
           layout: { 'line-cap': 'round', 'line-join': 'round' },
           paint: { 'line-color': viz.enfase, 'line-opacity': 0.8, 'line-width': ['get', 'largura'] },
+        },
+        'rotulos',
+      )
+      // faixa invisível e larga sobre cada arco: um arco de 1–2 px é quase impossível de acertar
+      // com o mouse, então o alvo do hover é esta camada, não a linha desenhada.
+      m.addLayer(
+        {
+          id: 'arcos-toque',
+          type: 'line',
+          source: 'arcos',
+          layout: { 'line-cap': 'round', 'line-join': 'round' },
+          paint: { 'line-color': viz.enfase, 'line-opacity': 0, 'line-width': ['max', ['get', 'largura'], 14] },
         },
         'rotulos',
       )
@@ -133,9 +166,25 @@ export function FlowMap({ dados }: { dados: FluxoUF[] }) {
         },
         'rotulos',
       )
+      const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: 'mapa-popup', maxWidth: 'none' })
+      popupRef.current = popup
+      for (const camada of ['arcos-toque', 'ufs-pontos', 'ufs-rotulos'] as const) {
+        m.on('mousemove', camada, (e) => {
+          const f = e.features?.[0]
+          if (!f) return
+          m.getCanvas().style.cursor = 'pointer'
+          popup.setLngLat(e.lngLat).setHTML(tooltipHtml(f.properties ?? {})).addTo(m)
+        })
+        m.on('mouseleave', camada, () => {
+          m.getCanvas().style.cursor = ''
+          popup.remove()
+        })
+      }
       setPronto(true)
     })
     return () => {
+      popupRef.current?.remove()
+      popupRef.current = null
       m.remove()
       mapa.current = null
     }
@@ -185,7 +234,7 @@ export function FlowMap({ dados }: { dados: FluxoUF[] }) {
       ref={el}
       className="mapa-fluxos"
       role="figure"
-      aria-label="Mapa de fluxos migratórios das capitais estaduais de origem até Canaã dos Carajás, espessura do arco proporcional à estimativa."
+      aria-label="Mapa de fluxos migratórios das capitais estaduais de origem até Canaã dos Carajás, espessura do arco proporcional à estimativa. O arco mostra volume, participação e precisão ao passar o cursor; os mesmos valores estão na tabela abaixo."
     />
   )
 }

@@ -109,7 +109,7 @@ export function MiniMapaMancha({ ano, arquivo, contexto, titulo }: Props) {
       role="img"
       aria-label={`Mancha urbana da sede em ${ano}, na mesma janela geográfica dos demais censos (contorno fino cinza = extensão de 2022 como referência).`}
     >
-      <rect x={0} y={0} width={w} height={h} fill={viz.fundo} />
+      <rect x={0} y={0} width={w} height={h} fill={viz.superficie} />
       {pathContexto && <path d={pathContexto} fill="none" stroke={viz.contexto} strokeWidth={0.75} />}
       {path ? (
         <path d={path} fill={corUrbano} stroke="none" />

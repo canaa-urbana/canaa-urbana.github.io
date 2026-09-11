@@ -205,3 +205,21 @@ td.num { white-space: nowrap; }
 .maplibregl-ctrl-scale { background: var(--ard-surface); color: var(--ard-text-2); border-color: var(--ard-text-3); font: 400 10px var(--ard-sans); }
 .maplibregl-popup-content { background: var(--ard-surface); color: var(--ard-text); border: 1px solid var(--ard-border); border-radius: var(--ard-radius); box-shadow: none; font: 400 12px/1.45 var(--ard-sans); padding: 8px 10px; }
 .maplibregl-popup-tip { display: none; }
+
+/* Tooltip de hover dos mapas (mancha e setores). Fica aqui, e não nos CSS das abas, porque
+   cada aba é carregada sob demanda: definido em dois arquivos, o vencedor dependia de qual
+   aba o visitante abrisse primeiro. Largura fixa + `table-layout: fixed` mantêm rótulo e
+   valor dentro do cartão — com `nowrap`, rótulos longos ("Densidade líquida (sobre a área
+   construída)") vazavam para fora da borda. */
+.mapa-popup .maplibregl-popup-content { width: 258px; box-sizing: border-box; }
+.mapa-tooltip__titulo { margin: 0 0 6px; font: 600 12px/1.3 var(--ard-sans); color: var(--ard-text); overflow-wrap: anywhere; }
+.mapa-tooltip table { width: 100%; table-layout: fixed; border-collapse: collapse; font: 400 11px/1.45 var(--ard-sans); }
+/* `border: 0` porque as regras genéricas de tabela do painel dão filete escuro ao `th` — dentro
+   do popup isso virava um risco por linha. */
+.mapa-tooltip th { width: 50%; text-align: left; font-weight: 400; color: var(--ard-text-3); padding: 2px 8px 2px 0; border: 0; vertical-align: top; overflow-wrap: anywhere; }
+.mapa-tooltip td { text-align: right; color: var(--ard-text-2); font-variant-numeric: tabular-nums; padding: 2px 0; border: 0; vertical-align: top; overflow-wrap: anywhere; }
+/* linha do indicador que colore o mapa — destacada do bloco de identificação */
+.mapa-tooltip__destaque th { color: var(--ard-text-2); }
+.mapa-tooltip__destaque th, .mapa-tooltip__destaque td { border-top: 1px solid var(--ard-border); padding-top: 5px; }
+/* o número nunca quebra no meio; só a unidade passa para a linha de baixo */
+.mapa-tooltip td b { font-weight: 400; white-space: nowrap; }

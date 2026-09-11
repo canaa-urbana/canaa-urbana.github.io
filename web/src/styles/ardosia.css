@@ -13,6 +13,9 @@
   --ard-filete-cl: #E6E2DA;
   --ard-papel: #F4F2ED;
   --ard-papel-cl: #FAF9F6;
+  /* Fundo de figura: cinza claro quase branco, o mais claro da paleta — area de
+     plotagem de graficos, mapas e cards de figura, em claro. */
+  --ard-papel-fig: #FAFAF9;
 
   /* Assinatura */
   --ard-primaria: #24404F;
@@ -30,7 +33,7 @@
 
   /* Semanticos */
   --ard-bg: var(--ard-papel);
-  --ard-surface: var(--ard-papel-cl);
+  --ard-surface: var(--ard-papel-fig);
   --ard-text: var(--ard-tinta);
   --ard-text-2: var(--ard-grafite);
   --ard-text-3: var(--ard-pedra);

@@ -310,6 +310,18 @@ interface PontoPiramide {
   classe: Classe | null
 }
 
+/** Grade fixa de faixas das pirâmides — a mesma da figura 7 do artigo, para que os quatro
+ *  painéis tenham as mesmas linhas, a mesma coluna de rótulos e o zero na mesma posição. */
+const FAIXAS_PIRAMIDE = [
+  '00_04', '05_09', '10_14', '15_19', '20_24', '25_29', '30_34', '35_39', '40_44',
+  '45_49', '50_54', '55_59', '60_64', '65_69', '70_74', '75_79', '80_mais',
+]
+
+/** Faixa em que a categoria assenta na grade: a primeira que a compõe (fusões do gate incluídas). */
+function faixaBase(cat: string): string {
+  return cat.startsWith('outros:') ? cat.slice(7).split('+')[0] : cat
+}
+
 function extraiPiramide(linhas: Estimativa[], censo: number, geografia: string, sexo: 'M' | 'F'): PontoPiramide[] {
   const rows = busca(linhas, { censo, geografia, universo: 'pessoas', estatistica: 'proporcao', dim1: 'sexo', cat1: sexo, dim2: 'faixa_etaria' })
   return rows
@@ -339,13 +351,24 @@ function Piramides({ viz, R, linhas, escopo }: { viz: ReturnType<typeof useTema>
       fonte="IBGE, Censos 1991–2022 — microdados da amostra; estimativas próprias aprovadas pelo controle de revelação."
       notas={
         <p className="nota-miuda">
-          Categorias fundidas pelo controle de revelação (faixas de baixa contagem) aparecem agrupadas como "Outros
-          (…)" e são posicionadas pela primeira faixa que as compõe.
+          Faixas marcadas com <strong>+</strong> agregam categorias fundidas pelo controle de revelação (baixa
+          contagem) e são posicionadas pela primeira faixa que as compõe; a composição exata aparece ao passar o
+          cursor sobre a barra. Faixas sem barra tiveram sua população somada à faixa fundida mais próxima.
         </p>
       }
     >
       <div className="piramides-grade">
-        {dados.map(({ def, homens, mulheres }) => (
+        {dados.map(({ def, homens, mulheres }) => {
+          // homens e mulheres podem ter faixas "outros:" fundidas de forma diferente pelo controle
+          // de revelação — assentar as duas séries na MESMA grade fixa (pela primeira faixa que
+          // compõe a categoria) mantém cada sexo na linha certa e os painéis comparáveis entre si.
+          const porCat = (arr: PontoPiramide[]) => new Map(arr.map((p) => [faixaBase(p.cat2), p]))
+          const homensPorCat = porCat(homens)
+          const mulheresPorCat = porCat(mulheres)
+          const fundida = (f: string) =>
+            (homensPorCat.get(f)?.cat2 ?? '').startsWith('outros:') || (mulheresPorCat.get(f)?.cat2 ?? '').startsWith('outros:')
+          const categorias = FAIXAS_PIRAMIDE
+          return (
           <div key={def.censo} className="piramide-item">
             <p className="piramide-item__titulo">{def.labelCurto}</p>
             {homens.length === 0 && mulheres.length === 0 ? (
@@ -365,7 +388,7 @@ function Piramides({ viz, R, linhas, escopo }: { viz: ReturnType<typeof useTema>
                   }),
                   yAxis: {
                     type: 'category',
-                    data: homens.map((h) => rotulo(R, h.cat2, 'faixa_etaria')),
+                    data: categorias.map((c) => rotulo(R, c, 'faixa_etaria') + (fundida(c) ? ' +' : '')),
                     axisLine: { show: false },
                     axisTick: { show: false },
                     axisLabel: { color: viz.texto3, fontSize: 9 },
@@ -373,9 +396,10 @@ function Piramides({ viz, R, linhas, escopo }: { viz: ReturnType<typeof useTema>
                   tooltip: {
                     trigger: 'item',
                     formatter: (p: { seriesIndex: number; dataIndex: number; marker: string }) => {
-                      const arr = p.seriesIndex === 0 ? homens : mulheres
-                      const d = arr[p.dataIndex]
+                      const cat = categorias[p.dataIndex]
+                      const d = (p.seriesIndex === 0 ? homensPorCat : mulheresPorCat).get(cat)
                       const nome = p.seriesIndex === 0 ? 'Homens' : 'Mulheres'
+                      if (!d) return `${p.marker}${nome}, ${rotulo(R, cat, 'faixa_etaria')}<br/>não disponível`
                       return `${p.marker}${nome}, ${rotulo(R, d.cat2, 'faixa_etaria')}<br/>${fmtPct(Math.abs(d.valor ?? 0))} · CV ${fmtNum(d.cv, 1)}% (${d.classe ?? '—'})`
                     },
                   },
@@ -383,23 +407,31 @@ function Piramides({ viz, R, linhas, escopo }: { viz: ReturnType<typeof useTema>
                     {
                       name: 'Homens',
                       type: 'bar',
-                      data: homens.map((h) => -(h.valor ?? 0)),
+                      data: categorias.map((c) => {
+                        const v = homensPorCat.get(c)?.valor
+                        return v == null ? null : -v
+                      }),
                       itemStyle: { color: viz.cat[0], decal: undefined },
-                      barMaxWidth: 12,
+                      barMaxWidth: 10,
+                      barCategoryGap: '22%',
                     },
                     {
                       name: 'Mulheres',
                       type: 'bar',
-                      data: mulheres.map((h) => h.valor ?? 0),
+                      data: categorias.map((c) => mulheresPorCat.get(c)?.valor ?? null),
                       itemStyle: { color: viz.cat[1] },
-                      barMaxWidth: 12,
+                      barMaxWidth: 10,
+                      // sem isto o ECharts agrupa as duas séries lado a lado e cada sexo cai em
+                      // meia-linha diferente da faixa etária (mesmo defeito corrigido na figura 7).
+                      barGap: '-100%',
                     },
                   ],
                 })}
               />
             )}
           </div>
-        ))}
+          )
+        })}
       </div>
       <div className="legenda-dot">
         <span className="legenda-dot__item"><span className="legenda-dot__marca" style={{ background: viz.cat[0] }} />Homens</span>

@@ -36,7 +36,7 @@ from matplotlib.patches import Patch  # noqa: E402
 BASE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE / "pipeline"))
 from lib.ardosia_palette import (ARDOSIA, ARDOSIA_CL, ARDOSIA_MED, ARDOSIA_NEV, BORDO, FILETE, FILETE_CL, OCRE,  # noqa: E402
-                                 PAPEL, PAPEL_CL, PEDRA, PETROLEO, SANS, SERIF, TERRACOTA, TERRACOTA_NEV, TINTA,
+                                 PAPEL, PAPEL_CL, PAPEL_FIG, PEDRA, PETROLEO, SANS, SERIF, TERRACOTA, TERRACOTA_NEV, TINTA,
                                  VIZ_MUTED, VIZ_SEQUENTIAL, apply_ardosia)
 from lib.viz import _titulo, salvar as _salvar  # noqa: E402
 from lib.rotulos import CICLOS, JANELAS_OBRAS, SETORES_ORDEM, rotulo  # noqa: E402
@@ -115,9 +115,9 @@ def fig_01():
     cit = mun[mun.tipo_fonte == "citacao_terceiro"]
     urb = s[s.recorte == "urbana"].sort_values("ano")
     ax.plot(ofi.ano, ofi.valor, color=ARDOSIA, lw=2, zorder=3)
-    ax.scatter(ofi.ano, ofi.valor, s=64, color=ARDOSIA, edgecolor=PAPEL, lw=1.5, zorder=4, label="Censo / Contagem (IBGE)")
-    ax.scatter(estim.ano, estim.valor, s=22, facecolor=PAPEL, edgecolor=ARDOSIA_MED, lw=1.2, zorder=3, label="Estimativa anual (IBGE)")
-    ax.scatter(cit.ano, cit.valor, s=60, marker="D", color=TERRACOTA, edgecolor=PAPEL, lw=1.2, zorder=4, label="Citação de terceiro (CETEM 1996; PDP 2005)")
+    ax.scatter(ofi.ano, ofi.valor, s=64, color=ARDOSIA, edgecolor=PAPEL_FIG, lw=1.5, zorder=4, label="Censo / Contagem (IBGE)")
+    ax.scatter(estim.ano, estim.valor, s=22, facecolor=PAPEL_FIG, edgecolor=ARDOSIA_MED, lw=1.2, zorder=3, label="Estimativa anual (IBGE)")
+    ax.scatter(cit.ano, cit.valor, s=60, marker="D", color=TERRACOTA, edgecolor=PAPEL_FIG, lw=1.2, zorder=4, label="Citação de terceiro (CETEM 1996; PDP 2005)")
     ax.plot(urb.ano, urb.valor, color=PETROLEO, lw=1.6, ls=(0, (4, 2)), marker="s", ms=5, zorder=3, label="População urbana (Censos)")
     # cenários de 1985 (faixas)
     cen = s[(s.ano == 1985) & (s.tipo_fonte == "estimativa_propria")]
@@ -154,7 +154,7 @@ def fig_02():
     a1.plot(m.ano, m.area_sede_ajustada_ha, color=ARDOSIA, lw=2.2, label="Área ajustada pela acurácia")
     a1.plot(m.ano, m.mapbiomas24_janela_ha, color=VIZ_MUTED, lw=1.4, ls=(0, (1, 2)), label="MapBiomas Col. 11 (classe 24, janela)")
     val = m[m.ajuste_origem == "validado"]
-    a1.scatter(val.ano, val.area_sede_ajustada_ha, s=46, color=ARDOSIA, edgecolor=PAPEL, lw=1.2, zorder=5, label="Épocas validadas (2009, 2017, 2022)")
+    a1.scatter(val.ano, val.area_sede_ajustada_ha, s=46, color=ARDOSIA, edgecolor=PAPEL_FIG, lw=1.2, zorder=5, label="Épocas validadas (2009, 2017, 2022)")
     for _, r in m[m.ano.isin([1990, 2000, 2010, 2022, 2026])].iterrows():
         a1.annotate(f"{br(r.area_sede_ajustada_ha)} ha", (r.ano, r.area_sede_ajustada_ha), xytext=(-4, 8), textcoords="offset points", ha="right" if r.ano == 2026 else "left",
                     fontsize=8, color=TINTA, fontfamily=SANS)
@@ -358,7 +358,7 @@ def fig_07():
         ax.barh(y, d["F"], color=TERRACOTA, height=0.82, lw=0)
         ax.set_xlim(-9, 9); ax.set_xticks([-8, -4, 0, 4, 8]); ax.set_xticklabels(["8", "4", "0", "4", "8"])
         ax.set_title(f"{tit}\n{br(tot)} hab.", fontsize=10, fontfamily=SERIF, color=TINTA, loc="center", pad=8)
-        ax.axvline(0, color=PAPEL, lw=1.5); eixo_limpo(ax, grade_y=False); ax.spines["left"].set_visible(False); ax.tick_params(axis="y", length=0)
+        ax.axvline(0, color=PAPEL_FIG, lw=1.5); eixo_limpo(ax, grade_y=False); ax.spines["left"].set_visible(False); ax.tick_params(axis="y", length=0)
         ax.set_xlabel("% da população", fontsize=8.5)
     axes[0].set_yticks(y); axes[0].set_yticklabels(rot, fontsize=8)
     axes[0].text(-8.6, len(faixas) - 1.2, "homens", color=ARDOSIA, fontsize=8.5, fontfamily=SANS, fontweight="semibold")
@@ -428,7 +428,7 @@ def fig_09():
                 else:
                     vals.append(sc[sc.categoria.isin(cats)].valor.sum())
             vals = np.array(vals)
-            ax.barh(y, vals, left=left, height=0.62, color=cor, lw=0, label=nome, edgecolor=PAPEL)
+            ax.barh(y, vals, left=left, height=0.62, color=cor, lw=0, label=nome, edgecolor=PAPEL_FIG)
             for yi, (l, v) in enumerate(zip(left, vals)):
                 if v >= 7:
                     ax.text(l + v / 2, yi, br(v, 0), ha="center", va="center", fontsize=8, color=PAPEL if cor not in (ARDOSIA_CL, VIZ_MUTED, OCRE) else TINTA, fontfamily=SANS)

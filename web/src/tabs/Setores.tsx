@@ -139,7 +139,6 @@ export default function Setores() {
                 fc2010={fc2010Recorte!}
                 fc2022={fc2022Recorte!}
                 indicador={indicadorAtual}
-                indicadores={indicadores}
                 breaks={breaks}
                 tema={tema}
                 manifesto={manifesto}
@@ -154,7 +153,6 @@ export default function Setores() {
                 fc={anoModo === '2010' ? fc2010Recorte : fc2022Recorte}
                 ano={Number(anoModo)}
                 indicador={indicadorAtual}
-                indicadores={indicadores}
                 breaks={breaks}
                 tema={tema}
                 manifesto={manifesto}
@@ -218,7 +216,6 @@ interface PropsLado {
   fc2010: SetorFC
   fc2022: SetorFC
   indicador: IndicadorMeta
-  indicadores: IndicadoresSetores
   breaks: number[] | null
   tema: Tema
   manifesto: Manifesto | undefined
@@ -229,7 +226,7 @@ interface PropsLado {
   onClick: (cod: string) => void
 }
 
-function MapasLadoALado({ fc2010, fc2022, indicador, indicadores, breaks, tema, manifesto, mostrarMancha, selecionado, hover, onHover, onClick }: PropsLado) {
+function MapasLadoALado({ fc2010, fc2022, indicador, breaks, tema, manifesto, mostrarMancha, selecionado, hover, onHover, onClick }: PropsLado) {
   const refA = useRef<MapaSetoresHandle>(null)
   const refB = useRef<MapaSetoresHandle>(null)
   const sincronizandoRef = useRef(false)
@@ -263,7 +260,6 @@ function MapasLadoALado({ fc2010, fc2022, indicador, indicadores, breaks, tema, 
           fc={fc2010}
           ano={2010}
           indicador={indicador}
-          indicadores={indicadores}
           breaks={breaks}
           tema={tema}
           manifesto={manifesto}
@@ -282,7 +278,6 @@ function MapasLadoALado({ fc2010, fc2022, indicador, indicadores, breaks, tema, 
           fc={fc2022}
           ano={2022}
           indicador={indicador}
-          indicadores={indicadores}
           breaks={breaks}
           tema={tema}
           manifesto={manifesto}

@@ -125,6 +125,12 @@ uv pip install -p .venv/bin/python -r pyproject.toml   # reinstalar
   da classe 24). UI e gráficos seguem Ardósia. Imagens MSS (1973/1982) têm georreferenciamento aproximado e nuvens:
   não comparar com a série TM/OLI (ver `docs/qa/E7.md`). Imagens de fundo
   que competem com a cor da classe (MSS falsa-cor) são exibidas em tons de cinza.
+- **Fundo de figura** (decisão do usuário, 11/09/2026): toda figura, gráfico e mapa — no painel e no artigo —
+  usa `PAPEL_FIG` / `--ard-papel-fig` = `#FAFAF9` (cinza claro quase branco), nunca o papel `#F4F2ED` da
+  página; a figura é sempre mais clara que o suporte. Já registrado na skill Ardósia.
+- **Pirâmides etárias**: as duas séries ocupam a mesma linha da faixa etária (ECharts `barGap: '-100%'`;
+  matplotlib, mesmo vetor `y` nos dois `barh`), com a grade fixa de 17 faixas e eixo simétrico igual nos
+  quatro painéis — painel e figura 7 do artigo leem igual.
 - Toda estimativa amostral publicada leva CV e classe de precisão; toda figura lê só `data/processed`.
 - Referências bibliográficas em `artigo/bibliografia/referencias.json` (ABNT autor-data, `verificado_em` obrigatório).
 - Commits só quando o usuário pedir; mensagens em português.

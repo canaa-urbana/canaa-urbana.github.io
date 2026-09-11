@@ -205,7 +205,7 @@ export default function Inicio() {
     <div className="inicio">
       <header className="pagina pagina--estreita inicio__hero">
         <p className="ard-kicker">Painel de pesquisa · Canaã dos Carajás (PA)</p>
-        <h1>Da colônia agrícola à cidade mineral</h1>
+        <h1>Da colônia agrícola à cidade mineradora</h1>
         <p className="lead">
           Como um núcleo de assentamento de 1982 virou, em quarenta anos e duas minas, uma cidade de quase cem mil habitantes. Este
           painel reúne a série anual da <Termo id="mancha">mancha urbana</Termo> da sede (1984–2026), os quatro censos com dados

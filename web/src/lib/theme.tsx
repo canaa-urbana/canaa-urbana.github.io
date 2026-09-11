@@ -49,7 +49,8 @@ const CLARO: VizTokens = {
   texto2: '#4A5157',
   texto3: '#7B7D78',
   fundo: '#F4F2ED',
-  superficie: '#FAF9F6',
+  // fundo das figuras (gráficos e mapas): o tom mais claro da paleta, quase branco
+  superficie: '#FAFAF9',
   filete: '#D8D4CC',
   grade: '#E6E2DA',
   cat: ['#24404F', '#9C5B41', '#7E9BAA', '#3D5A4C', '#A98A3F', '#6E3B45'],
