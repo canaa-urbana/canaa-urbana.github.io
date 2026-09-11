@@ -4,10 +4,10 @@ export const SITE_URL = 'https://canaa-urbana.github.io'
 export const REPO_URL = 'https://github.com/canaa-urbana/canaa-urbana.github.io'
 /** DOI conceitual do Zenodo (todas as versões); null até a primeira release arquivada. */
 export const DOI: string | null = '10.5281/zenodo.22699960'
-export const VERSAO = '1.0.0'
+export const VERSAO = '1.0.1'
 export const AUTOR = { nome: 'Daniel Pessini Sobreira', abnt: 'SOBREIRA, Daniel Pessini', orcid: '0000-0002-6632-3991' }
 export const TITULO =
-  'Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026'
+  'Da colônia agrícola à cidade mineradora: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026'
 
 /** Referência ABNT do conjunto (dados, painel e artigo). */
 export function referenciaAbnt(): string {

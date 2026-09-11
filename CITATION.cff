@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "Se você usar estes dados, o painel, o artigo ou o código, cite-os desta forma."
-title: "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
+title: "Da colônia agrícola à cidade mineradora: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
 type: dataset
 authors:
   - family-names: "Sobreira"
     given-names: "Daniel Pessini"
     orcid: "https://orcid.org/0000-0002-6632-3991"
 year: 2026
-version: "1.0.0"
-date-released: "2026-09-10"
+version: "1.0.1"
+date-released: "2026-09-11"
 doi: "10.5281/zenodo.22699960"
 url: "https://canaa-urbana.github.io"
 repository-code: "https://github.com/canaa-urbana/canaa-urbana.github.io"
@@ -41,7 +41,7 @@ abstract: >-
   2022); CFEM, PIB e emprego formal; bibliografia verificada.
 preferred-citation:
   type: dataset
-  title: "Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
+  title: "Da colônia agrícola à cidade mineradora: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026"
   authors:
     - family-names: "Sobreira"
       given-names: "Daniel Pessini"

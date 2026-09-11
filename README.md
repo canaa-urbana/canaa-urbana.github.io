@@ -1,4 +1,4 @@
-# Da colônia agrícola à cidade mineral — urbanização de Canaã dos Carajás (PA), 1982–2026
+# Da colônia agrícola à cidade mineradora — urbanização de Canaã dos Carajás (PA), 1982–2026
 
 **[canaa-urbana.github.io](https://canaa-urbana.github.io)** ·
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22699960.svg)](https://doi.org/10.5281/zenodo.22699960) ·
@@ -128,9 +128,9 @@ com o gate violado ou com dado pessoal.
 
 ## Como citar
 
-> SOBREIRA, Daniel Pessini. **Da colônia agrícola à cidade mineral**: urbanização, migração e
+> SOBREIRA, Daniel Pessini. **Da colônia agrícola à cidade mineradora**: urbanização, migração e
 > mancha urbana em Canaã dos Carajás (PA), 1982–2026 — dados, painel interativo e artigo.
-> Versão 1.0.0. [S. l.]: Zenodo, 2026. DOI: https://doi.org/10.5281/zenodo.22699960.
+> Versão 1.0.1. [S. l.]: Zenodo, 2026. DOI: https://doi.org/10.5281/zenodo.22699960.
 
 O DOI acima é o **conceitual** (resolve sempre para a versão mais recente). Para citar
 exatamente a versão 1.0.0 (dados `2026-09-10-e8`), use

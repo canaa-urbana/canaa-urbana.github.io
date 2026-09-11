@@ -2,7 +2,7 @@
  {
   "arquivo": "fig_01_populacao.png",
   "svg": "fig_01_populacao.svg",
-  "titulo": "Da colônia agrícola à cidade mineral: população de Canaã dos Carajás, 1985–2026",
+  "titulo": "Da colônia agrícola à cidade mineradora: população de Canaã dos Carajás, 1985–2026",
   "legenda": "Figura 1 — População residente de Canaã dos Carajás, 1985–2026, por tipo de fonte. Faixas ocre em 1985: conversão de famílias assentadas em pessoas (4,76–5,5 moradores por domicílio), em três cenários de escopo; losangos: citações secundárias; círculos vazados: estimativas anuais do IBGE, ancoradas no censo anterior e sistematicamente subestimadas; janelas sombreadas: construção das minas.",
   "fonte": "IBGE (Censos 1991–2022, Contagem 2007, Estimativas); CETEM (2011); PDP (2007); PLANO.md Fase 1b.",
   "resumo": "A população municipal passa de cerca de 11 mil (1996–2000) para 26,7 mil (2010) e 77,1 mil (2022); as estimativas anuais do IBGE ficaram muito abaixo do que a Contagem 2007 e o Censo 2022 revelaram."
@@ -106,7 +106,7 @@
  {
   "arquivo": "fig_14_baseline_1991.png",
   "svg": "fig_14_baseline_1991.svg",
-  "titulo": "Trinta anos entre a fronteira agrícola e a cidade mineral: 1991, 2000 e 2022",
+  "titulo": "Trinta anos entre a fronteira agrícola e a cidade mineradora: 1991, 2000 e 2022",
   "legenda": "Figura 14 — Indicadores selecionados para Parauapebas em 1991 (município que então incluía o atual Canaã dos Carajás), Canaã em 2000 e Canaã em 2022 (IC 95 %). Células suprimidas pelo controle de revelação omitidas.",
   "fonte": "Elaboração própria a partir dos microdados da amostra dos Censos Demográficos (IBGE); estimativas aprovadas pelo controle de revelação.",
   "resumo": "Entre a linha de base de 1991 e 2022, a agropecuária deixa de ser o principal setor, a formalidade quase dobra, o superior completo passa de 2 % para 13 % e água, esgoto e lixo coletado saltam de patamares de 20–50 % para 67–93 %."

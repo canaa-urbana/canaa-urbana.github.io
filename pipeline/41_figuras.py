@@ -134,7 +134,7 @@ def fig_01():
     ax.set_yticks(range(0, 100001, 20000)); ax.set_yticklabels([br(v) for v in range(0, 100001, 20000)])
     ax.set_ylabel("Habitantes"); eixo_limpo(ax)
     ax.legend(loc="upper left", fontsize=8, frameon=False)
-    salvar(fig, "fig_01_populacao", "Da colônia agrícola à cidade mineral: população de Canaã dos Carajás, 1985–2026",
+    salvar(fig, "fig_01_populacao", "Da colônia agrícola à cidade mineradora: população de Canaã dos Carajás, 1985–2026",
            "Figura 1 — População residente de Canaã dos Carajás, 1985–2026, por tipo de fonte. Faixas ocre em 1985: conversão de famílias assentadas em pessoas (4,76–5,5 moradores por domicílio), em três cenários de escopo; losangos: citações secundárias; círculos vazados: estimativas anuais do IBGE, ancoradas no censo anterior e sistematicamente subestimadas; janelas sombreadas: construção das minas.",
            "IBGE (Censos 1991–2022, Contagem 2007, Estimativas); CETEM (2011); PDP (2007); PLANO.md Fase 1b.",
            "A população municipal passa de cerca de 11 mil (1996–2000) para 26,7 mil (2010) e 77,1 mil (2022); as estimativas anuais do IBGE ficaram muito abaixo do que a Contagem 2007 e o Censo 2022 revelaram.",
@@ -564,7 +564,7 @@ def fig_14():
     ax.set_yticks(y); ax.set_yticklabels(d.indicador, fontsize=9); ax.invert_yaxis(); ax.set_xlim(0, 100); ax.set_xlabel("% (barras: IC 95 %)")
     eixo_limpo(ax, grade_y=False); ax.grid(axis="x", color=FILETE_CL, lw=0.7); ax.set_axisbelow(True)
     ax.legend(loc="lower right", fontsize=8.5, frameon=False)
-    salvar(fig, "fig_14_baseline_1991", "Trinta anos entre a fronteira agrícola e a cidade mineral: 1991, 2000 e 2022",
+    salvar(fig, "fig_14_baseline_1991", "Trinta anos entre a fronteira agrícola e a cidade mineradora: 1991, 2000 e 2022",
            "Figura 14 — Indicadores selecionados para Parauapebas em 1991 (município que então incluía o atual Canaã dos Carajás), Canaã em 2000 e Canaã em 2022 (IC 95 %). Células suprimidas pelo controle de revelação omitidas.",
            F_MICRO, "Entre a linha de base de 1991 e 2022, a agropecuária deixa de ser o principal setor, a formalidade quase dobra, o superior completo passa de 2 % para 13 % e água, esgoto e lixo coletado saltam de patamares de 20–50 % para 67–93 %.",
            kicker="Linha de base pré-mineral")

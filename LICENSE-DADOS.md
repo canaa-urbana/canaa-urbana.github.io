@@ -15,7 +15,7 @@ link para a licença.
 
 ### Como atribuir
 
-> Daniel Pessini Sobreira. *Da colônia agrícola à cidade mineral: urbanização, migração e mancha
+> Daniel Pessini Sobreira. *Da colônia agrícola à cidade mineradora: urbanização, migração e mancha
 > urbana em Canaã dos Carajás (PA), 1982–2026* — dados, painel e artigo. Fontes primárias: IBGE
 > (Censos Demográficos 1991–2022, SIDRA, malhas), USGS/NASA Landsat, Copernicus Sentinel-2,
 > INPE (CBERS), MapBiomas, JRC GHSL, DLR WSF, ANM, OpenStreetMap.

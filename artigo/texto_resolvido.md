@@ -1,4 +1,4 @@
-# Da colônia agrícola à cidade mineral: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026
+# Da colônia agrícola à cidade mineradora: urbanização, migração e mancha urbana em Canaã dos Carajás (PA), 1982–2026
 
 **Daniel Pessini Sobreira**
 
@@ -22,7 +22,7 @@ Poucas cidades brasileiras cresceram tanto, em tão pouco tempo, quanto Canaã d
 
 Este artigo responde a essas perguntas com três corpos de evidência produzidos sob um único desenho analítico. O primeiro é uma série anual da área construída da sede de Canaã entre 1984 e 2026, classificada em composições de imagens Landsat (30 m) e Sentinel-2 (10 m) com Random Forest treinado por era de sensor, pós-processada com regras de persistência temporal e validada em três épocas com imagens CBERS de 2 a 5 m de resolução, na forma recomendada por Olofsson et al. (2014). O segundo é o conjunto dos microdados da amostra dos Censos Demográficos de 1991, 2000, 2010 e 2022, harmonizados num esquema único e estimados com bootstrap de domicílios, com aplicação de regras de controle de revelação que respeitam o termo de acesso controlado do Censo 2022. O terceiro são os agregados do Universo por setor censitário de 2010 e 2022, cruzados com a própria série de mancha para localizar cada setor no tempo da expansão urbana. A esses três corpos somam-se a série populacional oficial, as receitas da Compensação Financeira pela Exploração de Recursos Minerais (CFEM) e um painel municipal 2000–2022 que permite comparar Canaã com Parauapebas e com os demais municípios do Sudeste Paraense.
 
-O artigo se organiza em sete seções. A seção 2 revisa a produção acadêmica sobre Canaã e identifica as lacunas que o estudo preenche. A seção 3 apresenta a área de estudo e a trajetória do assentamento à cidade mineral, com os marcos que estruturam toda a análise. A seção 4 descreve fontes, harmonização, estimação, controle de revelação e o pipeline de sensoriamento remoto, e declara as limitações. A seção 5 traz os resultados em nove blocos: população, mancha urbana, densidade e forma, coortes e origens dos migrantes, seletividade, inserção ocupacional e cadeia da mineração, condições domiciliares, desigualdade intraurbana e comparação regional. A seção 6 discute os achados à luz da literatura sobre cidades mineradoras e a seção 7 conclui.
+O artigo se organiza em sete seções. A seção 2 revisa a produção acadêmica sobre Canaã e identifica as lacunas que o estudo preenche. A seção 3 apresenta a área de estudo e a trajetória do assentamento à cidade mineradora, com os marcos que estruturam toda a análise. A seção 4 descreve fontes, harmonização, estimação, controle de revelação e o pipeline de sensoriamento remoto, e declara as limitações. A seção 5 traz os resultados em nove blocos: população, mancha urbana, densidade e forma, coortes e origens dos migrantes, seletividade, inserção ocupacional e cadeia da mineração, condições domiciliares, desigualdade intraurbana e comparação regional. A seção 6 discute os achados à luz da literatura sobre cidades mineradoras e a seção 7 conclui.
 
 ## 2 Revisão de literatura
 
@@ -480,7 +480,7 @@ Três extensões são possíveis com os mesmos dados. A primeira é a reconstitu
 
 ## Disponibilidade de dados e código
 
-Os agregados publicados (estimativas aprovadas pelo controle de revelação, série da mancha urbana, indicadores por setor), o código do pipeline e do painel interativo e este artigo estão em https://canaa-urbana.github.io e no repositório https://github.com/canaa-urbana/canaa-urbana.github.io, arquivado no Zenodo (DOI: https://doi.org/10.5281/zenodo.22699960; versão 1.0.0: https://doi.org/10.5281/zenodo.22699961), com código sob licença MIT e dados e textos sob CC BY 4.0. Os microdados dos Censos Demográficos não são redistribuídos; os de 2022 são de acesso controlado do IBGE.
+Os agregados publicados (estimativas aprovadas pelo controle de revelação, série da mancha urbana, indicadores por setor), o código do pipeline e do painel interativo e este artigo estão em https://canaa-urbana.github.io e no repositório https://github.com/canaa-urbana/canaa-urbana.github.io, arquivado no Zenodo (DOI conceitual, que resolve para a versão mais recente: https://doi.org/10.5281/zenodo.22699960; esta é a versão 1.0.1), com código sob licença MIT e dados e textos sob CC BY 4.0. Os microdados dos Censos Demográficos não são redistribuídos; os de 2022 são de acesso controlado do IBGE.
 
 ## Declaração de uso de inteligência artificial
 
