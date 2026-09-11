@@ -21,8 +21,9 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
       finalidade acadêmica e no controle de revelação, ou aguardar a resposta.
       **Decisão do titular em 2026-09-10:** publicar com base na finalidade acadêmica e no controle
       de revelação (gate R1–R8), sem aguardar a resposta do IBGE.
-- [ ] **Termos arquivados fora do repositório.** Cópias do Termo e da concessão guardadas
+- [x] **Termos arquivados fora do repositório.** Cópias do Termo e da concessão guardadas
       localmente (nunca commitadas; `docs/termos/` está no `.gitignore`).
+      **Declarado pelo titular em 2026-09-10.**
 - [x] **Gate de revelação aprovado e relatório arquivado.**
       **Verificado pela sessão em 2026-09-10:** `disclosure_check.py --versao 2026-09-10-e8` —
       "GATE APROVADO" (R1–R8, 20.458 células recontadas, 5.951 rurais implícitas), carimbo com
@@ -88,4 +89,4 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
 
 ---
 
-Assinatura do titular do acesso: **Daniel Pessini Sobreira** — data: ______________
+Assinatura do titular do acesso: **Daniel Pessini Sobreira** — data: 10/09/2026
