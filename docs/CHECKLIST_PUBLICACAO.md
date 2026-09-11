@@ -55,9 +55,17 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
 
 ## Depois do primeiro deploy
 
-- [ ] Site respondendo em `https://canaa-urbana.github.io` com HTTPS.
+- [x] Site respondendo em `https://canaa-urbana.github.io` com HTTPS.
+      **Verificado pela sessão em 2026-09-10:** workflow `Publicar` verde (verificar, construir,
+      publicar); página inicial, `robots.txt`, `sitemap.xml`, manifesto do painel e
+      `artigo/artigo.pdf` com HTTP 200; mapa da aba Mancha urbana renderizado, console sem erros.
 - [ ] Descrição, `homepage` e tópicos do repositório (engrenagem "About").
-- [ ] **DOI no Zenodo**: conectar o repositório em zenodo.org (Account → GitHub → ativar
+- [x] **DOI no Zenodo** (2026-09-10): release `v1.0.0` arquivada; DOI conceitual
+      **10.5281/zenodo.22699960**, DOI da versão 10.5281/zenodo.22699961 (registro de software,
+      CC BY 4.0, autoria e ORCID conferidos na API do Zenodo). Propagado ao `CITATION.cff`
+      (versão `1.0.0`), `README.md` (selo e "Como citar"), `web/src/lib/publicacao.ts`,
+      JSON-LD do `web/index.html` e ao artigo; `.zenodo.json` sem DOI (o Zenodo o atribui).
+      Procedimento original: conectar o repositório em zenodo.org (Account → GitHub → ativar
       `canaa-urbana/canaa-urbana.github.io`) **antes** de criar a release `v1.0.0`; o Zenodo
       arquiva a release e gera o DOI conceitual e o da versão. Depois, propagar o DOI a:
       `CITATION.cff` (`identifiers` e `preferred-citation.doi`), `README.md`, `.zenodo.json` (se

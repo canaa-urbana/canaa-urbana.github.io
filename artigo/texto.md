@@ -211,7 +211,7 @@ Três extensões são possíveis com os mesmos dados. A primeira é a reconstitu
 
 ## Disponibilidade de dados e código
 
-Os agregados publicados (estimativas aprovadas pelo controle de revelação, série da mancha urbana, indicadores por setor), o código do pipeline e do painel interativo e este artigo estão em https://canaa-urbana.github.io e no repositório https://github.com/canaa-urbana/canaa-urbana.github.io, arquivado no Zenodo (DOI a ser atribuído na primeira versão), com código sob licença MIT e dados e textos sob CC BY 4.0. Os microdados dos Censos Demográficos não são redistribuídos; os de 2022 são de acesso controlado do IBGE.
+Os agregados publicados (estimativas aprovadas pelo controle de revelação, série da mancha urbana, indicadores por setor), o código do pipeline e do painel interativo e este artigo estão em https://canaa-urbana.github.io e no repositório https://github.com/canaa-urbana/canaa-urbana.github.io, arquivado no Zenodo (DOI: https://doi.org/10.5281/zenodo.22699960; versão 1.0.0: https://doi.org/10.5281/zenodo.22699961), com código sob licença MIT e dados e textos sob CC BY 4.0. Os microdados dos Censos Demográficos não são redistribuídos; os de 2022 são de acesso controlado do IBGE.
 
 ## Declaração de uso de inteligência artificial
 

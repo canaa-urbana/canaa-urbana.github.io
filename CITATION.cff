@@ -7,13 +7,20 @@ authors:
     given-names: "Daniel Pessini"
     orcid: "https://orcid.org/0000-0002-6632-3991"
 year: 2026
-version: "2026-09-10"
+version: "1.0.0"
 date-released: "2026-09-10"
+doi: "10.5281/zenodo.22699960"
 url: "https://canaa-urbana.github.io"
 repository-code: "https://github.com/canaa-urbana/canaa-urbana.github.io"
 license: "CC-BY-4.0"
 license-url: "https://creativecommons.org/licenses/by/4.0/deed.pt-br"
-# identifiers: DOI do Zenodo a ser atribuído na primeira release (ver docs/CHECKLIST_PUBLICACAO.md)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22699960"
+    description: "DOI conceitual no Zenodo (todas as versões)"
+  - type: doi
+    value: "10.5281/zenodo.22699961"
+    description: "DOI da versão v1.0.0 no Zenodo (dados 2026-09-10-e8)"
 keywords:
   - urbanização
   - mineração
@@ -40,6 +47,9 @@ preferred-citation:
       given-names: "Daniel Pessini"
       orcid: "https://orcid.org/0000-0002-6632-3991"
   year: 2026
+  doi: "10.5281/zenodo.22699960"
+  publisher:
+    name: "Zenodo"
   url: "https://canaa-urbana.github.io"
   notes: >-
     Dados dos Censos Demográficos (IBGE), microdados da amostra (o de 2022, acesso controlado),

@@ -1,7 +1,8 @@
 # Da colônia agrícola à cidade mineral — urbanização de Canaã dos Carajás (PA), 1982–2026
 
-**[canaa-urbana.github.io](https://canaa-urbana.github.io)** · DOI: *a ser atribuído pelo Zenodo na
-primeira versão arquivada* · licenças: código MIT, dados e textos CC BY 4.0
+**[canaa-urbana.github.io](https://canaa-urbana.github.io)** ·
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22699960.svg)](https://doi.org/10.5281/zenodo.22699960) ·
+licenças: código MIT, dados e textos CC BY 4.0
 
 Conjunto de dados, painel interativo e artigo científico sobre a urbanização da sede de Canaã dos
 Carajás (IBGE 1502152), do assentamento dirigido GETAT/CEDERE II (1982) a 2026, com foco nos
@@ -129,8 +130,11 @@ com o gate violado ou com dado pessoal.
 
 > SOBREIRA, Daniel Pessini. **Da colônia agrícola à cidade mineral**: urbanização, migração e
 > mancha urbana em Canaã dos Carajás (PA), 1982–2026 — dados, painel interativo e artigo.
-> Versão 2026-09-10. Zenodo, 2026. DOI a ser atribuído. Disponível em:
-> https://canaa-urbana.github.io.
+> Versão 1.0.0. [S. l.]: Zenodo, 2026. DOI: https://doi.org/10.5281/zenodo.22699960.
+
+O DOI acima é o **conceitual** (resolve sempre para a versão mais recente). Para citar
+exatamente a versão 1.0.0 (dados `2026-09-10-e8`), use
+[10.5281/zenodo.22699961](https://doi.org/10.5281/zenodo.22699961).
 
 Metadados legíveis por máquina: [`CITATION.cff`](CITATION.cff) e [`.zenodo.json`](.zenodo.json).
 ORCID do autor: [0000-0002-6632-3991](https://orcid.org/0000-0002-6632-3991).
