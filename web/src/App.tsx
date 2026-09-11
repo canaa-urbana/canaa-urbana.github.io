@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useRef, type KeyboardEvent } from 'react'
 import { useRota } from './lib/rota'
 import { useTema } from './lib/theme'
 import { asset } from './lib/data'
+import { DOI, VERSAO } from './lib/publicacao'
 import { Esqueleto } from './components/ui'
 
 const Inicio = lazy(() => import('./tabs/Inicio'))
@@ -109,7 +110,13 @@ export default function App() {
             como agregados aprovados pelo controle de revelação.
           </p>
           <p>
-            Versão 10/09/2026 · <a href="#/metodologia">Como citar</a> · código MIT, dados CC BY 4.0
+            Versão {VERSAO}
+            {DOI && (
+              <>
+                {' '}· DOI <a href={`https://doi.org/${DOI}`}>{DOI}</a>
+              </>
+            )}{' '}
+            · <a href="#/metodologia">Como citar</a> · código MIT, dados CC BY 4.0
           </p>
         </div>
       </footer>
