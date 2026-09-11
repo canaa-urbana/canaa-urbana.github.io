@@ -11,7 +11,7 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
 
 ## Antes do primeiro push (o repositório se torna público)
 
-- [ ] **Finalidade declarada ao IBGE cobre divulgação pública de agregados.** O Termo de
+- [x] **Finalidade declarada ao IBGE cobre divulgação pública de agregados.** O Termo de
       Compromisso de Confidencialidade e Responsabilidade dos microdados da amostra do Censo 2022
       (finalidade "pesquisa acadêmica", área "migrações") trata do **arquivo de microdados**, nunca
       publicado por este projeto; é omisso sobre divulgação em site público, dataset sob licença
@@ -19,6 +19,8 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
       sobre a divulgação de agregados (registrada no plano) segue **pendente de resposta**; o mesmo
       ponto está aberto no atlas-migração. Decisão do titular antes do push: publicar com base na
       finalidade acadêmica e no controle de revelação, ou aguardar a resposta.
+      **Decisão do titular em 2026-09-10:** publicar com base na finalidade acadêmica e no controle
+      de revelação (gate R1–R8), sem aguardar a resposta do IBGE.
 - [ ] **Termos arquivados fora do repositório.** Cópias do Termo e da concessão guardadas
       localmente (nunca commitadas; `docs/termos/` está no `.gitignore`).
 - [x] **Gate de revelação aprovado e relatório arquivado.**
@@ -46,7 +48,7 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
       terceiros), `CITATION.cff`, `.zenodo.json` — escolhas confirmadas pelo titular em 2026-09-10.
 - [x] **Atribuição de fontes** no rodapé do painel, na aba Metodologia (camadas com atribuição e
       licença) e nas figuras do artigo.
-- [ ] **Organização e repositório criados pelo titular**: organização `canaa-urbana` e repositório
+- [x] **Organização e repositório criados pelo titular** (2026-09-10): organização `canaa-urbana` e repositório
       `canaa-urbana/canaa-urbana.github.io`. Recomendação: criar **privado**, fazer o primeiro push,
       conferir o job `verificar` do CI verde e só então tornar público e ativar o Pages
       (Settings → Pages → Source: GitHub Actions).
