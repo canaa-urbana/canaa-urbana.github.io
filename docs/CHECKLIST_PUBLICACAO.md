@@ -60,7 +60,8 @@ documento ou decisão que só o titular possui continuam abertos até ele marcar
       **Verificado pela sessão em 2026-09-10:** workflow `Publicar` verde (verificar, construir,
       publicar); página inicial, `robots.txt`, `sitemap.xml`, manifesto do painel e
       `artigo/artigo.pdf` com HTTP 200; mapa da aba Mancha urbana renderizado, console sem erros.
-- [ ] Descrição, `homepage` e tópicos do repositório (engrenagem "About").
+- [x] Descrição, `homepage` e tópicos do repositório (engrenagem "About") — preenchidos pelo
+      titular em 2026-09-10 (conferido na API do GitHub).
 - [x] **DOI no Zenodo** (2026-09-10): release `v1.0.0` arquivada; DOI conceitual
       **10.5281/zenodo.22699960**, DOI da versão 10.5281/zenodo.22699961 (registro de software,
       CC BY 4.0, autoria e ORCID conferidos na API do Zenodo). Propagado ao `CITATION.cff`
