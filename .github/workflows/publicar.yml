@@ -115,7 +115,7 @@ jobs:
           exit $PROBLEMA
 
       - name: Publicar artefato do Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: web/dist
 
